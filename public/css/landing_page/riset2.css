@@ -1,0 +1,878 @@
+hr {
+    margin: 0 !important;
+}
+
+body {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 30px;
+    text-align: justify;
+    background-color: #f7f5f9;
+}
+
+.hitam {
+    /* position: absolute; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    padding-bottom: 1%;
+    align-items: center;
+    text-align: center;
+    color: #0A5446;
+    margin-top: 6rem;
+}
+
+.hitam1 {
+    /* position: absolute; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    padding-bottom: 1%;
+    align-items: center;
+    text-align: center;
+    color: #0A5446;
+    margin-top: 100px;
+}
+
+.line {
+    width: 200px;
+    height: 0.25rem;
+    margin: auto auto 2% auto;
+    border-bottom: 15px solid #A4D29F;
+}
+
+.part1 {
+    margin-bottom: 2%;
+}
+
+.part2 {
+    margin-bottom: 2%;
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 0.7rem;
+    }
+
+    .headline {
+        font-size: 1.3rem;
+    }
+
+    .line {
+        width: 100px;
+        border-bottom: 10px solid #A4D29F;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+    }
+
+    .line {
+        width: 100px;
+        border-bottom: 10px solid #A4D29F;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+    body {
+        font-size: 0.85rem;
+    }
+
+    .headline {
+        font-size: 1.7rem;
+    }
+
+    .line {
+        width: 120px;
+        border-bottom: 12px solid #A4D29F;
+    }
+}
+
+/* Second Section */
+#secondSec .container-fluid {
+    background-image: url(../../img/landing_page/riset2/ornamen\ latar\ belakang.png);
+    background-size: 198px 100px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+#secondSec .content1 {
+    background: #f2f0f4;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 27px;
+    box-shadow: 0px 0px 20px 1px grey;
+    padding: 50px 80px;
+    opacity: 0.6;
+    color: #191B21;
+    margin-top: 0px;
+}
+
+#secondSec .part1 {
+    margin-top: 1rem;
+}
+
+#secondSec .latbel {
+    padding-top: 7rem;
+}
+
+@media (max-width: 576px) {
+    #secondSec .container-fluid {
+        background-size: 96px 50px;
+    }
+
+    #secondSec .content1 {
+        padding: 30px;
+    }
+
+    #secondSec .part1 {
+        margin-top: 0;
+    }
+
+    #secondSec .latbel {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #secondSec .container-fluid {
+        background-size: 112px 57px;
+    }
+
+    #secondSec .content1 {
+        padding: 30px;
+    }
+
+    .hitam {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1;
+        padding-bottom: 1%;
+        align-items: center;
+        text-align: center;
+        color: #0A5446;
+        margin-top: 20%;
+    }
+
+    #secondSec .part1 {
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+
+    #secondSec .latbel {
+        padding-top: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    #secondSec .container-fluid {
+        background-size: 128px 65px;
+    }
+
+    #secondSec .latbel {
+        padding-top: 5rem;
+    }
+
+    #secondSec .content1 {
+        padding: 30px;
+    }
+}
+
+/* Third Section */
+#thirdSec .container-fluid {
+    background-image: url(../../img/landing_page/riset2/ornamen\ latar\ belakang\ 2.png);
+    background-size: 198px 100px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 100% 100%;
+}
+
+#thirdSec .content2 {
+    background: #f2f0f4;
+    width: 100%;
+    margin: auto auto 5% 10px;
+    border: 1px solid white;
+    border-radius: 27px;
+    box-shadow: 0px 0px 20px 1px grey;
+    padding: 50px 80px;
+    opacity: 0.6;
+    color: #191B21;
+}
+
+@media (max-width: 576px) {
+    #thirdSec .container-fluid {
+        background-size: 96px 50px;
+    }
+
+    #thirdSec .content2 {
+        padding: 15px 40px 15px 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #thirdSec .container-fluid {
+        background-size: 112px 57px;
+    }
+
+    #thirdSec .content2 {
+        padding: 15px 40px 15px 10px;
+    }
+
+    .hitam1 {
+        /* position: absolute; */
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1;
+        padding-bottom: 1%;
+        align-items: center;
+        text-align: center;
+        color: #0A5446;
+        margin-top: 10px;
+    }
+}
+
+#par1 {
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+
+#isi2 {
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    #thirdSec .container-fluid {
+        background-size: 128px 65px;
+    }
+
+    #thirdSec .content2 {
+        padding: 15px 40px 15px 10px;
+    }
+}
+
+
+/* Fourth Section */
+#fourthSec .headline {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #0A5446;
+    margin-top: 30px;
+
+}
+
+.pop {
+    font-family: Poppins;
+    font-weight: bold;
+    color: black;
+}
+
+#fourthSec .fourth {
+    padding: 0 60px;
+}
+
+#fourthSec .card {
+    min-height: auto;
+    padding: 20px 35px;
+    background: #F2F0F4;
+    border-radius: 20px;
+    padding: 50px 80px;
+    opacity: 0.8;
+    color: #191B21;
+}
+
+#fourthSec .container-fluid {
+    background-image: url(../../img/landing_page/riset2/bg4.png);
+    background-size: 100vw 45vw;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-y: 40px;
+    background-position-x: center;
+}
+
+#fourthSec i {
+    color: #0C6E58;
+    font-size: 20px;
+}
+
+#fourthSec .box {
+    transition: all 0.5s;
+}
+
+#fourthSec .box:hover {
+    transform: translateY(-20px);
+}
+
+#fourthSec .img {
+    width: 400px;
+    height: 50px;
+    margin: 0%;
+}
+
+.parag {
+    font-family: Poppins;
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    #fourthSec .container-fluid {
+        background-image: url(../../img/landing_page/riset2/bg5.png);
+        background-size: 100vw 100vw;
+        background-repeat: repeat;
+        background-attachment: local;
+    }
+
+    #fourthSec .pop {
+        font-family: Poppins;
+        font-weight: bold;
+        color: #0C6E58;
+        font-size: 1.2rem;
+    }
+
+    #fourthSec .card-title {
+        font-size: 1rem;
+    }
+
+    #fourthSec .card-text {
+        font-size: 0.7rem;
+    }
+
+    #fourthSec .headline {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (min-width:577px) and (max-width: 768px) {
+    #fourthSec .container-fluid {
+        background-image: url(../../img/landing_page/riset2/bg5.png);
+        background-size: 100vw 100vw;
+        background-repeat: repeat;
+        background-attachment: local;
+    }
+
+    #fourthSec .headline {
+        font-size: 1.5rem;
+    }
+
+    #fourthSec .pop {
+        font-family: Poppins;
+        font-weight: bold;
+        color: #0C6E58;
+        font-size: 1.3rem;
+    }
+
+    #fourthSec .card-title {
+        font-size: 1rem;
+    }
+
+    #fourthSec .card-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+    #forthSec .headline {
+        font-size: 1.7rem;
+    }
+
+    #fourthSec .pop {
+        font-family: Poppins;
+        font-weight: bold;
+        color: #0C6E58;
+        font-size: 1.5rem;
+    }
+}
+
+/* Fifth Section */
+#fifthSec .headline {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #0A5446;
+    margin-top: 30px;
+
+}
+
+#fifthSec .fifth {
+    padding: 0 60px;
+}
+
+#fifthSec .tabKajian {
+    background: #0C6E58;
+    color: #ffffff;
+}
+
+#fifthSec button {
+    background: #A4D29F;
+    border-radius: 15px 15px 0px 0px;
+    color: black;
+    font-weight: bold;
+}
+
+#fifthSec .nav-fill .nav-link.active {
+    background: #0C6E58;
+    border-color: #0C6E58;
+    color: black;
+}
+
+#fifthSec .card {
+    color: black;
+    border-radius: 20px;
+}
+
+#fifthSec .card-text {
+    color: black;
+    margin-right: 3%;
+}
+
+/* #fifthSec .judul {
+    font-size: 1.5rem;
+    color: #0C6E58;
+}
+
+#fifthSec .konten {
+    background-color: #0C6E58;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 25px;
+}
+
+#fifthSec .content {
+    margin: 20px;
+}
+
+#fifthSec img {
+    width: 522px;
+    height: 400px;
+}
+
+#fifthSec .isi {
+    color: #0C6E58;
+    margin: 120px 20px 120px 20px;
+    font-size: 1.2rem;
+}
+
+#fifthSec .sub-kajian {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+#fifthSec .var1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+#fifthSec .isi-var1 {
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+#fifthSec .isii {
+    color: black;
+} */
+
+@media (max-width: 576px) {
+    #fifthSec .headline {
+        font-size: 1.3rem;
+    }
+
+    #fifthSec button {
+        font-size: 0.8rem;
+    }
+
+    #fifthSec .container {
+        padding: 0 1rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #fifthSec .headline {
+        font-size: 1.5rem;
+    }
+
+    #fifthSec button {
+        font-size: 1rem;
+    }
+
+    #fifthSec .container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+    #fifthSec .headline {
+        font-size: 1.7rem;
+    }
+
+    #fifthSec button {
+        font-size: 1.2rem;
+    }
+
+    #fifthSec .container {
+        padding: 0 2.5rem;
+    }
+}
+
+/* Sixth Section */
+#sixthSec .container-fluid {
+    background-image: url(../../img/landing_page/riset2/bg3.png);
+    background-size: 100vw 30vw;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-y: 0px;
+    background-position-x: center;
+}
+
+#sixthSec .headline {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #0A5446;
+    margin-top: 30px;
+
+}
+
+#sixthSec .sixth {
+    padding: 0 60px;
+}
+
+.parag {
+    font-family: Poppins;
+    text-align: center;
+}
+
+#sixthSec .img {
+    width: 400px;
+    height: 50px;
+    margin: 0%;
+}
+
+#sixthSec .box {
+    background: #f2f0f4;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 27px;
+    box-shadow: 0px 0px 20px 1px grey;
+    padding: 50px 80px;
+    opacity: 0.6;
+    color: #191B21;
+}
+
+#sixthSec .box:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 576px) {
+    #sixthSec .container-fluid {
+        background-image: url(../../img/landing_page/riset2/bg3.png);
+        background-size: 100vw 45vw;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-position-y: 50px;
+    }
+
+    #sixthSec .box {
+        padding: 30px;
+    }
+
+    #sixthSec .headline {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #sixthSec .container-fluid {
+        background-image: url(../../img/landing_page/riset2/bg3.png);
+        background-size: 100vw 45vw;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-position-y: 55px;
+    }
+
+    #sixthSec .box {
+        padding: 25px;
+    }
+
+    #sixthSec .headline {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+    #sixthSec .container-fluid {
+        background-position-y: 80px;
+    }
+
+    #sixthSec .headline {
+        font-size: 1.7rem;
+    }
+
+    #sixthSec .img {
+        width: 60%;
+        height: auto;
+        margin: 0%;
+    }
+
+    #sixthSec .box {
+        padding: 20px;
+    }
+}
+
+/* Seventh Section */
+#seventhSec .headline {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #0A5446;
+    margin-top: 30px;
+}
+
+#seventhSec .headline1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #0C6E58;
+    margin-top: 30px;
+}
+
+#seventhSec .carousel-indicators button {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    width: 15px;
+    height: 15px;
+    background-color: rgb(187, 187, 187);
+    margin: 0% .5%;
+}
+
+#seventhSec .carousel-indicators .active {
+    background-color: #0C6E58;
+    border-style: none;
+}
+
+#seventhSec .mySlides {
+    margin-top: -60%;
+    z-index: 1;
+}
+
+#seventhSec .appear {
+    opacity: 1;
+}
+
+#seventhSec .card {
+    min-height: auto;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    padding: 50px 80px;
+    opacity: 1.0;
+    color: #191B21;
+}
+
+#seventhSec .card-body {
+    min-height: auto;
+    background: #f2f0f4;
+    border-radius: 20px;
+    opacity: 0.9;
+    padding: 20px 25px;
+    color: #191B21;
+}
+
+#seventhSec .container-fluid {
+    background-image: url(../../img/landing_page/riset2/bg6.png);
+    background-size: 100vw 45vw;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-y: 30px;
+    background-position-x: center;
+    margin-bottom: 10px;
+}
+
+#seventhSec i {
+    color: #0C6E58;
+    font-size: 20px;
+}
+
+#seventhSec .img {
+    width: 500px;
+    height: 100px;
+    margin: 0%;
+}
+
+@media (max-width: 576px) {
+    #seventhSec .container-fluid {
+        background-image: url(../../img/landing_page/riset2/bg5.png);
+        background-size: 100vw 100vw;
+        background-repeat: repeat-y;
+        background-attachment: local;
+    }
+
+    #seventhSec .headline {
+        font-size: 1.3rem;
+    }
+
+    #seventhSec .card-title {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #seventhSec .container-fluid {
+        background-image: url(../../img/landing_page/riset2/bg5.png);
+        background-size: 100vw 100vw;
+        background-repeat: repeat;
+        background-attachment: local;
+    }
+
+    #seventhSec .headline {
+        font-size: 1.5rem;
+    }
+
+    #seventhSec .card-title {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    #seventhSec .card-body {
+        background: white;
+        opacity: 1.0;
+    }
+
+    #seventhSec .img {
+        width: 500px;
+        height: 100px;
+        margin: 0%;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+    #seventhSec .container-fluid {
+        background-size: 100% 20rem;
+        background-repeat: repeat-y;
+        background-position-y: 10px;
+    }
+
+    #seventhSec .headline {
+        font-size: 1.7rem;
+    }
+
+    #seventhSec .card-title {
+        font-size: 1.5rem;
+    }
+}
+
+.subbab {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    padding-bottom: 1%;
+    color: #0A5446;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #0A5446;
+    background-image: url('/img/landing_page/riset1/Ornamen Footer 2.png'), url('/img/landing_page/riset1/Ornamen Footer.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top 10px right 10px, top 10px left 10px;
+    background-size: 3rem 95%;
+}
+
+footer #info {
+    width: 50%;
+}
+
+footer img {
+    width: 9rem;
+}
+
+footer .btn {
+    width: 8rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+footer .btn:hover {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    footer {
+        background-size: 2.5rem 95%;
+    }
+
+    footer #info {
+        width: 75%;
+    }
+
+    footer img {
+        width: 7rem;
+    }
+
+    footer .btn {
+        font-size: 0.8rem;
+        width: 7.4rem;
+        height: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    footer {
+        background-size: 2rem 95%;
+    }
+
+    footer #info {
+        width: 100%;
+    }
+
+    footer img {
+        width: 7rem;
+    }
+
+    footer .btn {
+        font-size: 0.7rem;
+        width: 5rem;
+        height: 1.7rem;
+    }
+}
