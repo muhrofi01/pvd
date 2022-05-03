@@ -24,6 +24,11 @@
       background-color: #0A5446;
       color: white;
     }
+
+    table tbody tr td, table thead tr th{
+      border: 5px solid red;
+    }  
+
   </style>
   <!-- DataTables -->
   <link rel="stylesheet" href="/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
@@ -63,7 +68,7 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-tujuan1" role="tabpanel" aria-labelledby="pills-tujuan1-tab">
                   <div class="row">  
-                    <div class="card col-12">
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
                         <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Ukuran <i>Accuracy</i> Model Klasifikasi</h3>
                       </div>
@@ -113,7 +118,7 @@
                   </div>
 
                   <div class="row">  
-                    <div class="card col-12">
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;"> 
                       <div class="card-header" style="margin: 0 auto;">
                         <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Ukuran <i>Precision</i> Model Klasifikasi</h3>
                       </div>
@@ -163,7 +168,7 @@
                   </div>
 
                   <div class="row">  
-                    <div class="card col-12">
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
                         <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Ukuran <i>Recall</i> Model Klasifikasi</h3>
                       </div>
@@ -213,7 +218,7 @@
                   </div>
 
                   <div class="row">  
-                    <div class="card col-12">
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
                         <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Ukuran <i>F-1 Score</i> Model Klasifikasi</h3>
                       </div>
@@ -265,7 +270,7 @@
                 
                 <div class="tab-pane fade show" id="pills-tujuan2" role="tabpanel" aria-labelledby="pills-tujuan2-tab">
                   <div class="row">  
-                      <div class="card col-12">
+                      <div class="card col-12" style="box-shadow: 0 0 10px black;">
                         <div class="card-header" style="margin: 0 auto;">
                           <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Hasil Estimasi Luas Tutupan Lahan</h3>
                         </div>
@@ -339,7 +344,7 @@
                   </div>`
 
                   <div class="row">  
-                      <div class="card col-md-6">
+                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
                         <div class="card-header" style="margin: 0 auto;">
                           <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Hasil Estimasi Luas Tanam Padi Lokus Purwakarta</h3>
                         </div>
@@ -434,7 +439,7 @@
                       </div>
                       <!-- /.card -->
 
-                      <div class="card col-md-6">
+                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
                         <div class="card-header" style="margin: 0 auto;">
                           <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Hasil Estimasi Luas Tanam Padi Lokus Bandung Barat</h3>
                         </div>
@@ -529,8 +534,8 @@
                 
                 <div class="tab-pane fade show" id="pills-tujuan3" role="tabpanel" aria-labelledby="pills-tujuan3-tab">
                   ` <div class="row">  
-                      <div class="card col-12">
-                        <div class="card-header" style="margin: 0 auto;">
+                      <div class="card col-12" style="box-shadow: 0 0 10px black; margin-top: -17px;">
+                        <div class="card-header m-auto">
                           <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Estimasi Perubahan Luas Lahan</h3>
                         </div>
                         <!-- /.card-header -->
@@ -667,7 +672,7 @@
                     </div>`
 
                     <div class="row">  
-                      <div class="card col-md-6">
+                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
                         <div class="card-header" style="margin: 0 auto;">
                           <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Laju Alih Fungsi Lahan Lokus Kabupaten Purwakarta</h3>
                         </div>
@@ -762,7 +767,7 @@
                       </div>
                       <!-- /.card -->
 
-                      <div class="card col-md-6">
+                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
                         <div class="card-header" style="margin: 0 auto;">
                           <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Laju Alih Fungsi Lahan Lokus Kabupaten Bandung Barat</h3>
                         </div>
