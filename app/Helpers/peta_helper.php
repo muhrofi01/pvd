@@ -19,8 +19,8 @@ function getPeta()
         '3' => 
         [
             'nama' => 'Peta Khusus 1',
-            'generate' => '',
-            'data' => 'peta_umum',
+            'generate' => 'assets/peta_khusus/bandung_barat/js/peta_khusus_bandung_barat.js',
+            'data' => 'assets/peta_khusus/bandung_barat/data/bandung_barat.js',
         ],
         '4' => 
         [

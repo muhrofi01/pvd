@@ -66,7 +66,7 @@
     <section class="content-header">
       <div class="container-fluid pl-4" style="color: rgb(0, 75, 60);">
         <div class="row mb-2 baris-judul-riset">
-          <div class="col-sm-6">
+          <div class="col-sm-10">
             <h3 class="judul-riset">Pemetaan Klasifikasi dan Alih Fungsi Lahan Pertanian dengan Citra Satelit</h3>
           </div>
         </div>
