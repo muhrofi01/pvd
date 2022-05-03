@@ -83,7 +83,7 @@
             </button>
             <div class="dropdown-menu" style="z-index: 10000000;" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item <?= ($peta['id'] == 5 || !isset($peta['nama'])) ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/5">Peta Klasifikasi Tutupan Lahan Bandung Barat</a>
-              <a class="dropdown-item" href="#">Peta Klasifikasi Tutupan Lahan Purwakarta</a>
+              <a class="dropdown-item <?= $peta['id'] == 6 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/6">Peta Klasifikasi Tutupan Lahan Purwakarta</a>
             </div>
           </div>
           <div class="dropdown">
