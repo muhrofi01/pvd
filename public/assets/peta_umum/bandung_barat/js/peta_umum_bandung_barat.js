@@ -6,7 +6,7 @@ function highlightFeature(e) {
 }
 var map = L.map('map', {
     zoomControl:true, maxZoom:28, minZoom:10
-}).fitBounds([[-7.142506602598334,107.07890638238679],[-6.686926005448334,107.81777527812825]]).setView([-6.9,107.5], 10);
+}).fitBounds([[-7.132367633357802,107.01539751378728],[-6.676787036207802,107.75426640952874]]);
 var hash = new L.Hash(map);
 map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
 var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});

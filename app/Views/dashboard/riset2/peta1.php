@@ -82,7 +82,7 @@
               Tujuan 2
             </button>
             <div class="dropdown-menu" style="z-index: 10000000;" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="">Peta Klasifikasi Tutupan Lahan Bandung Barat</a>
+              <a class="dropdown-item <?= ($peta['id'] == 5 || !isset($peta['nama'])) ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/5">Peta Klasifikasi Tutupan Lahan Bandung Barat</a>
               <a class="dropdown-item" href="#">Peta Klasifikasi Tutupan Lahan Purwakarta</a>
             </div>
           </div>
@@ -93,8 +93,8 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item <?= $peta['id'] == 1 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/1">Peta Umum Perubahan Lahan Bandung Barat</a>
               <a class="dropdown-item <?= $peta['id'] == 2 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/2">Peta Umum Perubahan Lahan Purwakarta</a>
-              <a class="dropdown-item" href="#">Peta Khusus Perubahan Lahan Bandung Barat</a>
-              <a class="dropdown-item" href="#">Peta Khusus Perubahan Lahan Purwakarta</a>
+              <a class="dropdown-item <?= $peta['id'] == 3 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/3">Peta Khusus Perubahan Lahan Bandung Barat</a>
+              <a class="dropdown-item <?= $peta['id'] == 4 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/4">Peta Khusus Perubahan Lahan Purwakarta</a>
               <a class="dropdown-item" href="#">Peta Laju Alih Fungsi Lahan Bandung Barat</a>
               <a class="dropdown-item" href="#">Peta Laju Alih Fungsi Lahan Purwakarta</a>
             </div>
@@ -104,7 +104,7 @@
           <?php if (isset($peta['nama'])) : ?>
             <h2 class="text-center"><?= $peta['nama'] ?></h2>
           <?php else : ?>
-            <h2 class="text-center">Peta Default</h2>
+            <h2 class="text-center">Peta Klasifikasi Tutupan Lahan 2021 Sentinel-2 Lokus Bandung Barat</h2>
           <?php endif ?>
           <div id="map" style="height: 600px;"></div>
         </div>
@@ -117,22 +117,22 @@
 <?= $this->endSection() ?>
 
 <?= $this->Section('js') ?>
-<script src="<?= base_url('assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
-<script src="<?= base_url('assets/dist/js/peta/leaflet.js') ?>"></script>
-<script src="<?= base_url('assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
-<script src="<?= base_url('assets/dist/js/peta/leaflet.pattern.js') ?>"></script>
-<script src="<?= base_url('assets/dist/js/peta/leaflet-hash.js') ?>"></script>
-<script src="<?= base_url('assets/dist/js/peta/Autolinker.min.js') ?>"></script>
-<script src="<?= base_url('assets/dist/js/peta/rbush.min.js') ?>"></script>
-<script src="<?= base_url('assets/dist/js/peta/labelgun.min.js') ?>"></script>
-<script src="<?= base_url('assets/dist/js/peta/labels.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/leaflet.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/leaflet.pattern.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/leaflet-hash.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/Autolinker.min.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/rbush.min.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/labelgun.min.js') ?>"></script>
+<script src="<?= base_url('/assets/dist/js/peta/labels.js') ?>"></script>
 
 <?php if (isset($peta['nama'])) : ?>
   <script src="<?= base_url($peta['data']) ?>"></script>
   <script src="<?= base_url($peta['generate']) ?>"></script>
 <?php else : ?>
-  <script src="<?= base_url('assets/peta_umum/purwakarta/data/purwakarta.js') ?>"></script>
-  <script src="<?= base_url('assets/peta_umum/purwakarta/js/peta_umum_purwakarta.js') ?>"></script>
+  <script src="<?= base_url('/assets/peta_klasifikasi/bandung_barat/data/bandung_barat.js') ?>"></script>
+  <script src="<?= base_url('/assets/peta_klasifikasi/bandung_barat/js/peta_klasifikasi_bandung_barat.js') ?>"></script>
 <?php endif ?>
 
 
