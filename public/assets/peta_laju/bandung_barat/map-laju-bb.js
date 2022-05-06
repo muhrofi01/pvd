@@ -17,7 +17,7 @@ fetchJSON('/assets/peta_laju/bandung_barat/bb_laju.geojson')
 });
 
 // Map
-var petaLaju_bb = L.map('map').setView([-6.89848, 107.41204], 10);
+var petaLaju_bb = L.map('map').setView([-6.89848, 107.41204],10);
 bb_geojson.addTo(petaLaju_bb);
 
 // Base Map
