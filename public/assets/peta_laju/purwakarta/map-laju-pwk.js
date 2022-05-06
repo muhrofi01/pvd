@@ -109,6 +109,8 @@ legend_pwk.onAdd = function (map, grades) {
 legend_pwk.addTo(petaLaju_pwk);
 
 
+
+
 // Informasi Laju alih fungsi
 var infoLaju_pwk = L.control();
 
