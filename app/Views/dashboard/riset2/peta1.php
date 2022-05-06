@@ -105,7 +105,7 @@
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
               Tujuan 3
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-menu" style="z-index: 10000000;" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item <?= $peta['id'] == 1 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/1">Peta Umum Perubahan Lahan Bandung Barat</a>
               <a class="dropdown-item <?= $peta['id'] == 2 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/2">Peta Umum Perubahan Lahan Purwakarta</a>
               <a class="dropdown-item <?= $peta['id'] == 3 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/3">Peta Khusus Perubahan Lahan Bandung Barat</a>
@@ -122,7 +122,7 @@
             <h2 class="text-center">Peta Klasifikasi Tutupan Lahan 2021 Sentinel-2 Lokus Bandung Barat</h2>
           <?php endif ?>
           <div id="map" style="height: 600px;"></div>
-        </div>
+          </div>
         
       </div><!-- /.container-fluid -->
     </section>
@@ -132,15 +132,17 @@
 <?= $this->endSection() ?>
 
 <?= $this->Section('js') ?>
-<script src="<?= base_url('/assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
-<script src="<?= base_url('/assets/dist/js/peta/leaflet.js') ?>"></script>
-<script src="<?= base_url('/assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
-<script src="<?= base_url('/assets/dist/js/peta/leaflet.pattern.js') ?>"></script>
-<script src="<?= base_url('/assets/dist/js/peta/leaflet-hash.js') ?>"></script>
-<script src="<?= base_url('/assets/dist/js/peta/Autolinker.min.js') ?>"></script>
-<script src="<?= base_url('/assets/dist/js/peta/rbush.min.js') ?>"></script>
-<script src="<?= base_url('/assets/dist/js/peta/labelgun.min.js') ?>"></script>
-<script src="<?= base_url('/assets/dist/js/peta/labels.js') ?>"></script>
+<?php if (!($peta['id'] == 7 || $peta['id'] == 8)) : ?>
+  <script src="<?= base_url('/assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.pattern.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet-hash.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/Autolinker.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/rbush.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/labelgun.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/labels.js') ?>"></script>
+<?php endif; ?>
 
 <?php if (isset($peta['nama'])) : ?>
   <script src="<?= base_url($peta['data']) ?>"></script>

@@ -112,7 +112,7 @@ legend_bb.onAdd = function (map, grades) {
     return this._div;
 };
 
-legend_bb.onAdd(petaLaju_bb);
+legend_bb.addTo(petaLaju_bb);
 
 // Informasi Laju alih fungsi
 var infoLaju_bb = L.control();
