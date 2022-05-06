@@ -1,9 +1,24 @@
 <?= $this->extend('dashboard/layout/main') ?>
 
 <?= $this->Section('css') ?>
-<link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/leaflet.css') ?>">
-<link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/qgis2web.css') ?>">
-<link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/fontawesome-all.min.css') ?>">
+<?php if ($peta['id'] == 7 || $peta['id'] == 8) : ?>
+  <!-- leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+  integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+
+  <!-- easy button -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+  
+  <!-- fa -->
+  <script src="https://kit.fontawesome.com/766f1552b7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="<?= base_url('assets/peta_laju/map-laju.css') ?>">
+<?php else : ?>
+  <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/leaflet.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/qgis2web.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/fontawesome-all.min.css') ?>">
+<?php endif; ?>
 <style>
     #dropdown h1 {
       font-size: 1.5em;
@@ -52,7 +67,7 @@
         color: #ffffff; 
         font-weight:bold;
     }
-    #map {
+    #map,#petaLaju_bb, #petaLaju_pwk {
       border: 5px solid #0A5446;
     }
   </style>
@@ -95,8 +110,8 @@
               <a class="dropdown-item <?= $peta['id'] == 2 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/2">Peta Umum Perubahan Lahan Purwakarta</a>
               <a class="dropdown-item <?= $peta['id'] == 3 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/3">Peta Khusus Perubahan Lahan Bandung Barat</a>
               <a class="dropdown-item <?= $peta['id'] == 4 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/4">Peta Khusus Perubahan Lahan Purwakarta</a>
-              <a class="dropdown-item" href="#">Peta Laju Alih Fungsi Lahan Bandung Barat</a>
-              <a class="dropdown-item" href="#">Peta Laju Alih Fungsi Lahan Purwakarta</a>
+              <a class="dropdown-item <?= $peta['id'] == 7 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/7">Peta Laju Alih Fungsi Lahan Bandung Barat</a>
+              <a class="dropdown-item <?= $peta['id'] == 8 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/8">Peta Laju Alih Fungsi Lahan Purwakarta</a>
             </div>
           </div>
         </div>
@@ -135,8 +150,7 @@
   <script src="<?= base_url('/assets/peta_klasifikasi/bandung_barat/js/peta_klasifikasi_bandung_barat.js') ?>"></script>
 <?php endif ?>
 
-
-<script>
+<!-- <script>
     let putar = function(e) {
       
       if ($(e).children().hasClass('fa-rotate-180')) {
@@ -153,5 +167,5 @@
         $(e).children().toggleClass('fa-rotate-180');
       }
     }
-</script>
+</script> -->
 <?= $this->endSection() ?>

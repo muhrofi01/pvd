@@ -44,6 +44,13 @@ function getPeta()
             'nama' => 'Peta Klasifikasi Tutupan Lahan 2021 Sentinel-2 Lokus Purwakarta',
             'generate' => 'assets/peta_klasifikasi/purwakarta/js/peta_klasifikasi_purwakarta.js',
             'data' => 'assets/peta_klasifikasi/purwakarta/data/purwakarta.js',
+        ],
+        '7' => 
+        [
+            'id' => '7',
+            'nama' => 'Laju Alih Fungsi Lahan Pertanian Lokus Bandung Barat',
+            'generate' => 'assets/peta_tematik/bandung_barat/peta_tematik_bandung_barat.html',
+            'data' => 'assets/peta_tematik/bandung_barat/bb_laju.geojson',
         ]
     ];
 
