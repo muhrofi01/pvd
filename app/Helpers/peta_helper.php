@@ -48,14 +48,14 @@ function getPeta()
         '7' => 
         [
             'id' => '7',
-            'nama' => 'Peta Laju Alih Fungsi Lahan Bandung Barat',
+            'nama' => 'Laju Alih Fungsi Lahan Bandung Barat',
             'generate' => 'assets/peta_laju/bandung_barat/map-laju-bb.js',
             'data' => '',
         ],
         '8' => 
         [
             'id' => '8',
-            'nama' => 'Peta Laju Alih Fungsi Lahan Purwakarta',
+            'nama' => 'Laju Alih Fungsi Lahan Purwakarta',
             'generate' => 'assets/peta_laju/purwakarta/map-laju-pwk.js',
             'data' => '',
         ]

@@ -16,7 +16,6 @@ fetchJSON('/assets/peta_laju/bandung_barat/bb_laju.geojson')
     bb_geojson.addData(data);
 });
 
-
 // Map
 var petaLaju_bb = L.map('map').setView([-6.89848, 107.41204], 10);
 bb_geojson.addTo(petaLaju_bb);
@@ -26,8 +25,6 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_L
 	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
 	maxZoom: 20
 }).addTo(petaLaju_bb);
-
-
 
 // Interactive
 function highlightFeature_bb(e) {
@@ -76,7 +73,13 @@ function getColor(d, kab) {
         d > 46.259 ? colPal_laju[2] :
         d > 38.664 ? colPal_laju[1] :
         colPal_laju[0];
-    }
+    } else if (kab == 'Purwakarta'){
+        return d > 44.702 ? colPal_laju[4] :
+        d > 38.554 ? colPal_laju[3] :
+        d > 30.581 ? colPal_laju[2] :
+        d > 21.363 ? colPal_laju[1] :
+        colPal_laju[0];
+    } 
 }
 
 function myStyle(feature) {
@@ -130,4 +133,3 @@ infoLaju_bb.update = function (dat) {
 };
 
 infoLaju_bb.addTo(petaLaju_bb);
-
