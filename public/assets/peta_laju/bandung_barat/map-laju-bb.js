@@ -16,7 +16,6 @@ fetchJSON('/assets/peta_laju/bandung_barat/bb_laju.geojson')
     bb_geojson.addData(data);
 });
 
-
 // Map
 var petaLaju_bb = L.map('map').setView([-6.89848, 107.41204], 10);
 bb_geojson.addTo(petaLaju_bb);
@@ -26,8 +25,6 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_L
 	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
 	maxZoom: 20
 }).addTo(petaLaju_bb);
-
-
 
 // Interactive
 function highlightFeature_bb(e) {
