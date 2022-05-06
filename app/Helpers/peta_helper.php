@@ -48,9 +48,16 @@ function getPeta()
         '7' => 
         [
             'id' => '7',
-            'nama' => 'Laju Alih Fungsi Lahan Pertanian Lokus Bandung Barat',
-            'generate' => 'assets/peta_tematik/bandung_barat/peta_tematik_bandung_barat.html',
-            'data' => 'assets/peta_tematik/bandung_barat/bb_laju.geojson',
+            'nama' => 'Peta Laju Alih Fungsi Lahan Bandung Barat',
+            'generate' => 'assets/peta_laju/bandung_barat/map-laju-bb.js',
+            'data' => '',
+        ],
+        '8' => 
+        [
+            'id' => '8',
+            'nama' => 'Peta Laju Alih Fungsi Lahan Purwakarta',
+            'generate' => 'assets/peta_laju/purwakarta/map-laju-pwk.js',
+            'data' => '',
         ]
     ];
 
