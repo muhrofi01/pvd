@@ -1,7 +1,7 @@
 <?= $this->extend('dashboard/layout/main') ?>
 
-<?= $this->section('css') ?>
-  <style>
+<?= $this->Section('css') ?>
+<style>
     #dropdown h1 {
       font-size: 1.5em;
     }
@@ -11,22 +11,45 @@
     #dropdown-riset:hover {
       cursor: pointer;
     }
+    .container-fluid > .nav-pills > .nav-item > .nav-link.active{
+        width: 289.08px;
+        height: 50px;
+        background-color: #0A5446;
+        border-radius: 20px 20px 0px 0px;
+        border: none;
+        font-size: 20px;
+        color: #FFFFFF; 
+        font-weight:bold;
+    }
+    .tab-content{
+        width: 98%;
+        margin-top: -16px;
+        margin-left: 8px;
+        padding: 15px;
+        background: #FFFFFF;
+        border-radius: 0px 8px 8px 8px;
+    }
+    .container-fluid > .nav-pills > .nav-item > .nav-link{
+        width: 289.08px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 10px 10px 0px 0px;
+        border: none;
+        font-size: 20px;
+        color: #0A5446; 
+        font-weight:bold;
+    }
   </style>
-  <!-- DataTables -->
-  <link rel="stylesheet" href="/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-  <link rel="stylesheet" href="/assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
-  <link rel="stylesheet" href="/assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
-  
 <?= $this->endSection() ?>
 
-<?= $this->section('content') ?>
+<?= $this->Section('content') ?>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid pl-4" style="color: rgb(0, 75, 60);">
         <div class="row mb-2 baris-judul-riset">
-          <div class="col-sm-10">
+          <div class="col-sm-6">
             <h3 class="judul-riset">Karakteristik dan Faktor-Faktor yang Mempengaruhi Alih Fungsi Lahan Pertanian</h3>
           </div>
         </div>
@@ -35,452 +58,172 @@
 
     <!-- Main content -->
     <section class="content pl-4 mt-4">
-      <div class="container-fluid">
-        <!-- <div class="row"> -->
-          <!-- <div class="col-md-6"> -->
-            <div class="card">
-              <div class="card-header">
-                <h3 class="card-title">DataTable with default features</h3>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <table id="example1" class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 5.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td>5</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 5.5
-                    </td>
-                    <td>Win 95+</td>
-                    <td>5.5</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 6
-                    </td>
-                    <td>Win 98+</td>
-                    <td>6</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet Explorer 7</td>
-                    <td>Win XP SP2+</td>
-                    <td>7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>AOL browser (AOL desktop)</td>
-                    <td>Win XP</td>
-                    <td>6</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 1.0</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 1.5</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 2.0</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 3.0</td>
-                    <td>Win 2k+ / OSX.3+</td>
-                    <td>1.9</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Camino 1.0</td>
-                    <td>OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Camino 1.5</td>
-                    <td>OSX.3+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Netscape 7.2</td>
-                    <td>Win 95+ / Mac OS 8.6-9.2</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Netscape Browser 8</td>
-                    <td>Win 98SE+</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Netscape Navigator 9</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.0</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.1</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.1</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.2</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.2</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.3</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.3</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.4</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.4</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.5</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.5</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.6</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.6</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.7</td>
-                    <td>Win 98+ / OSX.1+</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.8</td>
-                    <td>Win 98+ / OSX.1+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Seamonkey 1.1</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Epiphany 2.20</td>
-                    <td>Gnome</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>Safari 1.2</td>
-                    <td>OSX.3</td>
-                    <td>125.5</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>Safari 1.3</td>
-                    <td>OSX.3</td>
-                    <td>312.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>Safari 2.0</td>
-                    <td>OSX.4+</td>
-                    <td>419.3</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>Safari 3.0</td>
-                    <td>OSX.4+</td>
-                    <td>522.1</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>OmniWeb 5.5</td>
-                    <td>OSX.4+</td>
-                    <td>420</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>iPod Touch / iPhone</td>
-                    <td>iPod</td>
-                    <td>420.1</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>S60</td>
-                    <td>S60</td>
-                    <td>413</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 7.0</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 7.5</td>
-                    <td>Win 95+ / OSX.2+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 8.0</td>
-                    <td>Win 95+ / OSX.2+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 8.5</td>
-                    <td>Win 95+ / OSX.2+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 9.0</td>
-                    <td>Win 95+ / OSX.3+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 9.2</td>
-                    <td>Win 88+ / OSX.3+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 9.5</td>
-                    <td>Win 88+ / OSX.3+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera for Wii</td>
-                    <td>Wii</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Nokia N800</td>
-                    <td>N800</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Nintendo DS browser</td>
-                    <td>Nintendo DS</td>
-                    <td>8.5</td>
-                    <td>C/A<sup>1</sup></td>
-                  </tr>
-                  <tr>
-                    <td>KHTML</td>
-                    <td>Konqureror 3.1</td>
-                    <td>KDE 3.1</td>
-                    <td>3.1</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>KHTML</td>
-                    <td>Konqureror 3.3</td>
-                    <td>KDE 3.3</td>
-                    <td>3.3</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>KHTML</td>
-                    <td>Konqureror 3.5</td>
-                    <td>KDE 3.5</td>
-                    <td>3.5</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Tasman</td>
-                    <td>Internet Explorer 4.5</td>
-                    <td>Mac OS 8-9</td>
-                    <td>-</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Tasman</td>
-                    <td>Internet Explorer 5.1</td>
-                    <td>Mac OS 7.6-9</td>
-                    <td>1</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Tasman</td>
-                    <td>Internet Explorer 5.2</td>
-                    <td>Mac OS 8-X</td>
-                    <td>1</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>NetFront 3.1</td>
-                    <td>Embedded devices</td>
-                    <td>-</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>NetFront 3.4</td>
-                    <td>Embedded devices</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>Dillo 0.8</td>
-                    <td>Embedded devices</td>
-                    <td>-</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>Links</td>
-                    <td>Text only</td>
-                    <td>-</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>Lynx</td>
-                    <td>Text only</td>
-                    <td>-</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>IE Mobile</td>
-                    <td>Windows Mobile 6</td>
-                    <td>-</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>PSP browser</td>
-                    <td>PSP</td>
-                    <td>-</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Other browsers</td>
-                    <td>All others</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>U</td>
-                  </tr>
-                  </tbody>
-                  <tfoot>
-                  <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
-                  </tr>
-                  </tfoot>
-                </table>
-              </div>
-              <!-- /.card-body -->
+      <div class="container-fluid" id="app">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-tujuan2-tab" data-bs-toggle="pill" data-bs-target="#pills-tujuan2" type="button" role="tab" aria-controls="pills-tujuan2" aria-selected="true">Tujuan 2</button>
+                </li>
+                <li class="nav-item" role="presentation" style="margin-left:-7px; border-radius:10px;">
+                    <button class="nav-link" id="pills-tujuan3-tab" data-bs-toggle="pill" data-bs-target="#pills-tujuan3" type="button" role="tab" aria-controls="pills-tujuan3" aria-selected="false">Tujuan 3</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-tujuan2" role="tabpanel" aria-labelledby="pills-tujuan2-tab">
+                    <div class="card-body p-0">
+                      <div class="d-md-flex">
+                        <div class="accordion w-100" id="accordionTujuan2">
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="heading1">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta1" class="text-white btn btn-link btn-block text-left w-100 d-flex justify-content-between align-items-center" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                  Peta 1
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+
+                            <div v-if="isVisible1" id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionTujuan2">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="heading2">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta2" class="text-white btn btn-link btn-block text-left d-flex justify-content-between align-items-center collapsed" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                  Peta 2
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+                            <div v-if="isVisible2" id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionTujuan2">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="heading3">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta3" class="text-white btn btn-link btn-block text-left d-flex justify-content-between align-items-center collapsed" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                  Peta 3
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+                            <div v-if="isVisible3" id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionTujuan2">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <div class="tab-pane fade show" id="pills-tujuan3" role="tabpanel" aria-labelledby="pills-tujuan3-tab">
+                    <div class="card-body p-0">
+                      <div class="d-md-flex">
+                        <div class="accordion w-100" id="accordionTujuan3">
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="headingOne">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta4" class="text-white btn btn-link btn-block text-left d-flex justify-content-between align-items-center w-100" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Peta 1
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+
+                            <div v-if="isVisible4" id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTujuan3">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="headingTwo">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta5" class="text-white btn btn-link btn-block text-left d-flex justify-content-between align-items-center collapsed" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Peta 2
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+                            <div v-if="isVisible5" id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTujuan3">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="headingThree">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta6" class="text-white btn btn-link btn-block text-left d-flex justify-content-between align-items-center collapsed" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Peta 3
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+                            <div v-if="isVisible6" id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTujuan3">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="headingFour">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta7" class="text-white btn btn-link btn-block text-left d-flex justify-content-between align-items-center collapsed" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  Peta 4
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+                            <div v-if="isVisible7" id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionTujuan3">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="headingFive">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta8" class="text-white btn btn-link btn-block text-left d-flex justify-content-between align-items-center collapsed" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                  Peta 5
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+                            <div v-if="isVisible8" id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionTujuan3">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" style="background-color: #0A5446;" id="headingSix">
+                              <h2 class="mb-0">
+                                <button @click="togglePeta9" class="text-white btn btn-link btn-block text-left d-flex justify-content-between align-items-center collapsed" onclick="putar(this)" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                  Peta 6
+                                  <i class="accordion-icon fas fa-chevron-circle-down"></i>
+                                </button>
+                              </h2>
+                            </div>
+                            <div v-if="isVisible9" id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionTujuan3">
+                              <div class="card-body">
+                              Map akan digenerate disini
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
             </div>
-            <!-- /.card -->
-          <!-- </div> -->
-          <!-- /.col (RIGHT) -->
-        <!-- </div> -->
-        <!-- /.row -->
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
@@ -488,36 +231,142 @@
   <!-- /.content-wrapper -->
 <?= $this->endSection() ?>
 
-<?= $this->section('js') ?>
+<?= $this->Section('js') ?>
+<!-- REQUIRED SCRIPTS -->
+
+<!-- PAGE PLUGINS -->
+<!-- jQuery Mapael -->
+<script src="/assets/plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="/assets/plugins/raphael/raphael.min.js"></script>
+<script src="/assets/plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="/assets/plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- ChartJS -->
+<script src="/assets/plugins/chart.js/Chart.min.js"></script>
+
+<!-- AdminLTE for demo purposes -->
+<script src="/assets/dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="/assets/dist/js/pages/dashboard2.js"></script>
+
 <script>
- $(function () {
-    $("#example1").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false,
-      "responsive": true,
-    });
-  });
+    let putar = function(e) {
+      
+      if ($(e).children().hasClass('fa-rotate-180')) {
+        $(e).children().removeClass('fa-rotate-180');
+      } else {
+        if ($('#accordionTujuan2 .card .card-header button').children().hasClass('fa-rotate-180') && 
+            $('#accordionTujuan2 .card').find('div.collapse').hasClass('show')) {
+          $('#accordionTujuan2 .card .card-header button').children().removeClass('fa-rotate-180');
+        }
+        if ($('#accordionTujuan3 .card .card-header button').children().hasClass('fa-rotate-180')&& 
+            $('#accordionTujuan3 .card').find('div.collapse').hasClass('show')) {
+          $('#accordionTujuan3 .card .card-header button').children().removeClass('fa-rotate-180');
+        }
+        $(e).children().toggleClass('fa-rotate-180');
+      }
+    }
 </script>
-<!-- DataTables  & Plugins -->
-<script src="/assets/plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-<script src="/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-<script src="/assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-<script src="/assets/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
-<script src="/assets/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
-<script src="/assets/plugins/jszip/jszip.min.js"></script>
-<script src="/assets/plugins/pdfmake/pdfmake.min.js"></script>
-<script src="/assets/plugins/pdfmake/vfs_fonts.js"></script>
-<script src="/assets/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
-<script src="/assets/plugins/datatables-buttons/js/buttons.print.min.js"></script>
-<script src="/assets/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+  let app = Vue.createApp({
+      data: function() {
+          return {
+              isVisible1: false,
+              isVisible2: false,
+              isVisible3: false,
+              isVisible4: false,
+              isVisible5: false,
+              isVisible6: false,
+              isVisible7: false,
+              isVisible8: false,
+              isVisible9: false,
+          }
+      },
+      methods: {
+          togglePeta1() {
+            for (let i = 1; i <= 9; i++) {
+                if (i != 1) {
+                  this['isVisible' + i] = false;
+                } else {
+                  this['isVisible' + i] = true;
+                }
+            }
+          },
+          togglePeta2() {
+            for (let i = 1; i <= 9; i++) {
+                  if (i != 2) {
+                    this['isVisible' + i] = false;
+                  } else {
+                    this['isVisible' + i] = true;
+                  }
+              }
+          },
+          togglePeta3() {
+            for (let i = 1; i <= 9; i++) {
+                  if (i != 3) {
+                    this['isVisible' + i] = false;
+                  } else {
+                    this['isVisible' + i] = true;
+                  }
+              }
+          },
+          togglePeta4() {
+            for (let i = 1; i <= 9; i++) {
+                  if (i != 4) {
+                    this['isVisible' + i] = false;
+                  } else {
+                    this['isVisible' + i] = true;
+                  }
+              }
+          },
+          togglePeta5() {
+            for (let i = 1; i <= 9; i++) {
+                  if (i != 5) {
+                    this['isVisible' + i] = false;
+                  } else {
+                    this['isVisible' + i] = true;
+                  }
+              }
+          },
+          togglePeta6() {
+            for (let i = 1; i <= 9; i++) {
+                  if (i != 6) {
+                    this['isVisible' + i] = false;
+                  } else {
+                    this['isVisible' + i] = true;
+                  }
+              }
+          },
+          togglePeta7() {
+            for (let i = 1; i <= 9; i++) {
+                  if (i != 7) {
+                    this['isVisible' + i] = false;
+                  } else {
+                    this['isVisible' + i] = true;
+                  }
+              }
+          },
+          togglePeta8() {
+            for (let i = 1; i <= 9; i++) {
+                  if (i != 8) {
+                    this['isVisible' + i] = false;
+                  } else {
+                    this['isVisible' + i] = true;
+                  }
+              }
+          },
+          togglePeta9() {
+            for (let i = 1; i <= 9; i++) {
+                  if (i != 9) {
+                    this['isVisible' + i] = false;
+                  } else {
+                    this['isVisible' + i] = true;
+                  }
+              }
+          },
+      }
+  })
+  app.mount('#app')
+</script>
 <?= $this->endSection() ?>
-  
