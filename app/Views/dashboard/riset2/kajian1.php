@@ -67,7 +67,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Bar Chart KBB</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB_L81321" data-judul="Chart_Area"></i>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB_L81321" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -84,7 +84,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Bar Chart KBB</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartPWK_L81321" data-judul="Chart_Area"></i>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartPWK_L81321" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -101,7 +101,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Bar Chart KBB</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB_PWK_L813" data-judul="Chart_Area"></i>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB_PWK_L813" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -118,7 +118,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Bar Chart KBB</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB_PWK_L821" data-judul="Chart_Area"></i>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB_PWK_L821" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -135,7 +135,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Bar Chart KBB</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB_PWK_S2" data-judul="Chart_Area"></i>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB_PWK_S2" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -154,12 +154,12 @@
                     <!-- BAR CHART -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Bar Chart KBB</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB" data-judul="Chart_Area"></i>
+                        <h3 class="card-title">Luas Tutupan Lahan Bandung Barat 2021 (ha)</h3>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartKBB" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="barChartKBB" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                          <canvas id="barChartKBB" style="min-height: 300px; height: 300px; max-height: 300px; max-width: 100%;"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -171,12 +171,12 @@
                     <!-- PIE CHART -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Pie Chart KBB</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="pieChartKBB" data-judul="Chart_Area"></i>
+                        <h3 class="card-title">Luas Tutupan Lahan Bandung Barat (%)</h3>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="pieChartKBB" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="pieChartKBB" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                          <canvas id="pieChartKBB" style="min-height: 300px; height: 300px; max-height: 300px; max-width: 100%;"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -188,12 +188,12 @@
                     <!-- BAR CHART -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Bar Chart PWK</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartPWK" data-judul="Chart_Area"></i>
+                        <h3 class="card-title">Luas Tutupan Lahan Purwakarta 2021 (ha)</h3>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="barChartPWK" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="barChartPWK" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                          <canvas id="barChartPWK" style="min-height: 300px; height: 300px; max-height: 300px; max-width: 100%;"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -205,12 +205,12 @@
                     <!-- PIE CHART -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Pie Chart PWK</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="pieChartPWK" data-judul="Chart_Area"></i>
+                        <h3 class="card-title">Luas Tutupan Lahan Purwakarta (%) </h3>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="pieChartPWK" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="pieChartPWK" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                          <canvas id="pieChartPWK" style="min-height: 300px; height: 300px; max-height: 300px; max-width: 100%;"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -537,86 +537,66 @@
     barChart = new Chart(ctx, {
       type: 'bar',
       data: {
-          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', ['Lahan Kering','non-vegetatif']],
           datasets: [
             {
-              label: 'KBB',
-              data: [12, 19, 3, 5, 2, 3],
+              // label: 'KBB',
+              data: [69607.37, 39968.55, 13796.24, 1149.73, 784.51],
               backgroundColor: [
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(255, 99, 132, 0.2)',
+                  '#eafae8',
+                  '#77dd77',
+                  '#eafae8',
+                  '#eafae8',
+                  '#eafae8',
               ],
               borderColor: [
-                  'rgba(255, 99, 132, 1)',
-                  'rgba(255, 99, 132, 1)',
-                  'rgba(255, 99, 132, 1)',
-                  'rgba(255, 99, 132, 1)',
-                  'rgba(255, 99, 132, 1)',
-                  'rgba(255, 99, 132, 1)',
+                  '#508d4f',
+                  '#508d4f',
+                  '#508d4f',
+                  '#508d4f',
+                  '#508d4f',
               ],
               borderWidth: 1
           },
-          {
-            label: 'PWK',
-              data: [12, 19, 3, 5, 2, 3],
-              backgroundColor: [
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-              ],
-              borderColor: [
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(54, 162, 235, 1)',
-              ],
-              borderWidth: 1
-          }
         ],
       },
       options: {
-          scales: {
-              y: {
-                  beginAtZero: true
-              }
-          }
+            scales: {
+                  xAxes: [{
+                    gridLines: {
+                      drawOnChartArea: false
+                    }
+                  }],
+                  yAxes: [{
+                    gridLines: {
+                      drawOnChartArea: false
+                    },
+                    beginAtZero: true
+                  }]
+              },
+            legend: {
+              display: false
+            }  
       }
+      
     });
 
     ctx = document.getElementById('pieChartKBB').getContext('2d');
     pieChart = new Chart(ctx, {
       type: 'pie',
       data: {
-          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', 'Lahan kering non-vegetatif'],
           datasets: [{
               label: '# of Votes',
-              data: [12, 19, 3, 5, 2, 3],
+              data: [55.55, 31.9, 11.01, 0.92, 0.62],
               backgroundColor: [
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(255, 206, 86, 0.2)',
-                  'rgba(75, 192, 192, 0.2)',
-                  'rgba(153, 102, 255, 0.2)',
-                  'rgba(255, 159, 64, 0.2)'
+                  '#508d4f',
+                  '#77dd77',
+                  '#a9e9a4',
+                  '#bfefbb',
+                  '#eafae8',
               ],
-              borderColor: [
-                  'rgba(255, 99, 132, 1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(255, 206, 86, 1)',
-                  'rgba(75, 192, 192, 1)',
-                  'rgba(153, 102, 255, 1)',
-                  'rgba(255, 159, 64, 1)'
-              ],
-              borderWidth: 1
+              borderWidth: 0
           }]
       },
       options: {
@@ -624,7 +604,14 @@
               y: {
                   beginAtZero: true
               }
-          }
+          },
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
@@ -632,35 +619,43 @@
     barChart = new Chart(ctx, {
       type: 'bar',
       data: {
-          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          labels: ['Hutan', 'Sawah', 'Lahan Terbangun', 'Badan air', ['Lahan Kering','non-vegetatif']],
           datasets: [{
-              label: '# of Votes',
-              data: [12, 19, 3, 5, 2, 3],
+              data: [52164.11, 25377.16, 14268.91 , 6094.43, 1529.49],
               backgroundColor: [
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(255, 206, 86, 0.2)',
-                  'rgba(75, 192, 192, 0.2)',
-                  'rgba(153, 102, 255, 0.2)',
-                  'rgba(255, 159, 64, 0.2)'
+                  '#eafae8',
+                  '#77dd77',
+                  '#eafae8',
+                  '#eafae8',
+                  '#eafae8',
               ],
               borderColor: [
-                  'rgba(255, 99, 132, 1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(255, 206, 86, 1)',
-                  'rgba(75, 192, 192, 1)',
-                  'rgba(153, 102, 255, 1)',
-                  'rgba(255, 159, 64, 1)'
+                  '#508d4f',
+                  '#508d4f',
+                  '#508d4f',
+                  '#508d4f',
+                  '#508d4f',
               ],
               borderWidth: 1
           }]
       },
       options: {
-          scales: {
-              y: {
-                  beginAtZero: true
-              }
-          }
+            scales: {
+                  xAxes: [{
+                    gridLines: {
+                      drawOnChartArea: false
+                    }
+                  }],
+                  yAxes: [{
+                    gridLines: {
+                      drawOnChartArea: false
+                    },
+                    beginAtZero: true
+                  }]
+              },
+            legend: {
+              display: false
+            }   
       }
     });
 
@@ -668,27 +663,18 @@
     pieChart = new Chart(ctx, {
       type: 'pie',
       data: {
-          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', 'Lahan kering non-vegetatif'],
           datasets: [{
               label: '# of Votes',
-              data: [12, 19, 3, 5, 2, 3],
+              data: [52.46, 25.52, 14.35, 6.13, 1.54],
               backgroundColor: [
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(255, 206, 86, 0.2)',
-                  'rgba(75, 192, 192, 0.2)',
-                  'rgba(153, 102, 255, 0.2)',
-                  'rgba(255, 159, 64, 0.2)'
+                  '#508d4f',
+                  '#77dd77',
+                  '#a9e9a4',
+                  '#bfefbb',
+                  '#eafae8',
               ],
-              borderColor: [
-                  'rgba(255, 99, 132, 1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(255, 206, 86, 1)',
-                  'rgba(75, 192, 192, 1)',
-                  'rgba(153, 102, 255, 1)',
-                  'rgba(255, 159, 64, 1)'
-              ],
-              borderWidth: 1
+              borderWidth: 0
           }]
       },
       options: {
@@ -696,7 +682,14 @@
               y: {
                   beginAtZero: true
               }
-          }
+          },
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
   });
