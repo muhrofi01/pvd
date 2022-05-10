@@ -220,7 +220,7 @@
                     <!-- HEATMAP KBB SENTINEL-2 -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Heatmap Feature Selection Landsat-8 2021<br> (Bandung Barat)</h3>
+                        <h3 class="card-title">Heatmap Feature Selection Sentinel-2<br> (Bandung Barat)</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBS2" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
@@ -233,11 +233,11 @@
                     <!-- /.card -->
                   </div>
                   
-                  <div class="col-md-6">
+                  <div class="col-md-7 m-auto">
                     <!-- HEATMAP PWK SENTINEL-2 -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Heatmap Feature Selection Landsat-8 2021 <br> (Purwakarta)</h3>
+                        <h3 class="card-title">Heatmap Feature Selection Sentinel-2 (Purwakarta)</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKS2" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
@@ -249,7 +249,6 @@
                     </div>
                     <!-- /.card -->
                   </div>
-
                 </div>
               </div>
 
@@ -881,6 +880,11 @@
   ],
     chart: {
       type: 'heatmap',
+      toolbar: {
+        tools: {
+          download: '<i class="apexcharts-menu-icon fas fa-download hover download"></i>'
+        }
+      }
     },
       dataLabels: {
       enabled: false
