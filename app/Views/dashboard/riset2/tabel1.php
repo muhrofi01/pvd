@@ -28,7 +28,6 @@
     table tbody tr td, table thead tr th{
       border: 5px solid red;
     }  
-
   </style>
   <!-- DataTables -->
   <link rel="stylesheet" href="/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
@@ -93,21 +92,21 @@
                           <tbody>
                             <tr>
                               <td>MLP</td>
-                              <td>0.915</td>
-                              <td>0.8952</td>
-                              <td>0.932</td>
-                              <td>0.7772</td>
-                              <td>0.780</td>
-                              <td>0.769</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.8952</td>
+                              <td class="text-right">0.932</td>
+                              <td class="text-right">0.7772</td>
+                              <td class="text-right">0.780</td>
+                              <td class="text-right">0.769</td>
                             </tr>
                             <tr>
                               <td>CNN</td>
-                              <td>0.957</td>
-                              <td>0.934</td>
-                              <td>0.926</td>
-                              <td>0.889</td>
-                              <td>0.879</td>
-                              <td>0.896</td>
+                              <td class="text-right">0.957</td>
+                              <td class="text-right">0.934</td>
+                              <td class="text-right">0.926</td>
+                              <td class="text-right">0.889</td>
+                              <td class="text-right">0.879</td>
+                              <td class="text-right">0.896</td>
                             </tr>
                           </tbody>
                         </table>
@@ -143,21 +142,21 @@
                           <tbody>
                             <tr>
                               <td>MLP</td>
-                              <td>0.915</td>
-                              <td>0.8952</td>
-                              <td>0.932</td>
-                              <td>0.777</td>
-                              <td>0.780</td>
-                              <td>0.769</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.8952</td>
+                              <td class="text-right">0.932</td>
+                              <td class="text-right">0.777</td>
+                              <td class="text-right">0.780</td>
+                              <td class="text-right">0.769</td>
                             </tr>
                             <tr>
                               <td>CNN</td>
-                              <td>0.957</td>
-                              <td>0.934</td>
-                              <td>0.926</td>
-                              <td>0.889</td>
-                              <td>0.879</td>
-                              <td>0.896</td>
+                              <td class="text-right">0.957</td>
+                              <td class="text-right">0.934</td>
+                              <td class="text-right">0.926</td>
+                              <td class="text-right">0.889</td>
+                              <td class="text-right">0.879</td>
+                              <td class="text-right">0.896</td>
                             </tr>
                           </tbody>
                         </table>
@@ -193,21 +192,21 @@
                           <tbody>
                             <tr>
                               <td>MLP</td>
-                              <td>0.797</td>
-                              <td>0.844</td>
-                              <td>0.912</td>
-                              <td>0.641</td>
-                              <td>0.653</td>
-                              <td>0.634</td>
+                              <td class="text-right">0.797</td>
+                              <td class="text-right">0.844</td>
+                              <td class="text-right">0.912</td>
+                              <td class="text-right">0.641</td>
+                              <td class="text-right">0.653</td>
+                              <td class="text-right">0.634</td>
                             </tr>
                             <tr>
                               <td>CNN</td>
-                              <td>0.951</td>
-                              <td>0.914</td>
-                              <td>0.904</td>
-                              <td>0.845</td>
-                              <td>0.808</td>
-                              <td>0.836</td>
+                              <td class="text-right">0.951</td>
+                              <td class="text-right">0.914</td>
+                              <td class="text-right">0.904</td>
+                              <td class="text-right">0.845</td>
+                              <td class="text-right">0.808</td>
+                              <td class="text-right">0.836</td>
                             </tr>
                           </tbody>
                         </table>
@@ -243,21 +242,21 @@
                           <tbody>
                             <tr>
                               <td>MLP</td>
-                              <td>0.817</td>
-                              <td>0.869</td>
-                              <td>0.922</td>
-                              <td>0.684</td>
-                              <td>0.702</td>
-                              <td>0.690</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
                             </tr>
                             <tr>
-                              <td>CNN</td>
-                              <td>0.954</td>
-                              <td>0.924</td>
-                              <td>0.915</td>
-                              <td>0.866</td>
-                              <td>0.842</td>
-                              <td>0.865</td>
+                              <td class="text-right">CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
                             </tr>
                           </tbody>
                         </table>
@@ -293,47 +292,47 @@
                             <tbody>
                             <tr>
                               <td>Lahan terbangun</td>
-                              <td>13796.24</td>
-                              <td>11.01000428</td>
-                              <td>14268.91</td>
-                              <td>14.35011731</td>
+                              <td class="text-right">13796.24</td>
+                              <td class="text-right">11.01000428</td>
+                              <td class="text-right">14268.91</td>
+                              <td class="text-right">14.35011731</td>
                             </tr>
                             <tr>
                               <td>Sawah</td>
-                              <td>39968.55</td>
-                              <td>31.89665492</td>
-                              <td>25377.16</td>
-                              <td>25.52158666</td>
+                              <td class="text-right">39968.55</td>
+                              <td class="text-right">31.89665492</td>
+                              <td class="text-right">25377.16</td>
+                              <td class="text-right">25.52158666</td>
                             </tr>
                             <tr>
                               <td>Hutan</td>
-                              <td>69607.37</td>
-                              <td>55.5497325</td>
-                              <td>52164.11</td>
-                              <td>52.46098672</td>
+                              <td class="text-right">69607.37</td>
+                              <td class="text-right">55.5497325</td>
+                              <td class="text-right">52164.11</td>
+                              <td class="text-right">52.46098672</td>
                             </tr>
                             <tr>
                               <td>Lahan kering non-vegetatif</td>
-                              <td>784.51</td>
-                              <td>0.626073369</td>
-                              <td>1529.49</td>
-                              <td>1.538194643</td>
+                              <td class="text-right">784.51</td>
+                              <td class="text-right">0.626073369</td>
+                              <td class="text-right">1529.49</td>
+                              <td class="text-right">1.538194643</td>
                             </tr>
                             <tr>
                               <td>Badan air</td>
-                              <td>1149.73</td>
-                              <td>0.9175349384</td>
-                              <td>6094.43</td>
-                              <td>6.12911466</td>
+                              <td class="text-right">1149.73</td>
+                              <td class="text-right">0.9175349384</td>
+                              <td class="text-right">6094.43</td>
+                              <td class="text-right">6.12911466</td>
                             </tr>
                             </tbody>
                             <tfoot>
                             <tr>
                               <th>Total</th>
-                              <td>125306.4</td>
-                              <td>100</td>
-                              <td>99434.1</td>
-                              <td>100</td>
+                              <td class="text-right">125306.4</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">99434.1</td>
+                              <td class="text-right">100</td>
                             </tr>
                             </tfoot>
                           </table>
@@ -556,17 +555,17 @@
                               <th class="text-center" colspan="2">Perubahan</th>
                             </tr>
                             <tr>
-                              <th class="text-center">m^2</th>
+                              <th class="text-center">m&sup2;</th>
                               <th class="text-center">%</th>
-                              <th class="text-center">m^2</th>
+                              <th class="text-center">m&sup2;</th>
                               <th class="text-center">%</th>
-                              <th class="text-center">m^2</th>
+                              <th class="text-center">m&sup2;</th>
                               <th class="text-center">%</th>
-                              <th class="text-center">m^2</th>
+                              <th class="text-center">m&sup2;</th>
                               <th class="text-center">%</th>
-                              <th class="text-center">m^2</th>
+                              <th class="text-center">m&sup2;</th>
                               <th class="text-center">%</th>
-                              <th class="text-center">m^2</th>
+                              <th class="text-center">m&sup2;</th>
                               <th class="text-center">%</th>
                             </tr>
                             </thead>
@@ -660,8 +659,8 @@
                               <td>100</td>
                               <td>83520.09</td>
                               <td>100</td>
-                              <td>0</td>
-                              <td>0</td>
+                              <td>-</td>
+                              <td>-</td>
                             </tr>
                             </tfoot>
                           </table>
@@ -682,7 +681,7 @@
                           <thead>
                             <tr>
                               <th class="text-center">Kecamatan</th>
-                              <th class="text-center">Laju Alih Fungsi Lahan (%)</th>
+                              <th class="text-center">Laju Alih Fungsi Lahan (ha)</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -777,7 +776,7 @@
                           <thead>
                             <tr>
                               <th class="text-center">Kecamatan</th>
-                              <th class="text-center">Laju Alih Fungsi Lahan (%)</th>
+                              <th class="text-center">Laju Alih Fungsi Lahan (ha)</th>
                             </tr>
                             </thead>
                             <tbody>
