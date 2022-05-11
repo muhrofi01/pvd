@@ -1,6 +1,7 @@
 <?= $this->extend('dashboard/layout/main') ?>
 
 <?= $this->section('css') ?>
+
   <style>
     #dropdown h1 {
       font-size: 1.5em;
@@ -139,7 +140,7 @@
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="barChartKBB_PWK_S2" style="min-height: 22.625rem; height: 22.625rem; max-height: 22.625rem; max-width: 100%;"></canvas>
+                          <canvas id="barChartKBB_PWK_S2" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -150,13 +151,13 @@
                   <div class="col-md-6">
                     <!-- HEATMAP KBB LANDSAT-8 2013 -->
                     <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
+                      <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Landsat-8 2013 <br> (Bandung Barat)</h3>
-                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBL82013" data-judul="Chart_Kajian1"></i> -->
-                      </div>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBL82013" data-judul="Chart_Kajian1"></i>
+                      </div> -->
                       <div class="card-body">
                         <div class="chart">
-                          <div id="heatmapKBBL82013" style="min-height: 22.625rem; height: 22.625rem; max-height: 22.625rem; max-width: 100%;"></div>
+                          <div id="heatmapKBBL82013" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></div>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -167,10 +168,10 @@
                   <div class="col-md-6">
                     <!-- HEATMAP PWK LANDSAT-8 2013 -->
                     <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
+                      <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Landsat-8 2013 <br> (Purwakarta)</h3>
-                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKL82013" data-judul="Chart_Kajian1"></i> -->
-                      </div>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKL82013" data-judul="Chart_Kajian1"></i>
+                      </div> -->
                       <div class="card-body">
                         <div class="chart">
                           <!-- <canvas id="heatmapKBBL82013" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></canvas> -->
@@ -185,10 +186,10 @@
                   <div class="col-md-6">
                     <!-- HEATMAP KBB LANDSAT-8 2021 -->
                     <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
+                      <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Landsat-8 2021 <br> (Bandung Barat)</h3>
-                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBL82021" data-judul="Chart_Kajian1"></i> -->
-                      </div>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBL82021" data-judul="Chart_Kajian1"></i>
+                      </div> -->
                       <div class="card-body">
                         <div class="chart">
                           <div id="heatmapKBBL82021" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></div>
@@ -202,10 +203,10 @@
                   <div class="col-md-6">
                     <!-- HEATMAP PWK LANDSAT-8 2021 -->
                     <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
+                      <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Landsat-8 2021 <br> (Purwakarta)</h3>
-                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKL82021" data-judul="Chart_Kajian1"></i> -->
-                      </div>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKL82021" data-judul="Chart_Kajian1"></i>
+                      </div> -->
                       <div class="card-body">
                         <div class="chart">
                           <div id="heatmapPWKL82021" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></div>
@@ -219,10 +220,10 @@
                   <div class="col-md-6">
                     <!-- HEATMAP KBB SENTINEL-2 -->
                     <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
+                      <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Sentinel-2<br> (Bandung Barat)</h3>
-                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBS2" data-judul="Chart_Kajian1"></i> -->
-                      </div>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBS2" data-judul="Chart_Kajian1"></i>
+                      </div> -->
                       <div class="card-body">
                         <div class="chart">
                           <div id="heatmapKBBS2" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></div>
@@ -236,10 +237,10 @@
                   <div class="col-md-7 m-auto">
                     <!-- HEATMAP PWK SENTINEL-2 -->
                     <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
+                      <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Sentinel-2 (Purwakarta)</h3>
-                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKS2" data-judul="Chart_Kajian1"></i> -->
-                      </div>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKS2" data-judul="Chart_Kajian1"></i>
+                      </div> -->
                       <div class="card-body">
                         <div class="chart">
                           <div id="heatmapPWKS2" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></div>
@@ -249,6 +250,8 @@
                     </div>
                     <!-- /.card -->
                   </div>
+
+
                 </div>
               </div>
 
@@ -649,259 +652,269 @@
   });
 
 
-  //1. HEATMAPS KBB Landsat-8 2013
-  var options = {
-    series: [{
-      name: 'Lahan kosong non-vegetatif',
-      data: [{
-        x: 'B2',
-        y: 0.165
-      }, {
-        x: 'B3',
-        y: 0.134
-      }, {
-        x: 'B4',
-        y: 0.154
-      }, {
-        x: 'B5',
-        y: 0.271
-      }, {
-        x: 'B6',
-        y: 0.255
-      }, {
-        x: 'B7',
-        y: 0.142
-      }, {
-        x: 'B10',
-        y: 0.969
-      }, {
-        x: 'B11',
-        y: 0.972
-      }, {
-        x: 'BSI',
-        y: 0.692
-      }, {
-        x: 'EVI',
-        y:  0.342
-      }, {
-        x: 'NDBI',
-        y: 0.629
-      }, {
-        x: 'NDVI',
-        y: 0.498
-      }, {
-        x: 'NDWI',
-        y: 0.498
-      }, {
-        x: 'SAVI',
-        y: 0.498
-      }]
-    },{
-      name: "Badan air",
-      data: [{
-        x: 'B2',
-        y: 0.108
-      }, {
-        x: 'B3',
-        y: 0.054
-      }, {
-        x: 'B4',
-        y: 0.036
-      }, {
-        x: 'B5',
-        y: 0.034
-      }, {
-        x: 'B6',
-        y: 0.018
-      }, {
-        x: 'B7',
-        y: 0.010
-      }, {
-        x: 'B10',
-        y: 0.967
-      }, {
-        x: 'B11',
-        y: 0.972
-      }, {
-        x: 'BSI',
-        y: 0.374
-      }, {
-        x: 'EVI',
-        y: 0.173
-      }, {
-        x: 'NDBI',
-        y: 0.296
-      }, {
-        x: 'NDVI',
-        y: 0.285
-      }, {
-        x: 'NDWI',
-        y: 0.715
-      }, {
-        x: 'SAVI',
-        y: 0.285
-      }]
-    },{
-      name: "Hutan",
-      data: [{
-        x: 'B2',
-        y: 0.111
-      }, {
-        x: 'B3',
-        y: 0.059
+    //1. HEATMAPS KBB Landsat-8 2013
+    var options = {
+      series: [{
+        name: 'Lahan kosong non-vegetatif',
+        data: [{
+          x: 'B2',
+          y: 0.165
+        }, {
+          x: 'B3',
+          y: 0.134
+        }, {
+          x: 'B4',
+          y: 0.154
+        }, {
+          x: 'B5',
+          y: 0.271
+        }, {
+          x: 'B6',
+          y: 0.255
+        }, {
+          x: 'B7',
+          y: 0.142
+        }, {
+          x: 'B10',
+          y: 0.969
+        }, {
+          x: 'B11',
+          y: 0.972
+        }, {
+          x: 'BSI',
+          y: 0.692
+        }, {
+          x: 'EVI',
+          y:  0.342
+        }, {
+          x: 'NDBI',
+          y: 0.629
+        }, {
+          x: 'NDVI',
+          y: 0.498
+        }, {
+          x: 'NDWI',
+          y: 0.498
+        }, {
+          x: 'SAVI',
+          y: 0.498
+        }]
       },{
-        x: 'B4',
-        y: 0.043
+        name: "Badan air",
+        data: [{
+          x: 'B2',
+          y: 0.108
+        }, {
+          x: 'B3',
+          y: 0.054
+        }, {
+          x: 'B4',
+          y: 0.036
+        }, {
+          x: 'B5',
+          y: 0.034
+        }, {
+          x: 'B6',
+          y: 0.018
+        }, {
+          x: 'B7',
+          y: 0.010
+        }, {
+          x: 'B10',
+          y: 0.967
+        }, {
+          x: 'B11',
+          y: 0.972
+        }, {
+          x: 'BSI',
+          y: 0.374
+        }, {
+          x: 'EVI',
+          y: 0.173
+        }, {
+          x: 'NDBI',
+          y: 0.296
+        }, {
+          x: 'NDVI',
+          y: 0.285
+        }, {
+          x: 'NDWI',
+          y: 0.715
+        }, {
+          x: 'SAVI',
+          y: 0.285
+        }]
+      },{
+        name: "Hutan",
+        data: [{
+          x: 'B2',
+          y: 0.111
+        }, {
+          x: 'B3',
+          y: 0.059
+        },{
+          x: 'B4',
+          y: 0.043
+        }, {
+          x: 'B5',
+          y: 0.268
+        }, {
+          x: 'B6',
+          y: 0.146
+        }, {
+          x: 'B7',
+          y: 0.054
+        }, {
+          x: 'B10',
+          y: 0.963
+        }, {
+          x: 'B11',
+          y: 0.968
+        }, {
+          x: 'BSI',
+          y: 0.309
+        }, {
+          x: 'EVI',
+          y: 0.742
+        }, {
+          x: 'NDBI',
+          y: 0.312
+        }, {
+          x: 'NDVI',
+          y: 0.845
+        }, {
+          x: 'NDWI',
+          y: 0.128
+        }, {
+          x: 'SAVI',
+          y: 0.845
+        }]
       }, {
-        x: 'B5',
-        y: 0.268
+        name: 'Lahan terbangun',
+        data: [{
+          x: 'B2',
+          y: 0.142
+        }, {
+          x: 'B3',
+          y: 0.094
+        }, {
+          x: 'B4',
+          y: 0.110
+        }, {
+          x: 'B5',
+          y: 0.209
+        }, {
+          x: 'B6',
+          y: 0.210
+        }, {
+          x: 'B7',
+          y: 0.138
+        }, {
+          x: 'B10',
+          y: 0.985
+        }, {
+          x: 'B11',
+          y: 0.988
+        }, {
+          x: 'BSI',
+          y: 0.693
+        }, {
+          x: 'EVI',
+          y: 0.372
+        }, {
+          x: 'NDBI',
+          y: 0.634
+        }, {
+          x: 'NDVI',
+          y: 0.530
+        }, {
+          x: 'NDWI',
+          y: 0.320
+        }, {
+          x: 'SAVI',
+          y: 0.530
+        }]
       }, {
-        x: 'B6',
-        y: 0.146
-      }, {
-        x: 'B7',
-        y: 0.054
-      }, {
-        x: 'B10',
-        y: 0.963
-      }, {
-        x: 'B11',
-        y: 0.968
-      }, {
-        x: 'BSI',
-        y: 0.309
-      }, {
-        x: 'EVI',
-        y: 0.742
-      }, {
-        x: 'NDBI',
-        y: 0.312
-      }, {
-        x: 'NDVI',
-        y: 0.845
-      }, {
-        x: 'NDWI',
-        y: 0.128
-      }, {
-        x: 'SAVI',
-        y: 0.845
-      }]
-    }, {
-      name: 'Lahan terbangun',
-      data: [{
-        x: 'B2',
-        y: 0.142
-      }, {
-        x: 'B3',
-        y: 0.094
-      }, {
-        x: 'B4',
-        y: 0.110
-      }, {
-        x: 'B5',
-        y: 0.209
-      }, {
-        x: 'B6',
-        y: 0.210
-      }, {
-        x: 'B7',
-        y: 0.138
-      }, {
-        x: 'B10',
-        y: 0.985
-      }, {
-        x: 'B11',
-        y: 0.988
-      }, {
-        x: 'BSI',
-        y: 0.693
-      }, {
-        x: 'EVI',
-        y: 0.372
-      }, {
-        x: 'NDBI',
-        y: 0.634
-      }, {
-        x: 'NDVI',
-        y: 0.530
-      }, {
-        x: 'NDWI',
-        y: 0.320
-      }, {
-        x: 'SAVI',
-        y: 0.530
-      }]
-    }, {
-      name: 'Sawah',
-      data: [{
-        x: 'B2',
-        y: 0.129
-      }, {
-        x: 'B3',
-        y: 0.085
-      }, {
-        x: 'B4',
-        y: 0.086
-      }, {
-        x: 'B5',
-        y: 0.248
-      }, {
-        x: 'B6',
-        y: 0.188
-      }, {
-        x: 'B7',
-        y: 0.093
-      }, {
-        x: 'B10',
-        y: 0.978
-      }, {
-        x: 'B11',
-        y: 0.982
-      }, {
-        x: 'BSI',
-        y: 0.519
-      }, {
-        x: 'EVI',
-        y: 0.515
-      }, {
-        x: 'NDBI',
-        y: 0.479
-      }, {
-        x: 'NDVI',
-        y: 0.663
-      }, {
-        x: 'NDWI',
-        y: 0.242
-      }, {
-        x: 'SAVI',
-        y: 0.663
-      }]
-    }
-  ],
-    chart: {
-      type: 'heatmap',
-      toolbar: {
+        name: 'Sawah',
+        data: [{
+          x: 'B2',
+          y: 0.129
+        }, {
+          x: 'B3',
+          y: 0.085
+        }, {
+          x: 'B4',
+          y: 0.086
+        }, {
+          x: 'B5',
+          y: 0.248
+        }, {
+          x: 'B6',
+          y: 0.188
+        }, {
+          x: 'B7',
+          y: 0.093
+        }, {
+          x: 'B10',
+          y: 0.978
+        }, {
+          x: 'B11',
+          y: 0.982
+        }, {
+          x: 'BSI',
+          y: 0.519
+        }, {
+          x: 'EVI',
+          y: 0.515
+        }, {
+          x: 'NDBI',
+          y: 0.479
+        }, {
+          x: 'NDVI',
+          y: 0.663
+        }, {
+          x: 'NDWI',
+          y: 0.242
+        }, {
+          x: 'SAVI',
+          y: 0.663
+        }]
+      }
+    ],
+      chart: {
+        type: 'heatmap',
+        toolbar: {
           show: true,
           tools: {
             download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
             // download: '<i class="fa fa-download" aria-hidden="true"></i>',
           }
         },
-
-    },
+      },
       dataLabels: {
-      enabled: false
-    },
+        width: '100',
+        enabled: false
+      },
       colors: ["#6ad06b"],
-    xaxis: {
-      labels: {
-        rotate: -45
+      title: {
+          text: 'Heatmap Feature Selection Landsat-8 2013 Bandung Barat',
+          margin: 30,
+          style: {
+            fontSize:  '1.1em',
+            fontWeight:  'light',
+            fontFamily:  "Poppins, Arial, sans-serif",
+          },
+      },
+      xaxis: {
+        labels: {
+           rotate: -45,
+           rotateAlways: true
+        }
       }
-    }
-  };
-  
-  var chart = new ApexCharts(document.querySelector("#heatmapKBBL82013"), options);
-  chart.render();
+    };
+    
+    var chart = new ApexCharts(document.querySelector("#heatmapKBBL82013"), options);
+    chart.render();
     
 
   //2. HEATMAPS PWK Landsat-8 2013
@@ -1162,7 +1175,16 @@
       dataLabels: {
       enabled: false
     },
-      colors: ["#6ad06b"]
+      colors: ["#6ad06b"],
+      title: {
+          text: 'Heatmap Feature Selection Landsat-8 2013 Purwakarta',
+          margin: 30,
+          style: {
+            fontSize:  '1.1em',
+            fontWeight:  'light',
+            fontFamily:  "Poppins, sans-serif",
+          },
+      },
   };
   
   var chart = new ApexCharts(document.querySelector("#heatmapPWKL82013"), options);
@@ -1416,17 +1438,25 @@
       //height: 100,
       type: 'heatmap',
       toolbar: {
-          show: true,
-          tools: {
-            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
-            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
-          }
-        },
+        show: true,
+        tools: {
+          download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+        }
+      }
     },
       dataLabels: {
       enabled: false
     },
-      colors: ["#6ad06b"]
+      colors: ["#6ad06b"],
+      title: {
+          text: 'Heatmap Feature Selection Landsat-8 2021 Bandung Barat',
+          margin: 30,
+          style: {
+            fontSize:  '1.1em',
+            fontWeight:  'light',
+            fontFamily:  "Poppins, sans-serif",
+          },
+      },
   };
   
   var chart = new ApexCharts(document.querySelector("#heatmapKBBL82021"), options);
@@ -1680,17 +1710,25 @@
       //height: 100,
       type: 'heatmap',
       toolbar: {
-          show: true,
-          tools: {
-            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
-            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
-          }
-        },
+        show: true,
+        tools: {
+          download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+        }
+      }
     },
       dataLabels: {
       enabled: false
     },
-      colors: ["#6ad06b"]
+      colors: ["#6ad06b"],
+      title: {
+          text: 'Heatmap Feature Selection Landsat-8 2021 Purwakarta',
+          margin: 30,
+          style: {
+            fontSize:  '1.1em',
+            fontWeight:  'light',
+            fontFamily:  "Poppins, sans-serif",
+          },
+      },
   };
   
   var chart = new ApexCharts(document.querySelector("#heatmapPWKL82021"), options);
@@ -2001,21 +2039,27 @@
     }
   ],
     chart: {
-      //height: 100,
       type: 'heatmap',
       toolbar: {
-          show: true,
-          tools: {
-            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
-            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
-          }
-        },
-
+        show: true,
+        tools: {
+          download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+        }
+      }
     },
       dataLabels: {
       enabled: false
     },
-      colors: ["#6ad06b"]
+      colors: ["#6ad06b"],
+      title: {
+          text: 'Heatmap Feature Selection Sentinel-2 Bandung Barat',
+          margin: 30,
+          style: {
+            fontSize:  '1.1em',
+            fontWeight:  'light',
+            fontFamily:  "Poppins, sans-serif",
+          },
+      },
   };
   
   var chart = new ApexCharts(document.querySelector("#heatmapKBBS2"), options);
@@ -2326,20 +2370,33 @@
     }
   ],
     chart: {
-      //height: 100,
       type: 'heatmap',
       toolbar: {
-          show: true,
-          tools: {
-            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
-            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
-          }
-        },
+        show: true,
+        tools: {
+          download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />'
+        }
+      }
     },
       dataLabels: {
       enabled: false
     },
-      colors: ["#6ad06b"]
+      colors: ["#6ad06b"],
+      title: {
+          text: 'Heatmap Feature Selection Sentinel-2 Purwakarta',
+          margin: 30,
+          style: {
+            fontSize:  '1.17em',
+            fontWeight:  'light',
+            fontFamily:  "Poppins, sans-serif",
+          },
+      },
+      xaxis: {
+        labels: {
+          // rotate: -45,
+          hideOverlappingLabels: false
+        }
+      }
   };
   
   var chart = new ApexCharts(document.querySelector("#heatmapPWKS2"), options);
@@ -2351,10 +2408,10 @@
     barChart = new Chart(ctx, {
       type: 'bar',
       data: {
-          labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', ['Lahan Kering','non-vegetatif']],
+          labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', ['Lahan Kosong','non-vegetatif']],
           datasets: [
             {
-              // label: 'KBB',
+             // label: 'KBB',
               data: [69607.37, 39968.55, 13796.24, 1149.73, 784.51],
               backgroundColor: [
                   '#eafae8',
@@ -2371,11 +2428,11 @@
                   '#508d4f',
               ],
               borderWidth: 1
-          },
+          }
         ],
       },
       options: {
-            scales: {
+        scales: {
                   xAxes: [{
                     gridLines: {
                       drawOnChartArea: false
@@ -2399,7 +2456,7 @@
     pieChart = new Chart(ctx, {
       type: 'pie',
       data: {
-          labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', 'Lahan kering non-vegetatif'],
+          labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', 'Lahan kosong non-vegetatif'],
           datasets: [{
               label: '# of Votes',
               data: [55.55, 31.9, 11.01, 0.92, 0.62],
@@ -2414,7 +2471,7 @@
           }]
       },
       options: {
-          scales: {
+        scales: {
               y: {
                   beginAtZero: true
               }
@@ -2433,8 +2490,9 @@
     barChart = new Chart(ctx, {
       type: 'bar',
       data: {
-          labels: ['Hutan', 'Sawah', 'Lahan Terbangun', 'Badan air', ['Lahan Kering','non-vegetatif']],
+          labels: ['Hutan', 'Sawah', 'Lahan Terbangun', 'Badan air', ['Lahan Kosong','non-vegetatif']],
           datasets: [{
+              label: '# of Votes',
               data: [52164.11, 25377.16, 14268.91 , 6094.43, 1529.49],
               backgroundColor: [
                   '#eafae8',
@@ -2444,11 +2502,11 @@
                   '#eafae8',
               ],
               borderColor: [
+                 '#508d4f',
                   '#508d4f',
                   '#508d4f',
                   '#508d4f',
-                  '#508d4f',
-                  '#508d4f',
+                  '#508d4f'
               ],
               borderWidth: 1
           }]
