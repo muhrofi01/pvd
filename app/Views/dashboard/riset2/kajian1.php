@@ -152,7 +152,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Landsat-8 2013 <br> (Bandung Barat)</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBL82013" data-judul="Chart_Kajian1"></i>
+                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBL82013" data-judul="Chart_Kajian1"></i> -->
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -169,7 +169,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Landsat-8 2013 <br> (Purwakarta)</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKL82013" data-judul="Chart_Kajian1"></i>
+                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKL82013" data-judul="Chart_Kajian1"></i> -->
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -187,7 +187,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Landsat-8 2021 <br> (Bandung Barat)</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBL82021" data-judul="Chart_Kajian1"></i>
+                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBL82021" data-judul="Chart_Kajian1"></i> -->
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -204,7 +204,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Landsat-8 2021 <br> (Purwakarta)</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKL82021" data-judul="Chart_Kajian1"></i>
+                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKL82021" data-judul="Chart_Kajian1"></i> -->
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -221,7 +221,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Sentinel-2<br> (Bandung Barat)</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBS2" data-judul="Chart_Kajian1"></i>
+                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapKBBS2" data-judul="Chart_Kajian1"></i> -->
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -238,7 +238,7 @@
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Heatmap Feature Selection Sentinel-2 (Purwakarta)</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKS2" data-judul="Chart_Kajian1"></i>
+                        <!-- <i class="fas fa-download hover download" onclick="download(this)" data-id="heatmapPWKS2" data-judul="Chart_Kajian1"></i> -->
                       </div>
                       <div class="card-body">
                         <div class="chart">
@@ -881,10 +881,13 @@
     chart: {
       type: 'heatmap',
       toolbar: {
-        tools: {
-          download: '<i class="apexcharts-menu-icon fas fa-download hover download"></i>'
-        }
-      }
+          show: true,
+          tools: {
+            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
+          }
+        },
+
     },
       dataLabels: {
       enabled: false
@@ -1148,6 +1151,13 @@
     chart: {
       //height: 100,
       type: 'heatmap',
+      toolbar: {
+          show: true,
+          tools: {
+            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
+          }
+        },
     },
       dataLabels: {
       enabled: false
@@ -1405,6 +1415,13 @@
     chart: {
       //height: 100,
       type: 'heatmap',
+      toolbar: {
+          show: true,
+          tools: {
+            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
+          }
+        },
     },
       dataLabels: {
       enabled: false
@@ -1662,6 +1679,13 @@
     chart: {
       //height: 100,
       type: 'heatmap',
+      toolbar: {
+          show: true,
+          tools: {
+            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
+          }
+        },
     },
       dataLabels: {
       enabled: false
@@ -1979,6 +2003,14 @@
     chart: {
       //height: 100,
       type: 'heatmap',
+      toolbar: {
+          show: true,
+          tools: {
+            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
+          }
+        },
+
     },
       dataLabels: {
       enabled: false
@@ -2296,6 +2328,13 @@
     chart: {
       //height: 100,
       type: 'heatmap',
+      toolbar: {
+          show: true,
+          tools: {
+            download: '<img src="<?=base_url("/img/dashboard/riset2/download.svg")?>", width= "20" />',
+            // download: '<i class="fa fa-download" aria-hidden="true"></i>',
+          }
+        },
     },
       dataLabels: {
       enabled: false
