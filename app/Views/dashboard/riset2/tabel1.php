@@ -359,77 +359,77 @@
                             <tbody>
                             <tr>
                               <td>Babakancikao</td>
-                              <td>1568.04</td>
+                              <td class="text-right">1568.04</td>
                             </tr>
                             <tr>
                               <td>Bojong</td>
-                              <td>1683.12</td>
+                              <td class="text-right">1683.12</td>
                             </tr>
                             <tr>
                               <td>Bungursari</td>
-                              <td>1332.23</td>
+                              <td class="text-right">1332.23</td>
                             </tr>
                             <tr>
                               <td>Campaka</td>
-                              <td>1705.62</td>
+                              <td class="text-right">1705.62</td>
                             </tr>
                             <tr>
                               <td>Cibatu</td>
-                              <td>1883.04</td>
+                              <td class="text-right">1883.04</td>
                             </tr>
                             <tr>
                               <td>Darangdan</td>
-                              <td>2195.93</td>
+                              <td class="text-right">2195.93</td>
                             </tr>
                             <tr>
                               <td>Jatiluhur</td>
-                              <td>834.76</td>
+                              <td class="text-right">834.76</td>
                             </tr>
                             <tr>
                               <td>Kiarapedes</td>
-                              <td>1510.66</td>
+                              <td class="text-right">1510.66</td>
                             </tr>
                             <tr>
                               <td>Maniis</td>
-                              <td>962.38</td>
+                              <td class="text-right">962.38</td>
                             </tr>
                             <tr>
                               <td>Pasawahan</td>
-                              <td>1239.71</td>
+                              <td class="text-right">1239.71</td>
                             </tr>
                             <tr>
                               <td>Plered</td>
-                              <td>1183.15</td>
+                              <td class="text-right">1183.15</td>
                             </tr>
                             <tr>
                               <td>Pondoksalam</td>
-                              <td>1620.91</td>
+                              <td class="text-right">1620.91</td>
                             </tr>
                             <tr>
                               <td>Purwakarta</td>
-                              <td>434.96</td>
+                              <td class="text-right">434.96</td>
                             </tr>
                             <tr>
                               <td>Sukasari</td>
-                              <td>999.32</td>
+                              <td class="text-right">999.32</td>
                             </tr>
                             <tr>
                               <td>Sukatani</td>
-                              <td>2781.48</td>
+                              <td class="text-right">2781.48</td>
                             </tr>
                             <tr>
                               <td>Tegalwaru</td>
-                              <td>1994.87</td>
+                              <td class="text-right">1994.87</td>
                             </tr>
                             <tr>
                               <td>Wanayasa</td>
-                              <td>1446.98</td>
+                              <td class="text-right">1446.98</td>
                             </tr>
                             </tbody>
                             <tfoot>
                             <tr>
                               <th>Total</th>
-                              <th>25377.16</th>
+                              <th class="text-right">25377.16</th>
                             </tr>
                             </tfoot>
                           </table>
@@ -454,73 +454,73 @@
                             <tbody>
                             <tr>
                               <td>Batujajar</td>
-                              <td>1277.37</td>
+                              <td class="text-right">1277.37</td>
                             </tr>
                             <tr>
                               <td>Cihampelas</td>
-                              <td>1633.46</td>
+                              <td class="text-right">1633.46</td>
                             </tr>
                             <tr>
                               <td>Cikalong Wetan</td>
-                              <td>3748.17</td>
+                              <td class="text-right">3748.17</td>
                             </tr>
                             <tr>
                               <td>Cililin</td>
-                              <td>2142.93</td>
+                              <td class="text-right">2142.93</td>
                             </tr>
                             <tr>
                               <td>Cipatat</td>
-                              <td>3485.49</td>
+                              <td class="text-right">3485.49</td>
                             </tr>
                             <tr>
                               <td>Cipeundeuy</td>
-                              <td>2191.37</td>
+                              <td> class="text-right"2191.37</td>
                             </tr>
                             <tr>
                               <td>Cipongkor</td>
-                              <td>2867.15</td>
+                              <td class="text-right">2867.15</td>
                             </tr>
                             <tr>
                               <td>Cisarua</td>
-                              <td>2144.75</td>
+                              <td class="text-right">2144.75</td>
                             </tr>
                             <tr>
                               <td>Gununghalu</td>
-                              <td>4911.88</td>
+                              <td class="text-right">4911.88</td>
                             </tr>
                             <tr>
                               <td>Lembang</td>
-                              <td>2601</td>
+                              <td class="text-right">2601</td>
                             </tr>
                             <tr>
                               <td>Ngamprah</td>
-                              <td>1395.41</td>
+                              <td class="text-right">1395.41</td>
                             </tr>
                             <tr>
                               <td>Padalarang</td>
-                              <td>1876.05</td>
+                              <td class="text-right">1876.05</td>
                             </tr>
                             <tr>
                               <td>Parongpong</td>
-                              <td>961.64</td>
+                              <td class="text-right">961.64</td>
                             </tr>
                             <tr>
                               <td>Rongga</td>
-                              <td>3770.09</td>
+                              <td class="text-right">3770.09</td>
                             </tr>
                             <tr>
                               <td>Saguling</td>
-                              <td>2207.34</td>
+                              <td class="text-right">2207.34</td>
                             </tr>
                             <tr>
                               <td>Sindangkerta</td>
-                              <td>2754.45</td>
+                              <td class="text-right">2754.45</td>
                             </tr>
                             </tbody>
                             <tfoot>
                             <tr>
                               <th>Total</th>
-                              <th>39968.55</th>
+                              <th class="text-right">39968.55</th>
                             </tr>
                             </tfoot>
                           </table>
@@ -572,95 +572,95 @@
                             <tbody>
                             <tr>
                               <td>Lahan terbangun</td>
-                              <td>15796.17</td>
-                              <td>13.32</td>
-                              <td>13488.48</td>
-                              <td>11.51</td>
-                              <td>2307.69</td>
-                              <td>-14.61</td>
-                              <td>10808.46</td>
-                              <td>12.38</td>
-                              <td>11948.13</td>
-                              <td>14.31</td>
-                              <td>1139.67</td>
-                              <td>10.54</td>
+                              <td class="text-right">15796.17</td>
+                              <td class="text-right">13.32</td>
+                              <td class="text-right">13488.48</td>
+                              <td class="text-right">11.51</td>
+                              <td class="text-right">2307.69</td>
+                              <td class="text-right">-14.61</td>
+                              <td class="text-right">10808.46</td>
+                              <td class="text-right">12.38</td>
+                              <td class="text-right">11948.13</td>
+                              <td class="text-right">14.31</td>
+                              <td class="text-right">1139.67</td>
+                              <td class="text-right">10.54</td>
                             </tr>
                             <tr>
                               <td>Sawah</td>
-                              <td>29714.04</td>
-                              <td>25.05</td>
-                              <td>23534.19</td>
-                              <td>20.07</td>
-                              <td>6179.85</td>
-                              <td>-20.80</td>
-                              <td>12926.88</td>
-                              <td>14.81</td>
-                              <td>20585.79</td>
-                              <td>24.65</td>
-                              <td>7658.91</td>
-                              <td>59.25</td>
+                              <td class="text-right">29714.04</td>
+                              <td class="text-right">25.05</td>
+                              <td class="text-right">23534.19</td>
+                              <td class="text-right">20.07</td>
+                              <td class="text-right">6179.85</td>
+                              <td class="text-right">-20.80</td>
+                              <td class="text-right">12926.88</td>
+                              <td class="text-right">14.81</td>
+                              <td class="text-right">20585.79</td>
+                              <td class="text-right">24.65</td>
+                              <td class="text-right">7658.91</td>
+                              <td class="text-right">59.25</td>
                             </tr>
                             <tr>
                               <td>Hutan</td>
-                              <td>67356.81</td>
-                              <td>56.78</td>
-                              <td>75170.25</td>
-                              <td>64.12</td>
-                              <td>7813.44</td>
-                              <td>11.60</td>
-                              <td>53127.27</td>
-                              <td>60.85</td>
-                              <td>44610.21</td>
-                              <td>53.41</td>
-                              <td>8517.06</td>
-                              <td>-16.03</td>
+                              <td class="text-right">67356.81</td>
+                              <td class="text-right">56.78</td>
+                              <td class="text-right">75170.25</td>
+                              <td class="text-right">64.12</td>
+                              <td class="text-right">7813.44</td>
+                              <td class="text-right">11.60</td>
+                              <td class="text-right">53127.27</td>
+                              <td class="text-right">60.85</td>
+                              <td class="text-right">44610.21</td>
+                              <td class="text-right">53.41</td>
+                              <td class="text-right">8517.06</td>
+                              <td class="text-right">-16.03</td>
                             </tr>
                             <tr>
                               <td>Lahan kering non-vegetatif</td>
-                              <td>1797.84</td>
-                              <td>1.52</td>
-                              <td>1363.05</td>
-                              <td>1.16</td>
-                              <td>434.79</td>
-                              <td>-24.18</td>
-                              <td>2591.64</td>
-                              <td>2.97</td>
-                              <td>1363.05</td>
-                              <td>1.63</td>
-                              <td>1228.59</td>
-                              <td>-47.41</td>
+                              <td class="text-right">1797.84</td>
+                              <td class="text-right">1.52</td>
+                              <td class="text-right">1363.05</td>
+                              <td class="text-right">1.16</td>
+                              <td class="text-right">434.79</td>
+                              <td class="text-right">-24.18</td>
+                              <td class="text-right">2591.64</td>
+                              <td class="text-right">2.97</td>
+                              <td class="text-right">1363.05</td>
+                              <td class="text-right">1.63</td>
+                              <td class="text-right">1228.59</td>
+                              <td class="text-right">-47.41</td>
                             </tr>
                             <tr>
                               <td>Badan air</td>
-                              <td>3957.48</td>
-                              <td>3.34</td>
-                              <td>3675.87</td>
-                              <td>3.14</td>
-                              <td>281.61</td>
-                              <td>-7.12</td>
-                              <td>7858.44</td>
-                              <td>9.00</td>
-                              <td>5012.91</td>
-                              <td>6.00</td>
-                              <td>2845.53</td>
-                              <td>-36.21</td>
+                              <td class="text-right">3957.48</td>
+                              <td class="text-right">3.34</td>
+                              <td class="text-right">3675.87</td>
+                              <td class="text-right">3.14</td>
+                              <td class="text-right">281.61</td>
+                              <td class="text-right">-7.12</td>
+                              <td class="text-right">7858.44</td>
+                              <td class="text-right">9.00</td>
+                              <td class="text-right">5012.91</td>
+                              <td class="text-right">6.00</td>
+                              <td class="text-right">2845.53</td>
+                              <td class="text-right">-36.21</td>
                             </tr>
                             </tbody>
                             <tfoot>
                             <tr>
                               <th>Total</th>
-                              <td>118622.34</td>
-                              <td>100</td>
-                              <td>117231.84</td>
-                              <td>100</td>
-                              <td>0</td>
-                              <td>0</td>
-                              <td>87312.69</td>
-                              <td>100</td>
-                              <td>83520.09</td>
-                              <td>100</td>
-                              <td>-</td>
-                              <td>-</td>
+                              <td class="text-right">118622.34</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">117231.84</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">0</td>
+                              <td class="text-right">0</td>
+                              <td class="text-right">87312.69</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">83520.09</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">-</td>
+                              <td class="text-right">-</td>
                             </tr>
                             </tfoot>
                           </table>
@@ -687,77 +687,77 @@
                             <tbody>
                             <tr>
                               <td>Babakancikao</td>
-                              <td>1568.04</td>
+                              <td class="text-right">1568.04</td>
                             </tr>
                             <tr>
                               <td>Bojong</td>
-                              <td>1683.12</td>
+                              <td class="text-right">1683.12</td>
                             </tr>
                             <tr>
                               <td>Bungursari</td>
-                              <td>1332.23</td>
+                              <td class="text-right">1332.23</td>
                             </tr>
                             <tr>
                               <td>Campaka</td>
-                              <td>1705.62</td>
+                              <td class="text-right">1705.62</td>
                             </tr>
                             <tr>
                               <td>Cibatu</td>
-                              <td>1883.04</td>
+                              <td class="text-right">1883.04</td>
                             </tr>
                             <tr>
                               <td>Darangdan</td>
-                              <td>2195.93</td>
+                              <td class="text-right">2195.93</td>
                             </tr>
                             <tr>
                               <td>Jatiluhur</td>
-                              <td>834.76</td>
+                              <td class="text-right">834.76</td>
                             </tr>
                             <tr>
                               <td>Kiarapedes</td>
-                              <td>1510.66</td>
+                              <td class="text-right">1510.66</td>
                             </tr>
                             <tr>
                               <td>Maniis</td>
-                              <td>962.38</td>
+                              <td class="text-right">962.38</td>
                             </tr>
                             <tr>
                               <td>Pasawahan</td>
-                              <td>1239.71</td>
+                              <td class="text-right">1239.71</td>
                             </tr>
                             <tr>
                               <td>Plered</td>
-                              <td>1183.15</td>
+                              <td class="text-right">1183.15</td>
                             </tr>
                             <tr>
                               <td>Pondoksalam</td>
-                              <td>1620.91</td>
+                              <td class="text-right">1620.91</td>
                             </tr>
                             <tr>
                               <td>Purwakarta</td>
-                              <td>434.96</td>
+                              <td class="text-right">434.96</td>
                             </tr>
                             <tr>
                               <td>Sukasari</td>
-                              <td>999.32</td>
+                              <td class="text-right">999.32</td>
                             </tr>
                             <tr>
                               <td>Sukatani</td>
-                              <td>2781.48</td>
+                              <td class="text-right">2781.48</td>
                             </tr>
                             <tr>
                               <td>Tegalwaru</td>
-                              <td>1994.87</td>
+                              <td class="text-right">1994.87</td>
                             </tr>
                             <tr>
                               <td>Wanayasa</td>
-                              <td>1446.98</td>
+                              <td class="text-right">1446.98</td>
                             </tr>
                             </tbody>
                             <tfoot>
                             <tr>
                               <th>Total</th>
-                              <th>25377.16</th>
+                              <th class="text-right">25377.16</th>
                             </tr>
                             </tfoot>
                           </table>
@@ -782,73 +782,73 @@
                             <tbody>
                             <tr>
                               <td>Batujajar</td>
-                              <td>1277.37</td>
+                              <td class="text-right">1277.37</td>
                             </tr>
                             <tr>
                               <td>Cihampelas</td>
-                              <td>1633.46</td>
+                              <td class="text-right">1633.46</td>
                             </tr>
                             <tr>
                               <td>Cikalong Wetan</td>
-                              <td>3748.17</td>
+                              <td class="text-right">3748.17</td>
                             </tr>
                             <tr>
                               <td>Cililin</td>
-                              <td>2142.93</td>
+                              <td class="text-right">2142.93</td>
                             </tr>
                             <tr>
                               <td>Cipatat</td>
-                              <td>3485.49</td>
+                              <td class="text-right">3485.49</td>
                             </tr>
                             <tr>
                               <td>Cipeundeuy</td>
-                              <td>2191.37</td>
+                              <td class="text-right">2191.37</td>
                             </tr>
                             <tr>
                               <td>Cipongkor</td>
-                              <td>2867.15</td>
+                              <td class="text-right">2867.15</td>
                             </tr>
                             <tr>
                               <td>Cisarua</td>
-                              <td>2144.75</td>
+                              <td class="text-right">2144.75</td>
                             </tr>
                             <tr>
                               <td>Gununghalu</td>
-                              <td>4911.88</td>
+                              <td class="text-right">4911.88</td>
                             </tr>
                             <tr>
                               <td>Lembang</td>
-                              <td>2601</td>
+                              <td class="text-right">2601</td>
                             </tr>
                             <tr>
                               <td>Ngamprah</td>
-                              <td>1395.41</td>
+                              <td class="text-right">1395.41</td>
                             </tr>
                             <tr>
                               <td>Padalarang</td>
-                              <td>1876.05</td>
+                              <td class="text-right">1876.05</td>
                             </tr>
                             <tr>
                               <td>Parongpong</td>
-                              <td>961.64</td>
+                              <td class="text-right">961.64</td>
                             </tr>
                             <tr>
                               <td>Rongga</td>
-                              <td>3770.09</td>
+                              <td class="text-right">3770.09</td>
                             </tr>
                             <tr>
                               <td>Saguling</td>
-                              <td>2207.34</td>
+                              <td class="text-right">2207.34</td>
                             </tr>
                             <tr>
                               <td>Sindangkerta</td>
-                              <td>2754.45</td>
+                              <td class="text-right">2754.45</td>
                             </tr>
                             </tbody>
                             <tfoot>
                             <tr>
                               <th>Total</th>
-                              <th>39968.55</th>
+                              <th class="text-right">39968.55</th>
                             </tr>
                             </tfoot>
                           </table>

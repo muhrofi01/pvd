@@ -58,6 +58,20 @@ function getPeta()
             'nama' => 'Laju Alih Fungsi Lahan Purwakarta',
             'generate' => 'assets/peta_laju/purwakarta/map-laju-pwk.js',
             'data' => '',
+        ],
+        '9' => 
+        [
+            'id' => '9',
+            'nama' => 'Estimasi Luas Sawah Tahun 2021 Lokus Bandung Barat',
+            'generate' => 'assets/peta_luas_sawah/bandung_barat/peta-luas-bb.js',
+            'data' => '',
+        ],
+        '10' => 
+        [
+            'id' => '10',
+            'nama' => 'Estimasi Luas Sawah Tahun 2021 Lokus Purwakarta',
+            'generate' => 'assets/peta_luas_sawah/purwakarta/peta-luas-pwk.js',
+            'data' => '',
         ]
     ];
 

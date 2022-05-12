@@ -1,7 +1,7 @@
 <?= $this->extend('dashboard/layout/main') ?>
 
 <?= $this->Section('css') ?>
-<?php if ($peta['id'] == 7 || $peta['id'] == 8) : ?>
+<?php if ($peta['id'] == 7 || $peta['id'] == 8 || $peta['id'] == 9 || $peta['id'] == 10 ) : ?>
   <!-- leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
@@ -14,6 +14,7 @@
   <!-- fa -->
   <script src="https://kit.fontawesome.com/766f1552b7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="<?= base_url('assets/peta_laju/map-laju.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/peta_luas_sawah/peta-luas.css') ?>">
 <?php else : ?>
   <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/leaflet.css') ?>">
   <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/qgis2web.css') ?>">
@@ -70,6 +71,9 @@
     #map,#petaLaju_bb, #petaLaju_pwk {
       border: 5px solid #0A5446;
     }
+    .dropdown .dropdown-item.active{
+      background-color: #0A5446;
+    }
   </style>
   
 <?= $this->endSection() ?>
@@ -99,6 +103,8 @@
             <div class="dropdown-menu" style="z-index: 10000000;" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item <?= ($peta['id'] == 5 || !isset($peta['nama'])) ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/5">Peta Klasifikasi Tutupan Lahan Bandung Barat</a>
               <a class="dropdown-item <?= $peta['id'] == 6 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/6">Peta Klasifikasi Tutupan Lahan Purwakarta</a>
+              <a class="dropdown-item <?= $peta['id'] == 9 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/9">Peta Estimasi Luas Sawah Tahun 2021 Bandung Barat</a>
+              <a class="dropdown-item <?= $peta['id'] == 10 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta1/10">Peta Estimasi Luas Sawah Tahun 2021 Purwakarta</a>
             </div>
           </div>
           <div class="dropdown">
@@ -132,7 +138,7 @@
 <?= $this->endSection() ?>
 
 <?= $this->Section('js') ?>
-<?php if (!($peta['id'] == 7 || $peta['id'] == 8)) : ?>
+<?php if (!($peta['id'] == 7 || $peta['id'] == 8 || $peta['id'] == 9 || $peta['id'] == 10)) : ?>
   <script src="<?= base_url('/assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
   <script src="<?= base_url('/assets/dist/js/peta/leaflet.js') ?>"></script>
   <script src="<?= base_url('/assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
