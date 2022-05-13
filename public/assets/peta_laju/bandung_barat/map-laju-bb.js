@@ -21,8 +21,9 @@ var petaLaju_bb = L.map('map').setView([-6.89848, 107.41204],10);
 bb_geojson.addTo(petaLaju_bb);
 
 // Base Map
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
 	maxZoom: 20
 }).addTo(petaLaju_bb);
 
