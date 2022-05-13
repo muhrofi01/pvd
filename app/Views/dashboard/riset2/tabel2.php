@@ -11,6 +11,23 @@
     #dropdown-riset:hover {
       cursor: pointer;
     }
+    .container-fluid .nav.nav-pills .nav-item .nav-link{
+      width: 200px;
+      text-align: center;
+      font-weight: bold;
+      background-color: white;
+      color: #0A5446;
+      border-radius: 10px 10px 0px 0px;
+      border: none;
+    }
+    .container-fluid .nav.nav-pills .nav-item .nav-link.active{
+      background-color: #0A5446;
+      color: white;
+    }
+
+    table tbody tr td, table thead tr th{
+      border: 5px solid red;
+    }  
   </style>
   <!-- DataTables -->
   <link rel="stylesheet" href="/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
@@ -25,9 +42,9 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid pl-4" style="color: rgb(0, 75, 60);">
-        <div class="row mb-2 baris-judul-riset">
+        <div class="row mb-0 baris-judul-riset">
           <div class="col-sm-10">
-            <h3 class="judul-riset">Karakteristik dan Faktor-Faktor yang Mempengaruhi Alih Fungsi Lahan Pertanian</h3>
+            <h3 class="judul-riset">Pemetaan Klasifikasi dan Alih Fungsi Lahan Pertanian dengan Citra Satelit</h3>
           </div>
         </div>
       </div><!-- /.container-fluid -->
@@ -36,452 +53,1614 @@
     <!-- Main content -->
     <section class="content pl-4 mt-4">
       <div class="container-fluid">
-        <!-- <div class="row"> -->
-          <!-- <div class="col-md-6"> -->
-            <div class="card">
-              <div class="card-header">
-                <h3 class="card-title">DataTable with default features</h3>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <table id="example1" class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 4</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 5.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td>5</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 5.5
-                    </td>
-                    <td>Win 95+</td>
-                    <td>5.5</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 6
-                    </td>
-                    <td>Win 98+</td>
-                    <td>6</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet Explorer 7</td>
-                    <td>Win XP SP2+</td>
-                    <td>7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>AOL browser (AOL desktop)</td>
-                    <td>Win XP</td>
-                    <td>6</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 1.0</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 1.5</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 2.0</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 3.0</td>
-                    <td>Win 2k+ / OSX.3+</td>
-                    <td>1.9</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Camino 1.0</td>
-                    <td>OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Camino 1.5</td>
-                    <td>OSX.3+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Netscape 7.2</td>
-                    <td>Win 95+ / Mac OS 8.6-9.2</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Netscape Browser 8</td>
-                    <td>Win 98SE+</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Netscape Navigator 9</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.0</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.1</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.1</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.2</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.2</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.3</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.3</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.4</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.4</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.5</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.5</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.6</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>1.6</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.7</td>
-                    <td>Win 98+ / OSX.1+</td>
-                    <td>1.7</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Mozilla 1.8</td>
-                    <td>Win 98+ / OSX.1+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Seamonkey 1.1</td>
-                    <td>Win 98+ / OSX.2+</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Gecko</td>
-                    <td>Epiphany 2.20</td>
-                    <td>Gnome</td>
-                    <td>1.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>Safari 1.2</td>
-                    <td>OSX.3</td>
-                    <td>125.5</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>Safari 1.3</td>
-                    <td>OSX.3</td>
-                    <td>312.8</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>Safari 2.0</td>
-                    <td>OSX.4+</td>
-                    <td>419.3</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>Safari 3.0</td>
-                    <td>OSX.4+</td>
-                    <td>522.1</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>OmniWeb 5.5</td>
-                    <td>OSX.4+</td>
-                    <td>420</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>iPod Touch / iPhone</td>
-                    <td>iPod</td>
-                    <td>420.1</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Webkit</td>
-                    <td>S60</td>
-                    <td>S60</td>
-                    <td>413</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 7.0</td>
-                    <td>Win 95+ / OSX.1+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 7.5</td>
-                    <td>Win 95+ / OSX.2+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 8.0</td>
-                    <td>Win 95+ / OSX.2+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 8.5</td>
-                    <td>Win 95+ / OSX.2+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 9.0</td>
-                    <td>Win 95+ / OSX.3+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 9.2</td>
-                    <td>Win 88+ / OSX.3+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera 9.5</td>
-                    <td>Win 88+ / OSX.3+</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Opera for Wii</td>
-                    <td>Wii</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Nokia N800</td>
-                    <td>N800</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Presto</td>
-                    <td>Nintendo DS browser</td>
-                    <td>Nintendo DS</td>
-                    <td>8.5</td>
-                    <td>C/A<sup>1</sup></td>
-                  </tr>
-                  <tr>
-                    <td>KHTML</td>
-                    <td>Konqureror 3.1</td>
-                    <td>KDE 3.1</td>
-                    <td>3.1</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>KHTML</td>
-                    <td>Konqureror 3.3</td>
-                    <td>KDE 3.3</td>
-                    <td>3.3</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>KHTML</td>
-                    <td>Konqureror 3.5</td>
-                    <td>KDE 3.5</td>
-                    <td>3.5</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Tasman</td>
-                    <td>Internet Explorer 4.5</td>
-                    <td>Mac OS 8-9</td>
-                    <td>-</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Tasman</td>
-                    <td>Internet Explorer 5.1</td>
-                    <td>Mac OS 7.6-9</td>
-                    <td>1</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Tasman</td>
-                    <td>Internet Explorer 5.2</td>
-                    <td>Mac OS 8-X</td>
-                    <td>1</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>NetFront 3.1</td>
-                    <td>Embedded devices</td>
-                    <td>-</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>NetFront 3.4</td>
-                    <td>Embedded devices</td>
-                    <td>-</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>Dillo 0.8</td>
-                    <td>Embedded devices</td>
-                    <td>-</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>Links</td>
-                    <td>Text only</td>
-                    <td>-</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>Lynx</td>
-                    <td>Text only</td>
-                    <td>-</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>IE Mobile</td>
-                    <td>Windows Mobile 6</td>
-                    <td>-</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Misc</td>
-                    <td>PSP browser</td>
-                    <td>PSP</td>
-                    <td>-</td>
-                    <td>C</td>
-                  </tr>
-                  <tr>
-                    <td>Other browsers</td>
-                    <td>All others</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>U</td>
-                  </tr>
-                  </tbody>
-                  <tfoot>
-                  <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
-                  </tr>
-                  </tfoot>
-                </table>
-              </div>
-              <!-- /.card-body -->
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="margin-left: -16px;">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-tujuan1-tab" data-bs-toggle="pill" data-bs-target="#pills-tujuan1" type="button" role="tab" aria-controls="pills-tujuan1" aria-selected="true">Tujuan 1</button>
+                </li>
+                <li class="nav-item" role="presentation" style="margin-left:-7px; border-radius:10px;">
+                    <button class="nav-link" id="pills-tujuan2-tab" data-bs-toggle="pill" data-bs-target="#pills-tujuan2" type="button" role="tab" aria-controls="pills-tujuan2" aria-selected="false">Tujuan 2</button>
+                </li>
+                <li class="nav-item" role="presentation" style="margin-left:-7px; border-radius:10px;">
+                    <button class="nav-link" id="pills-tujuan3-tab" data-bs-toggle="pill" data-bs-target="#pills-tujuan3" type="button" role="tab" aria-controls="pills-tujuan3" aria-selected="false">Tujuan 3</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-tujuan1" role="tabpanel" aria-labelledby="pills-tujuan1-tab">
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 1</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi1" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">Accuracy</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.8952</td>
+                              <td class="text-right">0.932</td>
+                              <td class="text-right">0.7772</td>
+                              <td class="text-right">0.780</td>
+                              <td class="text-right">0.769</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.957</td>
+                              <td class="text-right">0.934</td>
+                              <td class="text-right">0.926</td>
+                              <td class="text-right">0.889</td>
+                              <td class="text-right">0.879</td>
+                              <td class="text-right">0.896</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;"> 
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 2</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi2" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">Precision</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.8952</td>
+                              <td class="text-right">0.932</td>
+                              <td class="text-right">0.777</td>
+                              <td class="text-right">0.780</td>
+                              <td class="text-right">0.769</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.957</td>
+                              <td class="text-right">0.934</td>
+                              <td class="text-right">0.926</td>
+                              <td class="text-right">0.889</td>
+                              <td class="text-right">0.879</td>
+                              <td class="text-right">0.896</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 3</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi3" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">Recall</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.797</td>
+                              <td class="text-right">0.844</td>
+                              <td class="text-right">0.912</td>
+                              <td class="text-right">0.641</td>
+                              <td class="text-right">0.653</td>
+                              <td class="text-right">0.634</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.951</td>
+                              <td class="text-right">0.914</td>
+                              <td class="text-right">0.904</td>
+                              <td class="text-right">0.845</td>
+                              <td class="text-right">0.808</td>
+                              <td class="text-right">0.836</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 4</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi4" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 5</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi5" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 6</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi6" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 7</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi7" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 8</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi8" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 9</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi9" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 10</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi10" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 11</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi11" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 12</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi12" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 13</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi13" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 14</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi14" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 15</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi15" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 16</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi16" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 17</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi17" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 18</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi18" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 19</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi19" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                <div class="row">  
+                    <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                      <div class="card-header" style="margin: 0 auto;">
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Tabulasi 20</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <table id="tabulasi20" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Model</th>
+                              <th class="text-center" colspan="6">F1-Score</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">Lokus</th>
+                              <th class="text-center">Sentinel 2 (Bandung Barat)</th>
+                              <th class="text-center">Sentinel 2 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2013 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2021 (Bandung Barat)</th>
+                              <th class="text-center">Landsat-8 2013 (Purwakarta)</th>
+                              <th class="text-center">Landsat-8 2021 (Purwakarta)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>MLP</td>
+                              <td class="text-right">0.817</td>
+                              <td class="text-right">0.869</td>
+                              <td class="text-right">0.922</td>
+                              <td class="text-right">0.684</td>
+                              <td class="text-right">0.702</td>
+                              <td class="text-right">0.690</td>
+                            </tr>
+                            <tr>
+                              <td>CNN</td>
+                              <td class="text-right">0.954</td>
+                              <td class="text-right">0.924</td>
+                              <td class="text-right">0.915</td>
+                              <td class="text-right">0.866</td>
+                              <td class="text-right">0.842</td>
+                              <td class="text-right">0.865</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-tujuan2" role="tabpanel" aria-labelledby="pills-tujuan2-tab">
+                  <div class="row">  
+                      <div class="card col-12" style="box-shadow: 0 0 10px black;">
+                        <div class="card-header" style="margin: 0 auto;">
+                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Hasil Estimasi Luas Tutupan Lahan</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                          <table id="example5" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th rowspan="2" class="text-center">Jenis Tutupan Lahan</th>
+                              <th class="text-center" colspan="2">Luas Tutupan Lahan Bandung Barat 2021</th>
+                              <th class="text-center" colspan="2">Luas Tutupan Lahan Purwakarta 2021</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">ha</th>
+                              <th class="text-center">%</th>
+                              <th class="text-center">ha</th>
+                              <th class="text-center">%</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                              <td>Lahan terbangun</td>
+                              <td class="text-right">13796.24</td>
+                              <td class="text-right">11.01000428</td>
+                              <td class="text-right">14268.91</td>
+                              <td class="text-right">14.35011731</td>
+                            </tr>
+                            <tr>
+                              <td>Sawah</td>
+                              <td class="text-right">39968.55</td>
+                              <td class="text-right">31.89665492</td>
+                              <td class="text-right">25377.16</td>
+                              <td class="text-right">25.52158666</td>
+                            </tr>
+                            <tr>
+                              <td>Hutan</td>
+                              <td class="text-right">69607.37</td>
+                              <td class="text-right">55.5497325</td>
+                              <td class="text-right">52164.11</td>
+                              <td class="text-right">52.46098672</td>
+                            </tr>
+                            <tr>
+                              <td>Lahan kering non-vegetatif</td>
+                              <td class="text-right">784.51</td>
+                              <td class="text-right">0.626073369</td>
+                              <td class="text-right">1529.49</td>
+                              <td class="text-right">1.538194643</td>
+                            </tr>
+                            <tr>
+                              <td>Badan air</td>
+                              <td class="text-right">1149.73</td>
+                              <td class="text-right">0.9175349384</td>
+                              <td class="text-right">6094.43</td>
+                              <td class="text-right">6.12911466</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <td class="text-right">125306.4</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">99434.1</td>
+                              <td class="text-right">100</td>
+                            </tr>
+                            </tfoot>
+                          </table>
+                        </div>
+                        <!-- /.card-body -->
+                      </div>
+                      <!-- /.card -->
+                  </div>`
+
+                  <div class="row">  
+                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
+                        <div class="card-header" style="margin: 0 auto;">
+                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Hasil Estimasi Luas Tanam Padi Lokus Purwakarta</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                          <table id="example6" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Kecamatan</th>
+                              <th class="text-center">Luas Sawah (ha)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                              <td>Babakancikao</td>
+                              <td class="text-right">1568.04</td>
+                            </tr>
+                            <tr>
+                              <td>Bojong</td>
+                              <td class="text-right">1683.12</td>
+                            </tr>
+                            <tr>
+                              <td>Bungursari</td>
+                              <td class="text-right">1332.23</td>
+                            </tr>
+                            <tr>
+                              <td>Campaka</td>
+                              <td class="text-right">1705.62</td>
+                            </tr>
+                            <tr>
+                              <td>Cibatu</td>
+                              <td class="text-right">1883.04</td>
+                            </tr>
+                            <tr>
+                              <td>Darangdan</td>
+                              <td class="text-right">2195.93</td>
+                            </tr>
+                            <tr>
+                              <td>Jatiluhur</td>
+                              <td class="text-right">834.76</td>
+                            </tr>
+                            <tr>
+                              <td>Kiarapedes</td>
+                              <td class="text-right">1510.66</td>
+                            </tr>
+                            <tr>
+                              <td>Maniis</td>
+                              <td class="text-right">962.38</td>
+                            </tr>
+                            <tr>
+                              <td>Pasawahan</td>
+                              <td class="text-right">1239.71</td>
+                            </tr>
+                            <tr>
+                              <td>Plered</td>
+                              <td class="text-right">1183.15</td>
+                            </tr>
+                            <tr>
+                              <td>Pondoksalam</td>
+                              <td class="text-right">1620.91</td>
+                            </tr>
+                            <tr>
+                              <td>Purwakarta</td>
+                              <td class="text-right">434.96</td>
+                            </tr>
+                            <tr>
+                              <td>Sukasari</td>
+                              <td class="text-right">999.32</td>
+                            </tr>
+                            <tr>
+                              <td>Sukatani</td>
+                              <td class="text-right">2781.48</td>
+                            </tr>
+                            <tr>
+                              <td>Tegalwaru</td>
+                              <td class="text-right">1994.87</td>
+                            </tr>
+                            <tr>
+                              <td>Wanayasa</td>
+                              <td class="text-right">1446.98</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <th class="text-right">25377.16</th>
+                            </tr>
+                            </tfoot>
+                          </table>
+                        </div>
+                        <!-- /.card-body -->
+                      </div>
+                      <!-- /.card -->
+
+                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
+                        <div class="card-header" style="margin: 0 auto;">
+                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Hasil Estimasi Luas Tanam Padi Lokus Bandung Barat</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                          <table id="example7" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Kecamatan</th>
+                              <th class="text-center">Luas Sawah (ha)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                              <td>Batujajar</td>
+                              <td class="text-right">1277.37</td>
+                            </tr>
+                            <tr>
+                              <td>Cihampelas</td>
+                              <td class="text-right">1633.46</td>
+                            </tr>
+                            <tr>
+                              <td>Cikalong Wetan</td>
+                              <td class="text-right">3748.17</td>
+                            </tr>
+                            <tr>
+                              <td>Cililin</td>
+                              <td class="text-right">2142.93</td>
+                            </tr>
+                            <tr>
+                              <td>Cipatat</td>
+                              <td class="text-right">3485.49</td>
+                            </tr>
+                            <tr>
+                              <td>Cipeundeuy</td>
+                              <td> class="text-right"2191.37</td>
+                            </tr>
+                            <tr>
+                              <td>Cipongkor</td>
+                              <td class="text-right">2867.15</td>
+                            </tr>
+                            <tr>
+                              <td>Cisarua</td>
+                              <td class="text-right">2144.75</td>
+                            </tr>
+                            <tr>
+                              <td>Gununghalu</td>
+                              <td class="text-right">4911.88</td>
+                            </tr>
+                            <tr>
+                              <td>Lembang</td>
+                              <td class="text-right">2601</td>
+                            </tr>
+                            <tr>
+                              <td>Ngamprah</td>
+                              <td class="text-right">1395.41</td>
+                            </tr>
+                            <tr>
+                              <td>Padalarang</td>
+                              <td class="text-right">1876.05</td>
+                            </tr>
+                            <tr>
+                              <td>Parongpong</td>
+                              <td class="text-right">961.64</td>
+                            </tr>
+                            <tr>
+                              <td>Rongga</td>
+                              <td class="text-right">3770.09</td>
+                            </tr>
+                            <tr>
+                              <td>Saguling</td>
+                              <td class="text-right">2207.34</td>
+                            </tr>
+                            <tr>
+                              <td>Sindangkerta</td>
+                              <td class="text-right">2754.45</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <th class="text-right">39968.55</th>
+                            </tr>
+                            </tfoot>
+                          </table>
+                        </div>
+                        <!-- /.card-body -->
+                      </div>
+                      <!-- /.card -->
+                  </div>`
+                </div>
+                
+                <div class="tab-pane fade show" id="pills-tujuan3" role="tabpanel" aria-labelledby="pills-tujuan3-tab">
+                  ` <div class="row">  
+                      <div class="card col-12" style="box-shadow: 0 0 10px black; margin-top: -17px;">
+                        <div class="card-header m-auto">
+                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Estimasi Perubahan Luas Lahan</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                          <table id="example8" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th rowspan="3" class="text-center">Jenis tutupan lahan</th>
+                              <th class="text-center" colspan="6">Bandung Barat</th>
+                              <th class="text-center" colspan="6">Purwakarta</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center" colspan="2">2013</th>
+                              <th class="text-center" colspan="2">2021</th>
+                              <th class="text-center" colspan="2">Perubahan</th>
+                              <th class="text-center" colspan="2">2013</th>
+                              <th class="text-center" colspan="2">2021</th>
+                              <th class="text-center" colspan="2">Perubahan</th>
+                            </tr>
+                            <tr>
+                              <th class="text-center">m&sup2;</th>
+                              <th class="text-center">%</th>
+                              <th class="text-center">m&sup2;</th>
+                              <th class="text-center">%</th>
+                              <th class="text-center">m&sup2;</th>
+                              <th class="text-center">%</th>
+                              <th class="text-center">m&sup2;</th>
+                              <th class="text-center">%</th>
+                              <th class="text-center">m&sup2;</th>
+                              <th class="text-center">%</th>
+                              <th class="text-center">m&sup2;</th>
+                              <th class="text-center">%</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                              <td>Lahan terbangun</td>
+                              <td class="text-right">15796.17</td>
+                              <td class="text-right">13.32</td>
+                              <td class="text-right">13488.48</td>
+                              <td class="text-right">11.51</td>
+                              <td class="text-right">2307.69</td>
+                              <td class="text-right">-14.61</td>
+                              <td class="text-right">10808.46</td>
+                              <td class="text-right">12.38</td>
+                              <td class="text-right">11948.13</td>
+                              <td class="text-right">14.31</td>
+                              <td class="text-right">1139.67</td>
+                              <td class="text-right">10.54</td>
+                            </tr>
+                            <tr>
+                              <td>Sawah</td>
+                              <td class="text-right">29714.04</td>
+                              <td class="text-right">25.05</td>
+                              <td class="text-right">23534.19</td>
+                              <td class="text-right">20.07</td>
+                              <td class="text-right">6179.85</td>
+                              <td class="text-right">-20.80</td>
+                              <td class="text-right">12926.88</td>
+                              <td class="text-right">14.81</td>
+                              <td class="text-right">20585.79</td>
+                              <td class="text-right">24.65</td>
+                              <td class="text-right">7658.91</td>
+                              <td class="text-right">59.25</td>
+                            </tr>
+                            <tr>
+                              <td>Hutan</td>
+                              <td class="text-right">67356.81</td>
+                              <td class="text-right">56.78</td>
+                              <td class="text-right">75170.25</td>
+                              <td class="text-right">64.12</td>
+                              <td class="text-right">7813.44</td>
+                              <td class="text-right">11.60</td>
+                              <td class="text-right">53127.27</td>
+                              <td class="text-right">60.85</td>
+                              <td class="text-right">44610.21</td>
+                              <td class="text-right">53.41</td>
+                              <td class="text-right">8517.06</td>
+                              <td class="text-right">-16.03</td>
+                            </tr>
+                            <tr>
+                              <td>Lahan kering non-vegetatif</td>
+                              <td class="text-right">1797.84</td>
+                              <td class="text-right">1.52</td>
+                              <td class="text-right">1363.05</td>
+                              <td class="text-right">1.16</td>
+                              <td class="text-right">434.79</td>
+                              <td class="text-right">-24.18</td>
+                              <td class="text-right">2591.64</td>
+                              <td class="text-right">2.97</td>
+                              <td class="text-right">1363.05</td>
+                              <td class="text-right">1.63</td>
+                              <td class="text-right">1228.59</td>
+                              <td class="text-right">-47.41</td>
+                            </tr>
+                            <tr>
+                              <td>Badan air</td>
+                              <td class="text-right">3957.48</td>
+                              <td class="text-right">3.34</td>
+                              <td class="text-right">3675.87</td>
+                              <td class="text-right">3.14</td>
+                              <td class="text-right">281.61</td>
+                              <td class="text-right">-7.12</td>
+                              <td class="text-right">7858.44</td>
+                              <td class="text-right">9.00</td>
+                              <td class="text-right">5012.91</td>
+                              <td class="text-right">6.00</td>
+                              <td class="text-right">2845.53</td>
+                              <td class="text-right">-36.21</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <td class="text-right">118622.34</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">117231.84</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">0</td>
+                              <td class="text-right">0</td>
+                              <td class="text-right">87312.69</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">83520.09</td>
+                              <td class="text-right">100</td>
+                              <td class="text-right">-</td>
+                              <td class="text-right">-</td>
+                            </tr>
+                            </tfoot>
+                          </table>
+                        </div>
+                        <!-- /.card-body -->
+                      </div>
+                      <!-- /.card -->
+                    </div>`
+
+                    <div class="row">  
+                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
+                        <div class="card-header" style="margin: 0 auto;">
+                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Laju Alih Fungsi Lahan Lokus Kabupaten Purwakarta</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                          <table id="example9" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Kecamatan</th>
+                              <th class="text-center">Laju Alih Fungsi Lahan (ha)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                              <td>Babakancikao</td>
+                              <td class="text-right">1568.04</td>
+                            </tr>
+                            <tr>
+                              <td>Bojong</td>
+                              <td class="text-right">1683.12</td>
+                            </tr>
+                            <tr>
+                              <td>Bungursari</td>
+                              <td class="text-right">1332.23</td>
+                            </tr>
+                            <tr>
+                              <td>Campaka</td>
+                              <td class="text-right">1705.62</td>
+                            </tr>
+                            <tr>
+                              <td>Cibatu</td>
+                              <td class="text-right">1883.04</td>
+                            </tr>
+                            <tr>
+                              <td>Darangdan</td>
+                              <td class="text-right">2195.93</td>
+                            </tr>
+                            <tr>
+                              <td>Jatiluhur</td>
+                              <td class="text-right">834.76</td>
+                            </tr>
+                            <tr>
+                              <td>Kiarapedes</td>
+                              <td class="text-right">1510.66</td>
+                            </tr>
+                            <tr>
+                              <td>Maniis</td>
+                              <td class="text-right">962.38</td>
+                            </tr>
+                            <tr>
+                              <td>Pasawahan</td>
+                              <td class="text-right">1239.71</td>
+                            </tr>
+                            <tr>
+                              <td>Plered</td>
+                              <td class="text-right">1183.15</td>
+                            </tr>
+                            <tr>
+                              <td>Pondoksalam</td>
+                              <td class="text-right">1620.91</td>
+                            </tr>
+                            <tr>
+                              <td>Purwakarta</td>
+                              <td class="text-right">434.96</td>
+                            </tr>
+                            <tr>
+                              <td>Sukasari</td>
+                              <td class="text-right">999.32</td>
+                            </tr>
+                            <tr>
+                              <td>Sukatani</td>
+                              <td class="text-right">2781.48</td>
+                            </tr>
+                            <tr>
+                              <td>Tegalwaru</td>
+                              <td class="text-right">1994.87</td>
+                            </tr>
+                            <tr>
+                              <td>Wanayasa</td>
+                              <td class="text-right">1446.98</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <th class="text-right">25377.16</th>
+                            </tr>
+                            </tfoot>
+                          </table>
+                        </div>
+                        <!-- /.card-body -->
+                      </div>
+                      <!-- /.card -->
+
+                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
+                        <div class="card-header" style="margin: 0 auto;">
+                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Laju Alih Fungsi Lahan Lokus Kabupaten Bandung Barat</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                          <table id="example10" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th class="text-center">Kecamatan</th>
+                              <th class="text-center">Laju Alih Fungsi Lahan (ha)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                              <td>Batujajar</td>
+                              <td class="text-right">1277.37</td>
+                            </tr>
+                            <tr>
+                              <td>Cihampelas</td>
+                              <td class="text-right">1633.46</td>
+                            </tr>
+                            <tr>
+                              <td>Cikalong Wetan</td>
+                              <td class="text-right">3748.17</td>
+                            </tr>
+                            <tr>
+                              <td>Cililin</td>
+                              <td class="text-right">2142.93</td>
+                            </tr>
+                            <tr>
+                              <td>Cipatat</td>
+                              <td class="text-right">3485.49</td>
+                            </tr>
+                            <tr>
+                              <td>Cipeundeuy</td>
+                              <td class="text-right">2191.37</td>
+                            </tr>
+                            <tr>
+                              <td>Cipongkor</td>
+                              <td class="text-right">2867.15</td>
+                            </tr>
+                            <tr>
+                              <td>Cisarua</td>
+                              <td class="text-right">2144.75</td>
+                            </tr>
+                            <tr>
+                              <td>Gununghalu</td>
+                              <td class="text-right">4911.88</td>
+                            </tr>
+                            <tr>
+                              <td>Lembang</td>
+                              <td class="text-right">2601</td>
+                            </tr>
+                            <tr>
+                              <td>Ngamprah</td>
+                              <td class="text-right">1395.41</td>
+                            </tr>
+                            <tr>
+                              <td>Padalarang</td>
+                              <td class="text-right">1876.05</td>
+                            </tr>
+                            <tr>
+                              <td>Parongpong</td>
+                              <td class="text-right">961.64</td>
+                            </tr>
+                            <tr>
+                              <td>Rongga</td>
+                              <td class="text-right">3770.09</td>
+                            </tr>
+                            <tr>
+                              <td>Saguling</td>
+                              <td class="text-right">2207.34</td>
+                            </tr>
+                            <tr>
+                              <td>Sindangkerta</td>
+                              <td class="text-right">2754.45</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <th class="text-right">39968.55</th>
+                            </tr>
+                            </tfoot>
+                          </table>
+                        </div>
+                        <!-- /.card-body -->
+                      </div>
+                      <!-- /.card -->
+                  </div>`
+                </div>
             </div>
-            <!-- /.card -->
-          <!-- </div> -->
-          <!-- /.col (RIGHT) -->
-        <!-- </div> -->
-        <!-- /.row -->
-      </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.container-fluid -->
     </section>
     <!-- /.content -->
   </div>
@@ -490,20 +1669,138 @@
 
 <?= $this->section('js') ?>
 <script>
- $(function () {
-    $("#example1").DataTable({
+  $(function () {
+    
+    $("#tabulasi1").DataTable({
       "responsive": true, "lengthChange": false, "autoWidth": false,
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false,
-      "responsive": true,
-    });
+    }).buttons().container().appendTo('#tabulasi1_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi2").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi2_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi3").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi3_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi4").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi4_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi5").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi5_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi6").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi6_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi7").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi7_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi8").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi8_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi9").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi9_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi10").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi10_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi11").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi11_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi12").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi12_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi13").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi13_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi14").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi14_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi15").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi15_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi16").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi16_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi17").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi17_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi18").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi18_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi19").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi19_wrapper .col-md-6:eq(0)');
+
+    $("#tabulasi20").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#tabulasi20_wrapper .col-md-6:eq(0)');
+
+    $("#example5").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example5_wrapper .col-md-6:eq(0)');
+
+    $("#example6").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example6_wrapper .col-md-6:eq(0)');
+    
+    $("#example7").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example7_wrapper .col-md-6:eq(0)');
+
+    $("#example8").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example8_wrapper .col-md-6:eq(0)');
+
+    $("#example9").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example9_wrapper .col-md-6:eq(0)');
+
+    $("#example10").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example10_wrapper .col-md-6:eq(0)');
+    
   });
 </script>
 <!-- DataTables  & Plugins -->
