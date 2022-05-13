@@ -312,7 +312,7 @@
                               <td class="text-right">52.46098672</td>
                             </tr>
                             <tr>
-                              <td>Lahan kering non-vegetatif</td>
+                              <td>Lahan kosong non-vegetatif</td>
                               <td class="text-right">784.51</td>
                               <td class="text-right">0.626073369</td>
                               <td class="text-right">1529.49</td>
@@ -616,7 +616,7 @@
                               <td class="text-right">-16.03</td>
                             </tr>
                             <tr>
-                              <td>Lahan kering non-vegetatif</td>
+                              <td>Lahan kosong non-vegetatif</td>
                               <td class="text-right">1797.84</td>
                               <td class="text-right">1.52</td>
                               <td class="text-right">1363.05</td>
