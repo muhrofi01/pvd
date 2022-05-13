@@ -250,7 +250,7 @@
                               <td class="text-right">0.690</td>
                             </tr>
                             <tr>
-                              <td class="text-right">CNN</td>
+                              <td>CNN</td>
                               <td class="text-right">0.954</td>
                               <td class="text-right">0.924</td>
                               <td class="text-right">0.915</td>
