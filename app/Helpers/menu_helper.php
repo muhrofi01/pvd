@@ -58,7 +58,7 @@ function getMenu() {
             [
                 'menu' => 'Tentang Riset 1',
                 'icon' => 'fas fa-chevron-circle-left',
-                'href' => '/riset/1'
+                'href' => '/riset1'
             ],
         ],
         
@@ -117,7 +117,7 @@ function getMenu() {
             [
                 'menu' => 'Tentang Riset 2',
                 'icon' => 'fas fa-chevron-circle-left',
-                'href' => '/riset/2'
+                'href' => '/riset2'
             ],
         ],
 
@@ -178,7 +178,7 @@ function getMenu() {
             [
                 'menu' => 'Tentang Riset 3',
                 'icon' => 'fas fa-chevron-circle-left',
-                'href' => '/riset/3'
+                'href' => '/riset3'
             ],
         ],
 
@@ -239,7 +239,7 @@ function getMenu() {
             [
                 'menu' => 'Tentang Riset 4',
                 'icon' => 'fas fa-chevron-circle-left',
-                'href' => '/riset/4'
+                'href' => '/riset4'
             ],
         ],
 
@@ -300,7 +300,7 @@ function getMenu() {
             [
                 'menu' => 'Tentang Riset 5',
                 'icon' => 'fas fa-chevron-circle-left',
-                'href' => '/riset/5'
+                'href' => '/riset5'
             ],
         ],
 

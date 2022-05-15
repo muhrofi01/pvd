@@ -1,3 +1,11 @@
+<?= $this->extend('landing_page/layout/main') ?>
+
+<?= $this->section('css') ?>
+<!-- Tambahkan css jika diperlukan -->
+<?= $this->endSection() ?>
+
+<?= $this->section('content') ?>
+
 <section id="riset4" class="py-2">
     <section id="firstSec">
         <div class="container-fluid">
@@ -840,8 +848,14 @@
     </section>
 </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<?= $this->endSection() ?>
+
+<?= $this->section('js') ?>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="/js/landing_page/riset4.js"></script>
+<script src="/js/landing_page/riset4.js"></script> -->
+
+<?= $this->endSection() ?>

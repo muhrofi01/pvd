@@ -1,3 +1,11 @@
+<?= $this->extend('landing_page/layout/main') ?>
+
+<?= $this->section('css') ?>
+<!-- Tambahkan css jika diperlukan -->
+<?= $this->endSection() ?>
+
+<?= $this->section('content') ?>
+
 <section id="riset2" class="bg-light">
 
 	<section id="secondSec" class="offset-header">
@@ -397,3 +405,9 @@
 	</section>
 
 </section>
+
+<?= $this->endSection() ?>
+
+<?= $this->section('js') ?>
+<!-- Tambahkan Javascript jika diperlukan -->
+<?= $this->endSection() ?>

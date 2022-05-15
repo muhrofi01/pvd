@@ -1,3 +1,11 @@
+<?= $this->extend('landing_page/layout/main') ?>
+
+<?= $this->section('css') ?>
+<!-- Tambahkan css jika diperlukan -->
+<?= $this->endSection() ?>
+
+<?= $this->section('content') ?>
+
 <section id="riset1" class="pt-3 pb-5">
     <section id="firstSec" class="offset-header">
         <div class="container-fluid turun">
@@ -372,3 +380,9 @@
 
     </section>
 </section>
+
+<?= $this->endSection() ?>
+
+<?= $this->section('js') ?>
+<!-- Tambahkan Javascript jika diperlukan -->
+<?= $this->endSection() ?>

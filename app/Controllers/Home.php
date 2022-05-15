@@ -4,6 +4,11 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+    public function __construct()
+    {
+        helper('landing_page_helper');
+    }
+
     public function index()
     {
         echo view('landing_page/home/header_home');
@@ -16,46 +21,41 @@ class Home extends BaseController
         echo view('landing_page/home/footer_home');
     }
 
-    public function riset1()
-    {
-        echo view('landing_page/riset1/header');
-        echo view('landing_page/riset1/riset1_content');
-        echo view('landing_page/riset1/footer');
-    }
+    public function riset($riset){
+        switch ($riset) {
+            case 'riset1' :
+                $title = 'Riset 1';
+                break;
+            case 'riset2' :
+                $title = 'Riset 2';
+                break;
+            case 'riset3' :
+                $title = 'Riset 3';
+                break;
+            case 'riset4' :
+                $title = 'Riset 4';
+                break;
+            case 'riset5' :
+                $title = 'Riset 5';
+                break;
+            case 'umum' :
+                $title = 'Kajian Umum';
+                break;
+        }
 
-    public function riset2()
-    {
-        echo view('landing_page/riset2/header');
-        echo view('landing_page/riset2/riset2_content');
-        echo view('landing_page/riset2/footer');
-    }
+        $info = getInfo();
 
-    public function riset3()
-    {
-        echo view('landing_page/riset3/header');
-        echo view('landing_page/riset3/riset3_content');
-        echo view('landing_page/riset3/footer');
-    }
+        $this->data = [
+            'judul' => $info[$riset]['judul'],
+            'title' => $info[$riset]['title'],
+            'riset' => $info[$riset]['riset'],
+            'href' => $info[$riset]['href'],
+            'css' => $info[$riset]['css'],
+            'js' => $info[$riset]['js'],
+            'img' => $info[$riset]['img'],
+        ];        
 
-    public function riset4()
-    {
-        echo view('landing_page/riset4/header');
-        echo view('landing_page/riset4/riset4_content');
-        echo view('landing_page/riset4/footer');
-    }
-
-    public function riset5()
-    {
-        echo view('landing_page/riset5/header');
-        echo view('landing_page/riset5/riset5_content');
-        echo view('landing_page/riset5/footer');
-    }
-
-    public function umum()
-    {
-        echo view('landing_page/umum/header');
-        echo view('landing_page/umum/umum_content');
-        echo view('landing_page/umum/footer');
+        return view('landing_page/'.$riset.'/index', $this->data);
     }
 
 

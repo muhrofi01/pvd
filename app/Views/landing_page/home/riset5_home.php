@@ -19,7 +19,7 @@
                         <p>Suspendisse nec aliquet turpis, sit amet semper sem. Duis mollis, odio eu tincidunt sollicitudin, erat nunc sollicitudin arcu, tempor semper metus risus in lacus. Proin dolor justo, scelerisque a erat ac, sollicitudin vehicula quam. Curabitur interdum nulla quis efficitur vehicula. Curabitur sit amet bibendum libero. Donec vel tempor turpis.</p>
                     </div>
                     <div class="text-center" data-aos="fade-left" data-aos-duration="1000">
-                        <a href="<?= base_url("riset/5") ?>" class="btn btn-success btn-lg rounded-pill border border-3" style="font-size:1.5vw; background-color: #0A5446; color: #ffffff "> Selengkapnya <i class="fas fa-arrow-circle-right arrow"></i>
+                        <a href="<?= base_url("riset5") ?>" class="btn btn-success btn-lg rounded-pill border border-3" style="font-size:1.5vw; background-color: #0A5446; color: #ffffff "> Selengkapnya <i class="fas fa-arrow-circle-right arrow"></i>
                         </a>
                     </div>
                 </div>

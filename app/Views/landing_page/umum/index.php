@@ -1,3 +1,11 @@
+<?= $this->extend('landing_page/layout/main') ?>
+
+<?= $this->section('css') ?>
+<!-- Tambahkan css jika diperlukan -->
+<?= $this->endSection() ?>
+
+<?= $this->section('content') ?>
+
 <section id="umum" class="py-5 content">
 
     <section id="latar" class="container-fluid py-5">
@@ -293,5 +301,8 @@
 
 </section>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="/js/landing_page/umum.js"></script>
+<?= $this->endSection() ?>
+
+<?= $this->section('js') ?>
+<!-- Tambahkan Javascript jika diperlukan -->
+<?= $this->endSection() ?>
