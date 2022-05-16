@@ -33,6 +33,7 @@
   <link rel="stylesheet" href="/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="/assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="/assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
 <?= $this->endSection() ?>
 
@@ -44,7 +45,7 @@
       <div class="container-fluid pl-4" style="color: rgb(0, 75, 60);">
         <div class="row mb-0 baris-judul-riset">
           <div class="col-sm-10">
-            <h3 class="judul-riset">Pemetaan Klasifikasi dan Alih Fungsi Lahan Pertanian dengan Citra Satelit</h3>
+            <h3 class="judul-riset" data-aos="fade-right" data-aos-duration="1200">Pemetaan Klasifikasi dan Alih Fungsi Lahan Pertanian dengan Citra Satelit</h3>
           </div>
         </div>
       </div><!-- /.container-fluid -->
@@ -868,6 +869,15 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('js') ?>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1200,
+  })
+</script>
+
 <script>
   $(function () {
     
