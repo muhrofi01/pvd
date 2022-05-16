@@ -68,7 +68,7 @@
       <div class="container-fluid pl-4" style="color: rgb(0, 75, 60);">
         <div class="row mb-2 baris-judul-riset">
           <div class="col-sm-10">
-            <h3 class="judul-riset">Pemetaan Klasifikasi dan Alih Fungsi Lahan Pertanian dengan Citra Satelit</h3>
+            <h3 class="judul-riset">Karakteristik dan Faktor-Faktor yang Mempengaruhi Alih Fungsi Lahan Pertanian</h3>
           </div>
         </div>
       </div><!-- /.container-fluid -->
