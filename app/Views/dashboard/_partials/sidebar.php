@@ -42,8 +42,8 @@
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
-      <div class="position-absolute" style="left: 0; bottom:70px;">
-        <img src="/assets/dist/img/ornamen-sidebar.png" alt="ornamen" style="width: 1.8em;">
+      <div class="position-absolute" style="left: 0; bottom:4rem;">
+        <img src="/assets/dist/img/ornamen-sidebar.png" alt="ornamen" style="width: 1.0em; height: 12em;">
       </div>
     </div>
     <!-- /.sidebar -->
