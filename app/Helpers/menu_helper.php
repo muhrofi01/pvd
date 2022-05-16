@@ -72,7 +72,7 @@ function getMenu() {
             [
                 'menu' => 'Hasil Kajian',
                 'icon' => 'fas fa-chart-pie',
-                'href' => '#',
+                'href' => '/riset2/dashboard/kajian1',
                 'subMenu' => [
                     [
                         'subMenu' => 'Kajian 1',
@@ -87,7 +87,7 @@ function getMenu() {
             [
                 'menu' => 'Peta Tematik',
                 'icon' => 'fas fa-map',
-                'href' => '#',
+                'href' => '/riset2/dashboard/peta1',
                 'subMenu' => [
                     [
                         'subMenu' => 'Kajian 1',
@@ -102,7 +102,7 @@ function getMenu() {
             [
                 'menu' => 'Tabel Dinamis',
                 'icon' => 'fas fa-light fa-table',
-                'href' => '/riset2/dashboard/tabeldinamis',
+                'href' => '/riset2/dashboard/tabel1',
                 'subMenu' => [
                     [
                         'subMenu' => 'Kajian 1',
