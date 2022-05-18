@@ -900,7 +900,7 @@
           text: 'Heatmap Feature Selection Landsat-8 2013 Bandung Barat',
           margin: 30,
           style: {
-            fontSize:  '1.1em',
+            fontSize:  '1.0em',
             fontWeight:  'light',
             fontFamily:  "Poppins, Arial, sans-serif",
           },
@@ -1180,7 +1180,7 @@
           text: 'Heatmap Feature Selection Landsat-8 2013 Purwakarta',
           margin: 30,
           style: {
-            fontSize:  '1.1em',
+            fontSize:  '1.0em',
             fontWeight:  'light',
             fontFamily:  "Poppins, sans-serif",
           },
@@ -1452,7 +1452,7 @@
           text: 'Heatmap Feature Selection Landsat-8 2021 Bandung Barat',
           margin: 30,
           style: {
-            fontSize:  '1.1em',
+            fontSize:  '1.0em',
             fontWeight:  'light',
             fontFamily:  "Poppins, sans-serif",
           },
@@ -1724,7 +1724,7 @@
           text: 'Heatmap Feature Selection Landsat-8 2021 Purwakarta',
           margin: 30,
           style: {
-            fontSize:  '1.1em',
+            fontSize:  '1.0em',
             fontWeight:  'light',
             fontFamily:  "Poppins, sans-serif",
           },
@@ -2055,7 +2055,7 @@
           text: 'Heatmap Feature Selection Sentinel-2 Bandung Barat',
           margin: 30,
           style: {
-            fontSize:  '1.1em',
+            fontSize:  '1.0em',
             fontWeight:  'light',
             fontFamily:  "Poppins, sans-serif",
           },
@@ -2386,7 +2386,7 @@
           text: 'Heatmap Feature Selection Sentinel-2 Purwakarta',
           margin: 30,
           style: {
-            fontSize:  '1.17em',
+            fontSize:  '1.1em',
             fontWeight:  'light',
             fontFamily:  "Poppins, sans-serif",
           },
