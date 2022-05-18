@@ -92,6 +92,11 @@
 
 <?= $this->section('js') ?>
 <script>
+    Swal.fire({
+      title: '<strong>Disclaimer</strong>',
+      html:
+        'Dashboard hasil PKL 61 sedang dalam pembangunan. Mohon maaf apabila kunjungan web Anda terganggu karena kurangnya informasi dan fungsionalitas yang kami berikan.',
+    });
     let putar = function(e) {
       
       if ($(e).children().hasClass('fa-rotate-180')) {

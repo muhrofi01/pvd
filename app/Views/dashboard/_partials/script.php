@@ -12,7 +12,9 @@
 <!-- Bootstrap 4 -->
 <script src="/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- ChartJS -->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script src="/assets/plugins/chart.js/Chart.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 <!-- Sparkline -->
 <script src="/assets/plugins/sparklines/sparkline.js"></script>
 <!-- JQVMap -->
@@ -35,6 +37,8 @@
 <script src="/assets/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="/assets/dist/js/pages/dashboard.js"></script>
+<!-- SweetAlert2 -->
+<script src="/assets/plugins/sweetalert2/sweetalert2.all.min.js"></script>
 <script type="text/javascript">
 var url = window.location;
   // untuk sidebar menu

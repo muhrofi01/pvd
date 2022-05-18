@@ -24,6 +24,8 @@
   <link rel="stylesheet" href="/assets/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="/assets/plugins/summernote/summernote-bs4.min.css">
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="/assets/plugins/sweetalert2/sweetalert2.min.css">
   <!-- CSS Custom -->
   <link rel="stylesheet" href="/assets/dist/css/custom.css">
   <style>
