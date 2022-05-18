@@ -667,7 +667,7 @@
                               <td class="text-right">32.99</td>
                             </tr>
                             <tr>
-                              <td class="text-left">Bekerja</td>
+                              <td class="text-left">Tidak Bekerja</td>
                               <td class="text-right">13</td>
                               <td class="text-right">6.7</td>
                               <td class="text-right">5</td>
@@ -754,7 +754,7 @@
                               <td class="text-right">34.34</td>
                             </tr>
                             <tr>
-                              <td class="text-left">Bekerja</td>
+                              <td class="text-left">Tidak Bekerja</td>
                               <td class="text-right">9</td>
                               <td class="text-right">9.1</td>
                               <td class="text-right">5</td>
@@ -1239,22 +1239,22 @@
                             <tr>
                               <td class="text-left">Beli</td>
                               <td class="text-right">59</td>
-                              <td class="text-right">30.41</td>
+                              <td class="text-right">79.73</td>
                               <td class="text-right">9</td>
-                              <td class="text-right">4.64</td>
+                              <td class="text-right">12.16</td>
                               <td class="text-right">6</td>
-                              <td class="text-right">3.09</td>
+                              <td class="text-right">8.11</td>
                               <td class="text-right">74</td>
                               <td class="text-right">38.14</td>
                             </tr>
                             <tr>
                               <td class="text-left">Warisan</td>
                               <td class="text-right">100</td>
-                              <td class="text-right">51.55</td>
+                              <td class="text-right">83.33</td>
                               <td class="text-right">6</td>
-                              <td class="text-right">3.09</td>
+                              <td class="text-right">5.00</td>
                               <td class="text-right">14</td>
-                              <td class="text-right">7.22</td>
+                              <td class="text-right">11.67</td>
                               <td class="text-right">120</td>
                               <td class="text-right">61.86</td>
                             </tr>
@@ -1282,7 +1282,7 @@
                   <div class="row">  
                     <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
-                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Kepemilikan Lahan Berdasarkan Asal Mulanya di Kabupaten Bandung Barat</h3>
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Kepemilikan Lahan Berdasarkan Asal Mulanya di Kabupaten Purwakarta</h3>
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
@@ -1313,22 +1313,22 @@
                             <tr>
                               <td class="text-left">Beli</td>
                               <td class="text-right">26</td>
-                              <td class="text-right">26.26</td>
+                              <td class="text-right">56.52</td>
                               <td class="text-right">7</td>
-                              <td class="text-right">7.07</td>
+                              <td class="text-right">15.22</td>
                               <td class="text-right">13</td>
-                              <td class="text-right">13.13</td>
+                              <td class="text-right">28.26</td>
                               <td class="text-right">46</td>
                               <td class="text-right">46.46</td>
                             </tr>
                             <tr>
                               <td class="text-left">Warisan</td>
                               <td class="text-right">31</td>
-                              <td class="text-right">31.32</td>
+                              <td class="text-right">58.49</td>
                               <td class="text-right">6</td>
-                              <td class="text-right">6.06</td>
+                              <td class="text-right">11.32</td>
                               <td class="text-right">16</td>
-                              <td class="text-right">16.16</td>
+                              <td class="text-right">30.19</td>
                               <td class="text-right">53</td>
                               <td class="text-right">53.54</td>
                             </tr>
@@ -1368,9 +1368,9 @@
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
-                              <th class="text-center" colspan="2">1-5000</th>
-                              <th class="text-center" colspan="2">5001-10000</th>
-                              <th class="text-center" colspan="2">>10000</th>
+                              <th class="text-center" colspan="2">1-1000</th>
+                              <th class="text-center" colspan="2">1001-2000</th>
+                              <th class="text-center" colspan="2">>2000</th>
                             </tr>
                             <tr>
                               <th class="text-center">Jumlah</th>
@@ -1386,23 +1386,23 @@
                           <tbody>
                             <tr>
                               <td class="text-left">Melalui Transaksi Penjualan</td>
-                              <td class="text-right">48</td>
-                              <td class="text-right">24.9</td>
-                              <td class="text-right">1</td>
-                              <td class="text-right">0.5</td>
-                              <td class="text-right">3</td>
-                              <td class="text-right">1.6</td>
+                              <td class="text-right">32</td>
+                              <td class="text-right">61.54</td>
+                              <td class="text-right">4</td>
+                              <td class="text-right">7.69</td>
+                              <td class="text-right">16</td>
+                              <td class="text-right">30.77</td>
                               <td class="text-right">52</td>
                               <td class="text-right">26.9</td>
                             </tr>
                             <tr>
                               <td class="text-left">Tidak Melalui Transaksi Penjualan</td>
-                              <td class="text-right">139</td>
-                              <td class="text-right">72</td>
-                              <td class="text-right">1</td>
-                              <td class="text-right">0.5</td>
-                              <td class="text-right">1</td>
-                              <td class="text-right">0.5</td>
+                              <td class="text-right">135</td>
+                              <td class="text-right">95.74</td>
+                              <td class="text-right">3</td>
+                              <td class="text-right">2.13</td>
+                              <td class="text-right">3</td>
+                              <td class="text-right">2.13</td>
                               <td class="text-right">141</td>
                               <td class="text-right">73.1</td>
                             </tr>
@@ -1410,12 +1410,12 @@
                           <tfoot>
                             <tr>
                               <td class="text-left">Total</td>
-                              <td class="text-right">187</td>
-                              <td class="text-right">96.9</td>
-                              <td class="text-right">2</td>
-                              <td class="text-right">1.0</td>
-                              <td class="text-right">4</td>
-                              <td class="text-right">2.1</td>
+                              <td class="text-right">167</td>
+                              <td class="text-right">86.08</td>
+                              <td class="text-right">7</td>
+                              <td class="text-right">3.61</td>
+                              <td class="text-right">19</td>
+                              <td class="text-right">9.79</td>
                               <td class="text-right">194</td>
                               <td class="text-right">100</td>
                             </tr>
@@ -1442,9 +1442,9 @@
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
-                              <th class="text-center" colspan="2">1-5000</th>
-                              <th class="text-center" colspan="2">5001-10000</th>
-                              <th class="text-center" colspan="2">>10000</th>
+                              <th class="text-center" colspan="2">1-1000</th>
+                              <th class="text-center" colspan="2">1001-2000</th>
+                              <th class="text-center" colspan="2">>2000</th>
                             </tr>
                             <tr>
                               <th class="text-center">Jumlah</th>
@@ -1460,23 +1460,23 @@
                           <tbody>
                             <tr>
                               <td class="text-left">Melalui Transaksi Penjualan</td>
-                              <td class="text-right">49</td>
-                              <td class="text-right">49.4</td>
-                              <td class="text-right">3</td>
-                              <td class="text-right">3.0</td>
-                              <td class="text-right">3</td>
-                              <td class="text-right">3.0</td>
+                              <td class="text-right">29</td>
+                              <td class="text-right">52.73</td>
+                              <td class="text-right">13</td>
+                              <td class="text-right">23.64</td>
+                              <td class="text-right">13</td>
+                              <td class="text-right">23.64</td>
                               <td class="text-right">55</td>
                               <td class="text-right">55.6</td>
                             </tr>
                             <tr>
                               <td class="text-left">Tidak Melalui Transaksi Penjualan</td>
-                              <td class="text-right">42</td>
-                              <td class="text-right">42.4</td>
-                              <td class="text-right">1</td>
-                              <td class="text-right">1.0</td>
-                              <td class="text-right">1</td>
-                              <td class="text-right">1.0</td>
+                              <td class="text-right">38</td>
+                              <td class="text-right">86.36</td>
+                              <td class="text-right">3</td>
+                              <td class="text-right">6.82</td>
+                              <td class="text-right">3</td>
+                              <td class="text-right">6.82</td>
                               <td class="text-right">44</td>
                               <td class="text-right">44.4</td>
                             </tr>
@@ -1484,12 +1484,12 @@
                           <tfoot>
                             <tr>
                               <td class="text-left">Total</td>
-                              <td class="text-right">91</td>
-                              <td class="text-right">91.9</td>
-                              <td class="text-right">4</td>
-                              <td class="text-right">4.0</td>
-                              <td class="text-right">4</td>
-                              <td class="text-right">4.0</td>
+                              <td class="text-right">67</td>
+                              <td class="text-right">67.68</td>
+                              <td class="text-right">16</td>
+                              <td class="text-right">16.16</td>
+                              <td class="text-right">16</td>
+                              <td class="text-right">16.16</td>
                               <td class="text-right">99</td>
                               <td class="text-right">100</td>
                             </tr>
@@ -1511,6 +1511,7 @@
                         <table id="tabulasi18KBB" class="table table-bordered table-striped">
                         <thead>
                             <tr>
+                              <th class="text-center" rowspan="3">No.</th>
                               <th class="text-center" rowspan="3">Komoditas</th>
                               <th class="text-center" colspan="6">Harga Jual Lahan (ribu rupiah/m&sup2;)</th>
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
@@ -1533,39 +1534,43 @@
                           </thead>
                           <tbody>
                             <tr>
+                              <td class="text-center">1.</td>
                               <td class="text-left">Padi</td>
                               <td class="text-right">74</td>
                               <td class="text-right">54.41</td>
                               <td class="text-right">38</td>
                               <td class="text-right">27.94</td>
                               <td class="text-right">24</td>
-                              <td class="text-right">12.37</td>
+                              <td class="text-right">17.65</td>
                               <td class="text-right">136</td>
                               <td class="text-right">70.1</td>
                             </tr>
                             <tr>
+                              <td class="text-center">2.</td>
                               <td class="text-left">Palawija</td>
                               <td class="text-right">26</td>
                               <td class="text-right">70.27</td>
                               <td class="text-right">7</td>
                               <td class="text-right">18.92</td>
                               <td class="text-right">4</td>
-                              <td class="text-right">2.06</td>
+                              <td class="text-right">10.81</td>
                               <td class="text-right">37</td>
                               <td class="text-right">19.07</td>
                             </tr>
                             <tr>
+                              <td class="text-center">3.</td>
                               <td class="text-left">Hortikultura</td>
                               <td class="text-right">4</td>
                               <td class="text-right">36.36</td>
                               <td class="text-right">5</td>
                               <td class="text-right">45.45</td>
                               <td class="text-right">2</td>
-                              <td class="text-right">1.03</td>
+                              <td class="text-right">18.18</td>
                               <td class="text-right">11</td>
                               <td class="text-right">5.67</td>
                             </tr>
                             <tr>
+                              <td class="text-center">4.</td>
                               <td class="text-left">Lainnya</td>
                               <td class="text-right">10</td>
                               <td class="text-right">100</td>
@@ -1579,7 +1584,7 @@
                           </tbody>
                           <tfoot>
                             <tr>
-                              <td class="text-left">Total</td>
+                              <td class="text-center" colspan="2">Total</td>
                               <td class="text-right">114</td>
                               <td class="text-right">58.76</td>
                               <td class="text-right">50</td>
@@ -1607,6 +1612,7 @@
                         <table id="tabulasi18PWK" class="table table-bordered table-striped">
                         <thead>
                             <tr>
+                              <th class="text-center" rowspan="3">No.</th>
                               <th class="text-center" rowspan="3">Komoditas</th>
                               <th class="text-center" colspan="6">Harga Jual Lahan (ribu rupiah/m&sup2;)</th>
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
@@ -1629,17 +1635,19 @@
                           </thead>
                           <tbody>
                             <tr>
+                              <td class="text-center">1.</td>
                               <td class="text-left">Padi</td>
                               <td class="text-right">66</td>
                               <td class="text-right">76.74</td>
                               <td class="text-right">13</td>
                               <td class="text-right">15.12</td>
                               <td class="text-right">7</td>
-                              <td class="text-right">3.61</td>
+                              <td class="text-right">8.14</td>
                               <td class="text-right">86</td>
                               <td class="text-right">86.87</td>
                             </tr>
                             <tr>
+                              <td class="text-center">2.</td>
                               <td class="text-left">Palawija</td>
                               <td class="text-right">7</td>
                               <td class="text-right">100</td>
@@ -1651,6 +1659,7 @@
                               <td class="text-right">7.07</td>
                             </tr>
                             <tr>
+                              <td class="text-center">3.</td>
                               <td class="text-left">Hortikultura</td>
                               <td class="text-right">2</td>
                               <td class="text-right">50</td>
@@ -1662,6 +1671,7 @@
                               <td class="text-right">4.04</td>
                             </tr>
                             <tr>
+                              <td class="text-center">4.</td>
                               <td class="text-left">Lainnya</td>
                               <td class="text-right">2</td>
                               <td class="text-right">100</td>
@@ -1675,13 +1685,13 @@
                           </tbody>
                           <tfoot>
                             <tr>
-                              <td class="text-left">Total</td>
+                              <td class="text-center" colspan="2">Total</td>
                               <td class="text-right">77</td>
                               <td class="text-right">77.78</td>
                               <td class="text-right">15</td>
                               <td class="text-right">15.15</td>
                               <td class="text-right">7</td>
-                              <td class="text-right">3.61</td>
+                              <td class="text-right">7.07</td>
                               <td class="text-right">99</td>
                               <td class="text-right">100</td>
                             </tr>
@@ -2084,11 +2094,17 @@
     }).buttons().container().appendTo('#tabulasi17PWK_wrapper .col-md-6:eq(0)');
 
     $("#tabulasi18KBB").DataTable({
+      "columnDefs": [
+        { "orderable": false, "targets": [0] }, 
+    ],
       "responsive": true, "lengthChange": false, "autoWidth": false,
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#tabulasi18KBB_wrapper .col-md-6:eq(0)');
 
     $("#tabulasi18PWK").DataTable({
+      "columnDefs": [
+        { "orderable": false, "targets": [0] }, 
+    ],
       "responsive": true, "lengthChange": false, "autoWidth": false,
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#tabulasi18PWK_wrapper .col-md-6:eq(0)');
