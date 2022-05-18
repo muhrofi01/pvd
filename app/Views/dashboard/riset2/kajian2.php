@@ -67,12 +67,12 @@
                     <!-- Visualisasi 1 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 1 Pie Chart Hafizh (Usia Petani KBB)</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Usia di Kabupaten Bandung Barat</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi1" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi1" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi1" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -84,18 +84,19 @@
                     <!-- Visualisasi 2 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 2 Pie Chart (Usia Petani PWK) Hafizh</h3>
+                        <h3 class="card-title">Persentase(%) Petani Pelaku Alih Fungsi Lahan Menurut Usia<br>di Kabupaten Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi2" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi2" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi2" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
                     </div>
                     <!-- /.card -->
                   </div>
+
 
                   <div class="col-md-6">
                     <!-- Visualisasi 3 -->
@@ -106,7 +107,7 @@
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi3" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi3" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -118,12 +119,12 @@
                     <!-- Visualisasi 4 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 4 Pie Chart (Tingkat Pendidikan KBB) Hafizh</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Tingkat Pendidikan di Kabupaten Bandung Barat</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi4" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi4" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi4" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -135,12 +136,12 @@
                     <!-- Visualisasi 5 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 5 Pie Chart (Tingkat Pendidikan PWK) Hafizh</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Tingkat Pendidikan di Kabupaten Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi5" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi5" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi5" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -152,12 +153,12 @@
                     <!-- Visualisasi 6 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 6 Pie Chart (Lama Bertani KBB) Hafizh</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Lama Bertani di Kabupaten Bandung Barat</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi6" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi6" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi6" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -169,12 +170,12 @@
                     <!-- Visualisasi 7 Pie Chart-->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 7 Pie Chart (Lama Bertani PWK) Hafizh</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Lama Bertani di Kabupaten Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi7" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi7" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi7" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -186,12 +187,12 @@
                     <!-- Visualisasi 8 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 8 Pie Chart (Pekerjaan Utama Petani KBB) Della</h3>
+                        <h3 class="card-title">Persentase (%) Pekerjaan Utama Petani Setelah Melakukan Alih Fungsi Lahan di Kabupaten Bandung Barat</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi8" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi8" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi8" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -203,12 +204,12 @@
                     <!-- Visualisasi 9 Pie Chart-->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 9 Pie Chart (Pekerjaan Utama Petani PWK) Dina</h3>
+                        <h3 class="card-title">Persentase (%) Pekerjaan Utama Petani Setelah Melakukan Alih Fungsi Lahan di Kabupaten Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi9" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi9" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi9" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -225,7 +226,7 @@
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi10" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi10" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -237,7 +238,7 @@
                     <!-- Visualisasi 11 Grouped Bar Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 11 Grouped Bar Chart (Lama Bertani) Dina</h3>
+                        <h3 class="card-title">Lama Bertani Berdasarkan Perubahan Pekerjaan<br>di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi11" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -254,7 +255,7 @@
                     <!-- Visualisasi 12 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 12 Pie Chart (Luas Kepemilikan Lahan KBB) Dina</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Luas Kepemilikan Lahan di Kabupaten Bandung Barat</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi12" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -271,7 +272,7 @@
                     <!-- Visualisasi 13 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 13 Pie Chart (Luas Kepemilikan Lahan PWK) Dina</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Luas Kepemilikan Lahan di Kabupaten Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi13" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -288,7 +289,7 @@
                     <!-- Visualisasi 14 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 14 Pie Chart (Asal Mula Lahan KBB) Dina</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Asal Mula Lahan Pertanian di Kabupaten Bandung Barat</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi14" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -305,7 +306,7 @@
                     <!-- Visualisasi 15 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 15 Pie Chart (Asal Mula Lahan PWK) Dina</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Asal Mula Lahan Pertanian di Kabupaten Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi15" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -390,7 +391,7 @@
                     <!-- Visualisasi 20 Stacked Bar Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 20 Stacked Bar Chart (Jenis Komoditas) Della</h3>
+                        <h3 class="card-title">Persentase (%) Jenis Komoditas Pertanian Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi20" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -407,7 +408,7 @@
                     <!-- Visualisasi 21 Stacked Bar Chart-->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 21 Stacked Bar Chart (Luas Kepemilikan Lahan Berdasar Asal Mula) Della</h3>
+                        <h3 class="card-title" style="font-size: 16px;">Persentase (%) Luas Kepemilikan Lahan (m&sup2;) Menurut Asal Mula Lahan di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi21" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -424,7 +425,7 @@
                     <!-- Visualisasi 22 Stacked Bar Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 22 Stacked Bar Chart (Luas Alih Fungsi Lahan) Della</h3>
+                        <h3 class="card-title" style="font-size: 16px;">Persentase (%) Luas Alih Fungsi Lahan (m&sup2;) Menurut Mekanisme Kepemilikan Lahan di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi22" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -441,7 +442,7 @@
                     <!-- Visualisasi 23 Column Bar Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Visualisasi 23 Column Bar Chart (Harga Jual Lahan) Della</h3>
+                        <h3 class="card-title" style="font-size: 16px;">Persentase (%) Harga Jual Lahan (ribu rupiah/m&sup2;) Menurut Jenis Komoditas di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi23" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -575,141 +576,79 @@
 
 <?= $this->section('js') ?>
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1"></script> -->
 
 <script>
   // Tujuan 1
   $(function () {
     ctx = document.getElementById('visualisasi1').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
+    pieChart = new Chart(ctx, {
+      type: 'pie',
       data: {
-          labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
-          ],
-          datasets: [
+        labels: [
+            ['Dewasa Awal (18-40 tahun)'], 
+            ['Dewasa Madya (41-60 tahun)'], 
+            ['Dewasa Akhir (> 60 tahun)'], 
+        ],
+        datasets: [
             {
-              label: 'Landsat-8 2013',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61, 2.88, 1.92],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
+              label: '# of Votes',
+              data: [34.5, 37.6, 27.8],
+              backgroundColor: [
+                '#508d4f',
+                '#77dd77',
+                '#a9e9a4',
+              ],
+              borderWidth: 0
           },
-          {
-            label: 'Landsat-8 2021',
-              data: [13.54, 18.10, 10.60, 52.97, 2.88, 1.92],
-              backgroundColor: '#91e38e',
-              // [
-              //   '#91e38e',
-              //   '#91e38e',
-              //   '#91e38e',
-              //   '#91e38e',
-              //   '#91e38e',
-              //   '#91e38e',
-              // ],
-              borderColor: '#1a2519',
-              // [
-              //   '#1a2519',
-              //   '#1a2519',
-              //   '#1a2519',
-              //   '#1a2519',
-              //   '#1a2519',
-              //   '#1a2519',
-              // ],
-              borderWidth: 1
-          }
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
+        scales: {
           },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                display: false
-              },
-              
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
     ctx = document.getElementById('visualisasi2').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
+    pieChart = new Chart(ctx, {
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            ['Dewasa Awal (18-40 tahun)'], 
+            ['Dewasa Madya (41-60 tahun)'], 
+            ['Dewasa Akhir (> 60 tahun)'], 
         ],
-          datasets: [
+        datasets: [
             {
-              label: 'Landsat-8 2013',
-              data: [13.03, 16.12, 11.28, 47.32, 7.56, 4.68],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
+              label: '# of Votes',
+              data: [9.1, 55.6, 35.4],
+              backgroundColor: [
+                '#508d4f',
+                '#77dd77',
+                '#a9e9a4',
+              ],
+              borderWidth: 0
           },
-          {
-            label: 'Landsat-8 2021',
-              data: [14.71, 20.70, 11.51, 41.18, 4.87, 7.02],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
         ],
       },
-      options: { 
-        legend: {
-          display: true,
-          position:'top',
-          reverse: true
-        },
-        scales: { 
-          xAxes: [{ 
-            gridLines: { 
-              drawOnChartArea: false 
-            } 
-          }], 
-          yAxes: [{ 
-            gridLines: { 
-              drawOnChartArea: false 
+      options: {
+        scales: {
+          },
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
             },
-            ticks: {
-              stepSize: 10
-            }
-          }] 
-        },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          } 
+            "position": "right"
+        }
       }
     });
 
@@ -771,354 +710,215 @@
     });
 
     ctx = document.getElementById('visualisasi4').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
+    pieChart = new Chart(ctx, {
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            ['Pendidikan Dasar'], 
+            ['Pendidikan Menengah'], 
+            ['Pendidikan Tinggi'], 
         ],
-          datasets: [
+        datasets: [
             {
-              label: 'Bandung Barat',
-              data: [13.54, 18.10, 10.60, 52.97, 2.88, 1.92],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
+              label: '# of Votes',
+              data: [53.09, 41.75, 5.15],
+              backgroundColor: [
+                '#508d4f',
+                '#77dd77',
+                '#a9e9a4',
+              ],
+              borderWidth: 0
           },
-          {
-            label: 'Purwakarta',
-              data: [14.71, 20.70, 11.51, 41.18, 4.87, 7.02],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
+        scales: {
           },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
     ctx = document.getElementById('visualisasi5').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
+    pieChart = new Chart(ctx, {
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
-          ],
-          datasets: [
+            ['Pendidikan Dasar'], 
+            ['Pendidikan Menengah'], 
+            ['Pendidikan Tinggi'], 
+        ],
+        datasets: [
             {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
+              label: '# of Votes',
+              data: [73.74, 18.18, 8.08],
+              backgroundColor: [
+                '#508d4f',
+                '#77dd77',
+                '#a9e9a4',
+              ],
+              borderWidth: 0
           },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
+        scales: {
           },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
   ctx = document.getElementById('visualisasi6').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
+  pieChart = new Chart(ctx, {
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
-          ],
-          datasets: [
+            ['1-20 tahun'], 
+            ['21-40 tahun'], 
+            ['>40 tahun'], 
+        ],
+        datasets: [
             {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
+              label: '# of Votes',
+              data: [55.15, 22.69, 22.16],
+              backgroundColor: [
+                '#508d4f',
+                '#77dd77',
+                '#a9e9a4',
+              ],
+              borderWidth: 0
           },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
+        scales: {
           },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
-    });
+  });
 
   ctx = document.getElementById('visualisasi7').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
+  pieChart = new Chart(ctx, {
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
-          ],
-          datasets: [
+            ['1-20 tahun'], 
+            ['21-40 tahun'], 
+            ['>40 tahun'], 
+        ],
+        datasets: [
             {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
+              label: '# of Votes',
+              data: [45.46, 34.34, 20.2],
+              backgroundColor: [
+                '#508d4f',
+                '#77dd77',
+                '#a9e9a4',
+              ],
+              borderWidth: 0
           },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
+        scales: {
           },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
-    });
+  });
 
   ctx = document.getElementById('visualisasi8').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
+  barChart = new Chart(ctx, {
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            'Pertanian', 
+            'Usaha Lain', 
+            'Tidak Bekerja' 
           ],
           datasets: [
             {
               label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
+              data: [53.09, 32.99, 13.92],
+              backgroundColor: [
+                  '#508d4f',
+                  '#77dd77',
+                  '#a9e9a4',
+              ],
+              borderWidth: 0
+          }]
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
           scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
           },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
   ctx = document.getElementById('visualisasi9').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
+  barChart = new Chart(ctx, {
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            'Pertanian', 
+            'Usaha Lain', 
+            'Tidak Bekerja' 
           ],
           datasets: [
-            {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
           {
             label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
+            data: [49.50, 34.34, 16.16],
+              backgroundColor: [
+                  '#508d4f',
+                  '#77dd77',
+                  '#a9e9a4',
+              ],
+              borderWidth: 0
+          }]
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
           scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
           },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
   ctx = document.getElementById('visualisasi10').getContext('2d');
-    barChart = new Chart(ctx, {
+  barChart = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: [
@@ -1175,30 +975,37 @@
       }
     });
 
-      ctx = document.getElementById('visualisasi11').getContext('2d');
+    ctx = document.getElementById('visualisasi11').getContext('2d');
     barChart = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            ['Pertanian', '(Bandung Barat)'], 
+            ['Usaha', 'Lain', '(Bandung Barat)'], 
+            ['Tidak', 'Bekerja', '(Bandung Barat)'], 
+            ['Pertanian', '(Purwakarta)'], 
+            ['Usaha', 'Lain', '(Purwakarta)'], 
+            ['Tidak', 'Bekerja', '(Purwakarta)']
           ],
           datasets: [
             {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
+              label: '1-20 tahun',
+              data: [26.29, 22.16, 6.7, 14.14, 22.22 ,9.1],
+              backgroundColor: '#a9e9a4',
               borderColor: '#1a2519',
               borderWidth: 1
           },
           {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
+            label: '21-40 tahun',
+              data: [11.86, 8.25, 2.58, 19.19, 10.1 ,5.05],
+              backgroundColor: '#77dd77',
+              borderColor: '#1a2519',
+              borderWidth: 1
+          },
+          {
+            label: '>40 tahun',
+              data: [14.95, 2.58, 4.63, 16.16, 2.02 ,2.02],
+              backgroundColor: '#508d4f',
               borderColor: '#1a2519',
               borderWidth: 1
           }
@@ -1214,8 +1021,7 @@
             xAxes: [{
               gridLines: {
                 drawOnChartArea: false
-              },
-              maxRotation: 0
+              }
             }],
             yAxes: [{
               gridLines: {
@@ -1228,6 +1034,12 @@
               title: (context) => {
                 return context[0].label.replaceAll(',',' ');
               }
+            }
+          },
+          xaxis: {
+            labels: {
+              rotate: -45,
+              rotateAlways: true
             }
           }
       }
@@ -1235,235 +1047,136 @@
 
     ctx = document.getElementById('visualisasi12').getContext('2d');
     barChart = new Chart(ctx, {
-      type: 'bar',
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            '1-1000 m²', 
+            '1001-2000 m²', 
+            '>2000 m²' 
           ],
           datasets: [
             {
               label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
+              data: [65.46, 12.89, 21.65],
+              backgroundColor: [
+                  '#a9e9a4',
+                  '#77dd77',
+                  '#508d4f',
+              ],
+              borderWidth: 0
+          }]
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
           scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
           },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
     ctx = document.getElementById('visualisasi13').getContext('2d');
     barChart = new Chart(ctx, {
-      type: 'bar',
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            '1-1000 m²', 
+            '1001-2000 m²', 
+            '>2000 m²' 
           ],
           datasets: [
             {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
+              label: 'Purwakarta',
+              data: [48.48, 21.21, 30.3],
+              backgroundColor: [
+                  '#a9e9a4',
+                  '#77dd77',
+                  '#508d4f',
+              ],
+              borderWidth: 0
+          }]
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
           scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
           },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
     ctx = document.getElementById('visualisasi14').getContext('2d');
     barChart = new Chart(ctx, {
-      type: 'bar',
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            'Beli', 
+            'Warisan' 
           ],
           datasets: [
             {
               label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
+              data: [38.14, 61.86],
+              backgroundColor: [
+                  '#77dd77',
+                  '#508d4f',
+              ],
+              borderWidth: 0
+          }]
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
           scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
           },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
 
     ctx = document.getElementById('visualisasi15').getContext('2d');
     barChart = new Chart(ctx, {
-      type: 'bar',
+      type: 'pie',
       data: {
         labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
+            'Beli', 
+            'Warisan' 
           ],
           datasets: [
             {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
+              label: 'Purwakarta',
+              data: [46.46, 53.54],
+              backgroundColor: [
+                  '#77dd77',
+                  '#508d4f',
+              ],
+              borderWidth: 0
+          }]
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
           scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
           },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
+          "legend": {
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
       }
     });
+
 
     ctx = document.getElementById('visualisasi16').getContext('2d');
     barChart = new Chart(ctx, {
@@ -1697,237 +1410,215 @@
       }
     });
 
+    // Visualisasi 20
     ctx = document.getElementById('visualisasi20').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
-          ],
-          datasets: [
-            {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
-      },
-      options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
+        myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Bandung Barat','Purwakarta'],
+                datasets: [{
+                    label: 'Padi',
+                    data: [70.1, 86.87],
+                    backgroundColor: '#508d4f',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }, {
+                    label: 'Palawija',
+                    data: [19.07, 7.07],
+                    backgroundColor: '#77dd77',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                },{
+                    label: 'Holtikultura',
+                    data: [5.67, 4.04],
+                    backgroundColor: '#a9e9a4',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                },{
+                    label: 'Lainnya',
+                    data: [5.12, 2.02],
+                    backgroundColor: '#eafae8',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        grid:{
+                            display:false
+                        },
+                        ticks: {beginAtZero: false},
+                        stacked: true,
+                        max: 100
+                    },
+                    x :{
+                        stacked: true,
+                        grid:{
+                            display:false
+                        }
+                    }
+                }
             }
-          }
-      }
-    });
+        });
 
+    // Visualisasi 21
     ctx = document.getElementById('visualisasi21').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
-          ],
-          datasets: [
-            {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
-      },
-      options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
+        myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Beli', 'Warisan', 'Beli', 'Warisan'],
+                datasets: [{
+                    label: 'Rendah (1-700)',
+                    data: [79.73, 83.33, 56.52, 58.49],
+                    backgroundColor: '#a9e9a4',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }, {
+                    label: 'Sedang (701-1400)',
+                    data: [12.16,5,15.22,11.32],
+                    backgroundColor: '#77dd77',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                },{
+                    label: 'Tinggi (>1400)',
+                    data: [8.11,11.67,28.26,30.19],
+                    backgroundColor: '#508d4f' ,
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }]
+            },            
+            options: {
+              indexAxis: 'y',
+                scales: {
+                    y: {
+                        grid:{
+                            display:false
+                        },
+                        stacked: true,
+                        title: {
+                          display: true,
+                          text : '       PURWAKARTA        BANDUNG BARAT',
+                          font : {weight: 'bold', size: 12}
+                        }
+                    },
+                    x :{
+                        stacked: true,
+                        max:100,
+                        grid:{
+                            display:false
+                        },
+                    }
+                }
             }
-          }
-      }
-    });
+        });
 
+    // Visualisasi 22
     ctx = document.getElementById('visualisasi22').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
-          ],
-          datasets: [
-            {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
-      },
-      options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
+        myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: [
+                    ['Transaksi', 'Penjualan'], 
+                    ['Bukan', 'Transaksi', 'Penjualan'],
+                    ['Transaksi', 'Penjualan'], 
+                    ['Bukan', 'Transaksi', 'Penjualan']
+                ],
+                datasets: [{
+                    label: '1-1000',
+                    data: [61.54, 95.74,52.73, 86.36],
+                    backgroundColor: '#a9e9a4',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }, {
+                    label: '1001-2000',
+                    data: [7.69, 2.13, 23.64, 6.82],
+                    backgroundColor: '#77dd77',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                },{
+                    label: '>2000',
+                    data: [30.77, 2.13, 23.64, 6.82],
+                    backgroundColor: '#508d4f' ,
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+              indexAxis: 'y',
+                scales: {
+                    y: {
+                        grid:{
+                            display:false
+                        },
+                        stacked: true,
+                        title: {
+                          display: true,
+                          text : '      PURWAKARTA       BANDUNG BARAT',
+                          font : {weight: 'bold', size: 12}
+                        }
+                    },
+                    x :{
+                        stacked: true,
+                        max:100,
+                        grid:{
+                            display:false
+                        },
+                    }
+                }
             }
-          }
-      }
-    });
+        });
 
-    ctx = document.getElementById('visualisasi23').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: [
-            ['Awan'], 
-            ['Sawah'], 
-            ['Lahan', 'Terbangun'], 
-            ['Hutan'],
-            ['Badan', 'Air'], 
-            ['Lahan', 'Kosong', 'Non Vegetatif']
-          ],
-          datasets: [
-            {
-              label: 'Bandung Barat',
-              data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Purwakarta',
-              data: [0.39, 22.37, 17.44, 41.32, 10.88 ,7.61],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
-      },
-      options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
+    // Visualisasi 23
+      ctx = document.getElementById('visualisasi23').getContext('2d');
+        myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Padi', 'Palawija', 'Hortikultura', 'Lainnya', 'Padi', 'Palawija', 'Hortikultura', 'Lainnya'],
+                datasets: [{
+                    label: 'Rendah (1-250)',
+                    data: [54.41, 70.27, 36.36, 100, 76.74, 100, 50, 100],
+                    backgroundColor: '#a9e9a4',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }, {
+                    label: 'Sedang (251-500)',
+                    data: [27.94,18.92,45.45,0,15.12,0,50,0],
+                    backgroundColor: '#77dd77',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                },{
+                    label: 'Tinggi (>500)',
+                    data: [17.65,10.81,18.18,0,8.14,0,0,0],
+                    backgroundColor: '#508d4f' ,
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+              indexAxis: 'y',
+                scales: {
+                    y: {
+                        grid:{
+                            display:false
+                        },
+                        stacked: true,
+                        title: {
+                          display: true,
+                          text : '       PURWAKARTA       BANDUNG BARAT',
+                          font : {weight: 'bold', size: 12}
+                        }
+                    },
+                    x :{
+                        stacked: true,
+                        max:100,
+                        grid:{
+                            display:false
+                        },
+                    }
+                }
             }
-          }
-      }
-    });
+        });
 
     ctx = document.getElementById('visualisasi24').getContext('2d');
     barChart = new Chart(ctx, {
@@ -2045,7 +1736,6 @@
       }
     });
   });
-
 
   // Tujuan 2 (BIVARIATE SCATTERPLOT MORAN)
   $(function () {
