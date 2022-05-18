@@ -238,7 +238,7 @@
                     <!-- Visualisasi 11 Grouped Bar Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Lama Bertani Berdasarkan Perubahan Pekerjaan<br>di Kabupaten Bandung Barat dan Purwakarta</h3>
+                        <h3 class="card-title">Persentase (%) Lama Bertani Berdasarkan Perubahan Pekerjaan di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi11" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -976,73 +976,51 @@
     });
 
     ctx = document.getElementById('visualisasi11').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: [
-            ['Pertanian', '(Bandung Barat)'], 
-            ['Usaha', 'Lain', '(Bandung Barat)'], 
-            ['Tidak', 'Bekerja', '(Bandung Barat)'], 
-            ['Pertanian', '(Purwakarta)'], 
-            ['Usaha', 'Lain', '(Purwakarta)'], 
-            ['Tidak', 'Bekerja', '(Purwakarta)']
-          ],
-          datasets: [
-            {
-              label: '1-20 tahun',
-              data: [26.29, 22.16, 6.7, 14.14, 22.22 ,9.1],
-              backgroundColor: '#a9e9a4',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: '21-40 tahun',
-              data: [11.86, 8.25, 2.58, 19.19, 10.1 ,5.05],
-              backgroundColor: '#77dd77',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: '>40 tahun',
-              data: [14.95, 2.58, 4.63, 16.16, 2.02 ,2.02],
-              backgroundColor: '#508d4f',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
-      },
-      options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
+    myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Pertanian','Usaha lain', 'Tidak Bekerja','Pertanian','Usaha lain', 'Tidak Bekerja'],
+                datasets: [{
+                    label: '1-20 tahun',
+                    data: [26.29, 22.16, 6.7, 14.14, 22.22, 9.1],
+                    backgroundColor: '#a9e9a4',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }, {
+                    label: '21-40 tahun',
+                    data: [11.86, 8.25, 2.58, 19.19, 10.1, 5.05],
+                    backgroundColor: '#77dd77',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                },{
+                    label: '>40 tahun',
+                    data: [14.95,2.58,4.63,16.16,2.02,2.02],
+                    backgroundColor: '#508d4f',
+                    borderColor: '#1a2519',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        grid:{
+                            display:false
+                        },
+                        ticks: {beginAtZero: true},
+                        max: 50
+                    },
+                    x :{
+                        title: {
+                          display: true,
+                          text : 'BANDUNG BARAT                                               PURWAKARTA',
+                          font : {weight: 'bold'}
+                        },
+                        grid:{
+                            display:false
+                        }
+                    }
+                }
             }
-          },
-          xaxis: {
-            labels: {
-              rotate: -45,
-              rotateAlways: true
-            }
-          }
-      }
     });
 
     ctx = document.getElementById('visualisasi12').getContext('2d');
