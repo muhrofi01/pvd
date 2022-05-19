@@ -59,9 +59,6 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="pills-tujuan1-tab" data-bs-toggle="pill" data-bs-target="#pills-tujuan1" type="button" role="tab" aria-controls="pills-tujuan1" aria-selected="true">Tujuan 1</button>
                 </li>
-                <li class="nav-item" role="presentation" style="margin-left:-7px; border-radius:10px;">
-                    <button class="nav-link" id="pills-tujuan2-tab" data-bs-toggle="pill" data-bs-target="#pills-tujuan2" type="button" role="tab" aria-controls="pills-tujuan2" aria-selected="false">Tujuan 2</button>
-                </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-tujuan1" role="tabpanel" aria-labelledby="pills-tujuan1-tab">
@@ -82,7 +79,7 @@
                             <tr>
                               <th class="text-center" colspan="2">Dewasa Awal (18-40 tahun)</th>
                               <th class="text-center" colspan="2">Dewasa Madya (41-60 tahun)</th>
-                              <th class="text-center" colspan="2">Dewasa Akhir (>60 tahun</th>
+                              <th class="text-center" colspan="2">Dewasa Akhir (>60 tahun)</th>
                             </tr>
                             <tr>
                               <th class="text-center">Jumlah</th>
@@ -190,7 +187,7 @@
                   <div class="row">  
                     <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
-                        <h3 class="card-title text-center" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Jumlah Anggota Rumah Tangga Petani Pelaku Alih Fungsi Lahan<br>Menurut Mekanismenya di Kabupaten Bandung Barat</h3>
+                        <h3 class="card-title text-center" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Jumlah Anggota Rumah Tangga Petani Pelaku Alih Fungsi Lahan<br>Menurut Mekanisme Alih Fungsi di Kabupaten Bandung Barat</h3>
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
@@ -266,7 +263,7 @@
                   <div class="row">  
                     <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
-                        <h3 class="card-title text-center" style="font-weight: bold; font-size: 1.2em; margin-top: 1em; margin-top: 1em;">Jumlah Anggota Rumah Tangga Petani Pelaku Alih Fungsi Lahan<br>Menurut Mekanismenya di Kabupaten Purwakarta</h3>
+                        <h3 class="card-title text-center" style="font-weight: bold; font-size: 1.2em; margin-top: 1em; margin-top: 1em;">Jumlah Anggota Rumah Tangga Petani Pelaku Alih Fungsi Lahan<br>Menurut Mekanisme Alih Fungsi di Kabupaten Purwakarta</h3>
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
@@ -915,9 +912,9 @@
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
-                              <th class="text-center" colspan="2">Rendah</th>
-                              <th class="text-center" colspan="2">Sedang</th>
-                              <th class="text-center" colspan="2">Tinggi</th>
+                              <th class="text-center" colspan="2">Rendah (1-700)</th>
+                              <th class="text-center" colspan="2">Sedang (701-1400)</th>
+                              <th class="text-center" colspan="2">Tinggi (>1400)</th>
                             </tr>
                             <tr>
                               <th class="text-center">Jumlah</th>
@@ -1208,7 +1205,7 @@
                   <div class="row">  
                     <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
-                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Kepemilikan Lahan Berdasarkan Asal Mulanya di Kabupaten Bandung Barat</h3>
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Alih Fungsi Lahan Berdasarkan Asal Mula Lahan di Kabupaten Bandung Barat</h3>
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
@@ -1216,7 +1213,7 @@
                         <thead>
                             <tr>
                               <th class="text-center" rowspan="3">Asal Mula</th>
-                              <th class="text-center" colspan="6">Luas Lahan (m&sup2;)</th>
+                              <th class="text-center" colspan="6">Luas Alih Fungsi Lahan (m&sup2;)</th>
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
@@ -1282,7 +1279,7 @@
                   <div class="row">  
                     <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
-                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Kepemilikan Lahan Berdasarkan Asal Mulanya di Kabupaten Purwakarta</h3>
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Alih Fungsi Lahan Berdasarkan Asal Mula Lahan di Kabupaten Purwakarta</h3>
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
@@ -1290,7 +1287,7 @@
                         <thead>
                             <tr>
                               <th class="text-center" rowspan="3">Asal Mula</th>
-                              <th class="text-center" colspan="6">Luas Lahan (m&sup2;)</th>
+                              <th class="text-center" colspan="6">Luas Alih Fungsi Lahan (m&sup2;)</th>
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
@@ -1356,7 +1353,7 @@
                   <div class="row">  
                     <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
-                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Alih Fungsi Lahan Berdasarkan Mekanisme Alih Fungsinya di Kabupaten Bandung Barat</h3>
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Alih Fungsi Lahan Berdasarkan Mekanisme Alih Fungsi di Kabupaten Bandung Barat</h3>
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
@@ -1368,9 +1365,9 @@
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
-                              <th class="text-center" colspan="2">1-1000</th>
-                              <th class="text-center" colspan="2">1001-2000</th>
-                              <th class="text-center" colspan="2">>2000</th>
+                              <th class="text-center" colspan="2">Rendah (1-700)</th>
+                              <th class="text-center" colspan="2">Sedang (701-1400)</th>
+                              <th class="text-center" colspan="2">Tinggi (>1400)</th>
                             </tr>
                             <tr>
                               <th class="text-center">Jumlah</th>
@@ -1386,36 +1383,36 @@
                           <tbody>
                             <tr>
                               <td class="text-left">Melalui Transaksi Penjualan</td>
-                              <td class="text-right">32</td>
-                              <td class="text-right">61.54</td>
-                              <td class="text-right">4</td>
-                              <td class="text-right">7.69</td>
-                              <td class="text-right">16</td>
-                              <td class="text-right">30.77</td>
+                              <td class="text-right">28</td>
+                              <td class="text-right">53.8</td>
+                              <td class="text-right">7</td>
+                              <td class="text-right">13.5</td>
+                              <td class="text-right">17</td>
+                              <td class="text-right">32.7</td>
                               <td class="text-right">52</td>
-                              <td class="text-right">26.9</td>
+                              <td class="text-right">100</td>
                             </tr>
                             <tr>
                               <td class="text-left">Tidak Melalui Transaksi Penjualan</td>
-                              <td class="text-right">135</td>
-                              <td class="text-right">95.74</td>
+                              <td class="text-right">131</td>
+                              <td class="text-right">92.9</td>
+                              <td class="text-right">7</td>
+                              <td class="text-right">5</td>
                               <td class="text-right">3</td>
-                              <td class="text-right">2.13</td>
-                              <td class="text-right">3</td>
-                              <td class="text-right">2.13</td>
+                              <td class="text-right">2.1</td>
                               <td class="text-right">141</td>
-                              <td class="text-right">73.1</td>
+                              <td class="text-right">100</td>
                             </tr>
                           </tbody>
                           <tfoot>
                             <tr>
                               <td class="text-left">Total</td>
-                              <td class="text-right">167</td>
-                              <td class="text-right">86.08</td>
-                              <td class="text-right">7</td>
-                              <td class="text-right">3.61</td>
-                              <td class="text-right">19</td>
-                              <td class="text-right">9.79</td>
+                              <td class="text-right">159</td>
+                              <td class="text-right">82.4</td>
+                              <td class="text-right">14</td>
+                              <td class="text-right">7.3</td>
+                              <td class="text-right">20</td>
+                              <td class="text-right">10.4</td>
                               <td class="text-right">194</td>
                               <td class="text-right">100</td>
                             </tr>
@@ -1430,7 +1427,7 @@
                   <div class="row">  
                     <div class="card col-12" style="box-shadow: 0 0 10px black;">
                       <div class="card-header" style="margin: 0 auto;">
-                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Alih Fungsi Lahan Berdasarkan Mekanisme Alih Fungsinya di Kabupaten Purwakarta</h3>
+                        <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Luas Alih Fungsi Lahan Berdasarkan Mekanisme Alih Fungsi di Kabupaten Purwakarta</h3>
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
@@ -1442,9 +1439,9 @@
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
-                              <th class="text-center" colspan="2">1-1000</th>
-                              <th class="text-center" colspan="2">1001-2000</th>
-                              <th class="text-center" colspan="2">>2000</th>
+                              <th class="text-center" colspan="2">Rendah (1-700)</th>
+                              <th class="text-center" colspan="2">Sedang (701-1400)</th>
+                              <th class="text-center" colspan="2">Tinggi (>1400)</th>
                             </tr>
                             <tr>
                               <th class="text-center">Jumlah</th>
@@ -1460,36 +1457,36 @@
                           <tbody>
                             <tr>
                               <td class="text-left">Melalui Transaksi Penjualan</td>
-                              <td class="text-right">29</td>
-                              <td class="text-right">52.73</td>
-                              <td class="text-right">13</td>
-                              <td class="text-right">23.64</td>
-                              <td class="text-right">13</td>
-                              <td class="text-right">23.64</td>
+                              <td class="text-right">21</td>
+                              <td class="text-right">38.2</td>
+                              <td class="text-right">10</td>
+                              <td class="text-right">18.2</td>
+                              <td class="text-right">24</td>
+                              <td class="text-right">43.6</td>
                               <td class="text-right">55</td>
-                              <td class="text-right">55.6</td>
+                              <td class="text-right">100</td>
                             </tr>
                             <tr>
                               <td class="text-left">Tidak Melalui Transaksi Penjualan</td>
-                              <td class="text-right">38</td>
-                              <td class="text-right">86.36</td>
+                              <td class="text-right">36</td>
+                              <td class="text-right">81.8</td>
                               <td class="text-right">3</td>
-                              <td class="text-right">6.82</td>
-                              <td class="text-right">3</td>
-                              <td class="text-right">6.82</td>
+                              <td class="text-right">6.8</td>
+                              <td class="text-right">5</td>
+                              <td class="text-right">11.4</td>
                               <td class="text-right">44</td>
-                              <td class="text-right">44.4</td>
+                              <td class="text-right">100</td>
                             </tr>
                           </tbody>
                           <tfoot>
                             <tr>
                               <td class="text-left">Total</td>
-                              <td class="text-right">67</td>
-                              <td class="text-right">67.68</td>
-                              <td class="text-right">16</td>
-                              <td class="text-right">16.16</td>
-                              <td class="text-right">16</td>
-                              <td class="text-right">16.16</td>
+                              <td class="text-right">57</td>
+                              <td class="text-right">57.6</td>
+                              <td class="text-right">13</td>
+                              <td class="text-right">13.1</td>
+                              <td class="text-right">29</td>
+                              <td class="text-right">29.3</td>
                               <td class="text-right">99</td>
                               <td class="text-right">100</td>
                             </tr>
@@ -1517,9 +1514,9 @@
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
-                              <th class="text-center" colspan="2">Rendah</th>
-                              <th class="text-center" colspan="2">Sedang</th>
-                              <th class="text-center" colspan="2">Tinggi</th>
+                              <th class="text-center" colspan="2">Rendah (1-250)</th>
+                              <th class="text-center" colspan="2">Sedang (251-500)</th>
+                              <th class="text-center" colspan="2">Tinggi (>500)</th>
                             </tr>
                             <tr>
                               <th class="text-center">Jumlah</th>
@@ -1618,9 +1615,9 @@
                               <th class="text-center" colspan="2" rowspan="2">Total</th>
                             </tr>
                             <tr>
-                              <th class="text-center" colspan="2">Rendah</th>
-                              <th class="text-center" colspan="2">Sedang</th>
-                              <th class="text-center" colspan="2">Tinggi</th>
+                              <th class="text-center" colspan="2">Rendah (1-250)</th>
+                              <th class="text-center" colspan="2">Sedang (251-500)</th>
+                              <th class="text-center" colspan="2">Tinggi (>500)</th>
                             </tr>
                             <tr>
                               <th class="text-center">Jumlah</th>
@@ -1702,270 +1699,6 @@
                     </div>
                     <!-- /.card -->
                   </div>
-                </div>
-
-                <div class="tab-pane fade show" id="pills-tujuan2" role="tabpanel" aria-labelledby="pills-tujuan2-tab">
-                  <div class="row">  
-                      <div class="card col-12" style="box-shadow: 0 0 10px black;">
-                        <div class="card-header" style="margin: 0 auto;">
-                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;">Hasil Estimasi Luas Tutupan Lahan</h3>
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <table id="example5" class="table table-bordered table-striped">
-                          <thead>
-                            <tr>
-                              <th rowspan="2" class="text-center">Jenis Tutupan Lahan</th>
-                              <th class="text-center" colspan="2">Luas Tutupan Lahan Bandung Barat 2021</th>
-                              <th class="text-center" colspan="2">Luas Tutupan Lahan Purwakarta 2021</th>
-                            </tr>
-                            <tr>
-                              <th class="text-center">ha</th>
-                              <th class="text-center">%</th>
-                              <th class="text-center">ha</th>
-                              <th class="text-center">%</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                              <td>Lahan terbangun</td>
-                              <td class="text-right">13796.24</td>
-                              <td class="text-right">11.01000428</td>
-                              <td class="text-right">14268.91</td>
-                              <td class="text-right">14.35011731</td>
-                            </tr>
-                            <tr>
-                              <td>Sawah</td>
-                              <td class="text-right">39968.55</td>
-                              <td class="text-right">31.89665492</td>
-                              <td class="text-right">25377.16</td>
-                              <td class="text-right">25.52158666</td>
-                            </tr>
-                            <tr>
-                              <td>Hutan</td>
-                              <td class="text-right">69607.37</td>
-                              <td class="text-right">55.5497325</td>
-                              <td class="text-right">52164.11</td>
-                              <td class="text-right">52.46098672</td>
-                            </tr>
-                            <tr>
-                              <td>Lahan kering non-vegetatif</td>
-                              <td class="text-right">784.51</td>
-                              <td class="text-right">0.626073369</td>
-                              <td class="text-right">1529.49</td>
-                              <td class="text-right">1.538194643</td>
-                            </tr>
-                            <tr>
-                              <td>Badan air</td>
-                              <td class="text-right">1149.73</td>
-                              <td class="text-right">0.9175349384</td>
-                              <td class="text-right">6094.43</td>
-                              <td class="text-right">6.12911466</td>
-                            </tr>
-                            </tbody>
-                            <tfoot>
-                            <tr>
-                              <th>Total</th>
-                              <td class="text-right">125306.4</td>
-                              <td class="text-right">100</td>
-                              <td class="text-right">99434.1</td>
-                              <td class="text-right">100</td>
-                            </tr>
-                            </tfoot>
-                          </table>
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                  </div>`
-
-                  <div class="row">  
-                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
-                        <div class="card-header" style="margin: 0 auto;">
-                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Hasil Estimasi Luas Tanam Padi Lokus Purwakarta</h3>
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <table id="example6" class="table table-bordered table-striped">
-                          <thead>
-                            <tr>
-                              <th class="text-center">Kecamatan</th>
-                              <th class="text-center">Luas Sawah (ha)</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                              <td>Babakancikao</td>
-                              <td class="text-right">1568.04</td>
-                            </tr>
-                            <tr>
-                              <td>Bojong</td>
-                              <td class="text-right">1683.12</td>
-                            </tr>
-                            <tr>
-                              <td>Bungursari</td>
-                              <td class="text-right">1332.23</td>
-                            </tr>
-                            <tr>
-                              <td>Campaka</td>
-                              <td class="text-right">1705.62</td>
-                            </tr>
-                            <tr>
-                              <td>Cibatu</td>
-                              <td class="text-right">1883.04</td>
-                            </tr>
-                            <tr>
-                              <td>Darangdan</td>
-                              <td class="text-right">2195.93</td>
-                            </tr>
-                            <tr>
-                              <td>Jatiluhur</td>
-                              <td class="text-right">834.76</td>
-                            </tr>
-                            <tr>
-                              <td>Kiarapedes</td>
-                              <td class="text-right">1510.66</td>
-                            </tr>
-                            <tr>
-                              <td>Maniis</td>
-                              <td class="text-right">962.38</td>
-                            </tr>
-                            <tr>
-                              <td>Pasawahan</td>
-                              <td class="text-right">1239.71</td>
-                            </tr>
-                            <tr>
-                              <td>Plered</td>
-                              <td class="text-right">1183.15</td>
-                            </tr>
-                            <tr>
-                              <td>Pondoksalam</td>
-                              <td class="text-right">1620.91</td>
-                            </tr>
-                            <tr>
-                              <td>Purwakarta</td>
-                              <td class="text-right">434.96</td>
-                            </tr>
-                            <tr>
-                              <td>Sukasari</td>
-                              <td class="text-right">999.32</td>
-                            </tr>
-                            <tr>
-                              <td>Sukatani</td>
-                              <td class="text-right">2781.48</td>
-                            </tr>
-                            <tr>
-                              <td>Tegalwaru</td>
-                              <td class="text-right">1994.87</td>
-                            </tr>
-                            <tr>
-                              <td>Wanayasa</td>
-                              <td class="text-right">1446.98</td>
-                            </tr>
-                            </tbody>
-                            <tfoot>
-                            <tr>
-                              <th>Total</th>
-                              <th class="text-right">25377.16</th>
-                            </tr>
-                            </tfoot>
-                          </table>
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-
-                      <div class="card col-md-6" style="box-shadow: 0 0 10px black;">
-                        <div class="card-header" style="margin: 0 auto;">
-                          <h3 class="card-title" style="font-weight: bold; font-size: 1.2em;">Hasil Estimasi Luas Tanam Padi Lokus Bandung Barat</h3>
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <table id="example7" class="table table-bordered table-striped">
-                          <thead>
-                            <tr>
-                              <th class="text-center">Kecamatan</th>
-                              <th class="text-center">Luas Sawah (ha)</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                              <td>Batujajar</td>
-                              <td class="text-right">1277.37</td>
-                            </tr>
-                            <tr>
-                              <td>Cihampelas</td>
-                              <td class="text-right">1633.46</td>
-                            </tr>
-                            <tr>
-                              <td>Cikalong Wetan</td>
-                              <td class="text-right">3748.17</td>
-                            </tr>
-                            <tr>
-                              <td>Cililin</td>
-                              <td class="text-right">2142.93</td>
-                            </tr>
-                            <tr>
-                              <td>Cipatat</td>
-                              <td class="text-right">3485.49</td>
-                            </tr>
-                            <tr>
-                              <td>Cipeundeuy</td>
-                              <td> class="text-right"2191.37</td>
-                            </tr>
-                            <tr>
-                              <td>Cipongkor</td>
-                              <td class="text-right">2867.15</td>
-                            </tr>
-                            <tr>
-                              <td>Cisarua</td>
-                              <td class="text-right">2144.75</td>
-                            </tr>
-                            <tr>
-                              <td>Gununghalu</td>
-                              <td class="text-right">4911.88</td>
-                            </tr>
-                            <tr>
-                              <td>Lembang</td>
-                              <td class="text-right">2601</td>
-                            </tr>
-                            <tr>
-                              <td>Ngamprah</td>
-                              <td class="text-right">1395.41</td>
-                            </tr>
-                            <tr>
-                              <td>Padalarang</td>
-                              <td class="text-right">1876.05</td>
-                            </tr>
-                            <tr>
-                              <td>Parongpong</td>
-                              <td class="text-right">961.64</td>
-                            </tr>
-                            <tr>
-                              <td>Rongga</td>
-                              <td class="text-right">3770.09</td>
-                            </tr>
-                            <tr>
-                              <td>Saguling</td>
-                              <td class="text-right">2207.34</td>
-                            </tr>
-                            <tr>
-                              <td>Sindangkerta</td>
-                              <td class="text-right">2754.45</td>
-                            </tr>
-                            </tbody>
-                            <tfoot>
-                            <tr>
-                              <th>Total</th>
-                              <th class="text-right">39968.55</th>
-                            </tr>
-                            </tfoot>
-                          </table>
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                  </div>`
                 </div>
             </div>
       </div>
@@ -2094,50 +1827,44 @@
     }).buttons().container().appendTo('#tabulasi17PWK_wrapper .col-md-6:eq(0)');
 
     $("#tabulasi18KBB").DataTable({
-      "columnDefs": [
-        { "orderable": false, "targets": [0] }, 
-    ],
       "responsive": true, "lengthChange": false, "autoWidth": false,
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#tabulasi18KBB_wrapper .col-md-6:eq(0)');
 
     $("#tabulasi18PWK").DataTable({
-      "columnDefs": [
-        { "orderable": false, "targets": [0] }, 
-    ],
       "responsive": true, "lengthChange": false, "autoWidth": false,
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#tabulasi18PWK_wrapper .col-md-6:eq(0)');
 
-    $("#example5").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example5_wrapper .col-md-6:eq(0)');
+    // $("#example5").DataTable({
+    //   "responsive": true, "lengthChange": false, "autoWidth": false,
+    //   "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    // }).buttons().container().appendTo('#example5_wrapper .col-md-6:eq(0)');
 
-    $("#example6").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example6_wrapper .col-md-6:eq(0)');
+    // $("#example6").DataTable({
+    //   "responsive": true, "lengthChange": false, "autoWidth": false,
+    //   "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    // }).buttons().container().appendTo('#example6_wrapper .col-md-6:eq(0)');
     
-    $("#example7").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example7_wrapper .col-md-6:eq(0)');
+    // $("#example7").DataTable({
+    //   "responsive": true, "lengthChange": false, "autoWidth": false,
+    //   "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    // }).buttons().container().appendTo('#example7_wrapper .col-md-6:eq(0)');
 
-    $("#example8").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example8_wrapper .col-md-6:eq(0)');
+    // $("#example8").DataTable({
+    //   "responsive": true, "lengthChange": false, "autoWidth": false,
+    //   "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    // }).buttons().container().appendTo('#example8_wrapper .col-md-6:eq(0)');
 
-    $("#example9").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example9_wrapper .col-md-6:eq(0)');
+    // $("#example9").DataTable({
+    //   "responsive": true, "lengthChange": false, "autoWidth": false,
+    //   "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    // }).buttons().container().appendTo('#example9_wrapper .col-md-6:eq(0)');
 
-    $("#example10").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example10_wrapper .col-md-6:eq(0)');
+    // $("#example10").DataTable({
+    //   "responsive": true, "lengthChange": false, "autoWidth": false,
+    //   "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    // }).buttons().container().appendTo('#example10_wrapper .col-md-6:eq(0)');
     
   });
 </script>

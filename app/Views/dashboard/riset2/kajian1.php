@@ -340,6 +340,7 @@
 
 <?= $this->section('js') ?>
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 
 <script>
   // Tujuan 1
@@ -650,7 +651,6 @@
       }
     });
   });
-
 
     //1. HEATMAPS KBB Landsat-8 2013
     var options = {

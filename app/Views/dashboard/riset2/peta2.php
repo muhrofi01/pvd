@@ -2,6 +2,33 @@
 
 <?= $this->Section('css') ?>
 
+<?php if (!($peta['id'] == 11 || $peta['id'] == 12)): ?>
+  <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/leaflet.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/qgis2web.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/fontawesome-all.min.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/MarkerCluster.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/dist/css/peta/MarkerCluster.Default.css') ?>">
+<?php else : ?>
+
+<!-- leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+
+  <!-- easy button -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+  
+<!-- fa -->
+<script src="https://kit.fontawesome.com/766f1552b7.js" crossorigin="anonymous"></script>
+
+<!-- css peta tematik -->
+<link rel="stylesheet" href="<?= base_url('assets/peta_y2/peta-y2-gab.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/peta_lisa_laju/peta-lisa-laju.css') ?>">
+
+<?php endif; ?>
+
 <style>
     #dropdown h1 {
       font-size: 1.5em;
@@ -50,7 +77,7 @@
         color: #ffffff; 
         font-weight:bold;
     }
-    #map,#petaLaju_bb, #petaLaju_pwk {
+    #map{
       border: 5px solid #0A5446;
     }
     .dropdown .dropdown-item.active{
@@ -83,10 +110,12 @@
               Tujuan 2
             </button>
             <div class="dropdown-menu" style="z-index: 10000000;" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="">Peta Tematik Laju Alih Fungsi Lahan</a>
-              <a class="dropdown-item" href="">Bivariate Choropleth 1</a>
-              <a class="dropdown-item" href="">Bivariate Choropleth 2</a>
-              <a class="dropdown-item" href="">Bivariate Choropleth 3</a>
+              <a class="dropdown-item <?= ($peta['id'] == 11 || !isset($peta['nama'])) ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/11">Peta Laju Perubahan Lahan Sawah Tahunan</a>
+              <a class="dropdown-item <?= $peta['id'] == 12 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/12">Peta Klaster LISA Laju Perubahan Lahan Sawah Tahunan</a>
+              <a class="dropdown-item <?= $peta['id'] == 16 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/16">Peta Bivariate Choropleth Y2 dan X1</a>
+              <a class="dropdown-item <?= $peta['id'] == 13 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/13">Peta Bivariate Choropleth Y2 dan X5</a>
+              <a class="dropdown-item <?= $peta['id'] == 14 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/14">Peta Bivariate Choropleth Y2 dan X6</a>
+              <a class="dropdown-item <?= $peta['id'] == 15 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/15">Peta Bivariate Choropleth Y2 dan X7</a>
             </div>
           </div>
         </div>
@@ -94,10 +123,10 @@
           <?php if (isset($peta['nama'])) : ?>
             <h2 class="text-center"><?= $peta['nama'] ?></h2>
           <?php else : ?>
-            <h2 class="text-center">Peta Tematik Laju Alih Fungsi Lahan</h2>
+            <h2 class="text-center">Peta Laju Perubahan Lahan Sawah Tahunan di Kabupaten Bandung Barat dan Purwakarta Tahun 2013-2021</h2>
           <?php endif ?>
           <div id="map" style="height: 600px;"></div>
-          </div>
+        </div>
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
@@ -106,6 +135,47 @@
 <?= $this->endSection() ?>
 
 <?= $this->Section('js') ?>
+
+<?php if (!($peta['id'] == 11 || $peta['id'] == 12 || $peta['id'] == 16)) : ?>
+  <script src="<?= base_url('/assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.pattern.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet-hash.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/Autolinker.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/rbush.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/labelgun.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/labels.js') ?>"></script>
+
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x5/data/bb_pwk_TanpaBatasKec_0.js') ?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x5/data/Kbb_Pwk_1.js')?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x6/data/bb_pwk_TanpaBatasKec_1.js') ?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x6/data/Kbb_Pwk_0.js')?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x7/data/bb_pwk_TanpaBatasKec_2.js') ?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x7/data/X7_0.js')?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x7/data/Y2_1.js')?>"></script>  
+<?php endif; ?>
+
+<?php if($peta['id'] == 16) : ?>
+  <script src="<?= base_url('/assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet.pattern.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/leaflet-hash.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/Autolinker.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/rbush.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/labelgun.min.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/peta/labels.js') ?>"></script>
+  <script src="<?= base_url('/assets/dist/js/leaflet-search.jss') ?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x1/data/bb_pwk_TanpaBatasKec.js')?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x1/data/Kbb_Pwk.js')?>"></script>
+<?php endif; ?>
+
+<?php if (isset($peta['nama'])) : ?>
+  <script src="<?= base_url($peta['generate']) ?>"></script>
+<?php else : ?>
+  <script src="<?= base_url('/assets/peta_y2/peta-y2-gab.js') ?>"></script>
+<?php endif ?>
 
 <!-- <script>
     let putar = function(e) {
