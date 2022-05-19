@@ -128,7 +128,7 @@
             <h2 class="text-center">Peta Klasifikasi Tutupan Lahan 2021 Sentinel-2 Lokus Bandung Barat</h2>
           <?php endif ?>
           <div id="map" style="height: 600px;"></div>
-          </div>
+        </div>
         
       </div><!-- /.container-fluid -->
     </section>
