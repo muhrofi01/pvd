@@ -118,6 +118,18 @@ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf
               <a class="dropdown-item <?= $peta['id'] == 15 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/15">Peta Bivariate Choropleth Y2 dan X7</a>
             </div>
           </div>
+          <div class="dropright">
+            <button class="btn" style="width: 50px;background-color: transparent;color: #0A5446;" id="dropdownInfo" data-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-info-circle mt-2" style="font-size: 22px;"></i>
+            </button>
+            <div class="dropdown-menu" style="z-index: 10000000; width: 500px; border-radius: 15px;" aria-labelledby="dropdownInfo">
+              <p class="pl-3 pr-3">
+                <ul style="list-style-type:disc">
+                  <li>Tujuan 2: adalah Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem qui, odit cupiditate doloremque ducimus debitis dolorem a fugit sed? Cum adipisci, inventore modi sunt itaque nobis beatae eveniet fugit! Illum?</li>
+                </ul>
+              </p>
+            </div>
+          </div>
         </div>
         <div class="content-peta w-100 mt-4">
           <?php if (isset($peta['nama'])) : ?>

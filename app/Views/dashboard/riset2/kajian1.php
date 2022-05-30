@@ -58,6 +58,21 @@
               <li class="nav-item p-0" role="presentation">
                 <a class="nav-link" id="tab-2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Tujuan 2</a>
               </li>
+              <li>
+                <div class="dropright">
+                  <button class="btn" style="width: 50px;background-color: transparent;color: #0A5446;" id="dropdownInfo" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-info-circle mt-1" style="font-size: 22px;"></i>
+                  </button>
+                  <div class="dropdown-menu" style="z-index: 10000000; width: 500px; border-radius: 15px;" aria-labelledby="dropdownInfo">
+                    <p class="pl-3 pr-3">
+                      <ul style="list-style-type:disc">
+                        <li>Tujuan 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum optio pariatur velit nisi repudiandae! Cumque qui nobis cupiditate hic quibusdam nemo totam cum blanditiis! Aspernatur possimus similique ullam error.</li>
+                        <li>Tujuan 2: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium vel commodi consectetur temporibus nam sit? Qui mollitia architecto dignissimos ipsam tempora, blanditiis amet? Placeat assumenda iusto ea hic quas ducimus!</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </li>
             </ul>
 
             <div class="tab-content">
