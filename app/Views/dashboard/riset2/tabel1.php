@@ -64,7 +64,24 @@
                 <li class="nav-item" role="presentation" style="margin-left:-7px; border-radius:10px;">
                     <button class="nav-link" id="pills-tujuan3-tab" data-bs-toggle="pill" data-bs-target="#pills-tujuan3" type="button" role="tab" aria-controls="pills-tujuan3" aria-selected="false">Tujuan 3</button>
                 </li>
-            </ul>
+                <li>
+                  <div class="dropright">
+                    <button class="btn" style="width: 50px;background-color: transparent;color: #0A5446;" id="dropdownInfo" data-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-info-circle mt-1" style="font-size: 22px;"></i>
+                    </button>
+                    <div class="dropdown-menu" style="z-index: 10000000; width: 500px; border-radius: 15px;" aria-labelledby="dropdownInfo">
+                      <p class="pl-3 pr-3">
+                        <ul style="list-style-type:disc">
+                          <li>Tujuan 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum optio pariatur velit nisi repudiandae! Cumque qui nobis cupiditate hic quibusdam nemo totam cum blanditiis! Aspernatur possimus similique ullam error.</li>
+                          <li>Tujuan 2: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium vel commodi consectetur temporibus nam sit? Qui mollitia architecto dignissimos ipsam tempora, blanditiis amet? Placeat assumenda iusto ea hic quas ducimus!</li>
+                          <li>Tujuan 3: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium vel commodi consectetur temporibus nam sit? Qui mollitia architecto dignissimos ipsam tempora, blanditiis amet? Placeat assumenda iusto ea hic quas ducimus!</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-tujuan1" role="tabpanel" aria-labelledby="pills-tujuan1-tab">
                   <div class="row">  

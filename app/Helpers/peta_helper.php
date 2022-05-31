@@ -90,31 +90,31 @@ function getPeta()
         '13' => 
         [
             'id' => '13',
-            'nama' => 'Peta Bivariate Choropleth <br> Jumlah Fasilitas Pendidikan dan Laju Alih Fungsi Rata-Rata Tahunan',
-            'generate' => 'assets/bivariate_choropleth/y2-x5/js/y2-x5.js',
+            'nama' => 'Bivariate Choropleth<br>Rasio Fasilitas Kesehatan 2021&#8212;Persentase Laju Alih Fungsi Lahan Sawah Tahunan',
+            'generate' => 'assets/bivariate_choropleth/y1-x5/js/y1-x5.js',
             'data' => ''
         ],
         '14' => 
         [
             'id' => '14',
-            'nama' => 'Peta Bivariate Choropleth <br> Rasio Fasilitas Kesehatan dan Laju Alih Fungsi Rata-Rata Tahunan',
-            'generate' => 'assets/bivariate_choropleth/y2-x6/js/y2-x6.js',
+            'nama' => 'Bivariate Choropleth<br>Ketinggian Wilayah 2021&#8212;Persentase Laju Alih Fungsi Lahan Sawah Tahunan',
+            'generate' => 'assets/bivariate_choropleth/y1-x6/js/y1-x6.js',
             'data' => ''
         ],
         '15' => 
         [
             'id' => '15',
-            'nama' => 'Peta Bivariate Choropleth <br> Ketinggian Wilayah dan Laju Alih Fungsi Rata-Rata Tahunan',
-            'generate' => 'assets/bivariate_choropleth/y2-x7/js/y2-x7.js',
-            'data' => ''
-        ],
-        '16' => 
-        [
-            'id' => '16',
-            'nama' => 'Peta Bivariate Choropleth Perubahan Kepadatan Penduduk <br> dan Laju Alih Fungsi Rata-Rata Tahunan',
-            'generate' => 'assets/bivariate_choropleth/y2-x1/js/y2-x1.js',
+            'nama' => 'Bivariate Choropleth<br>Laju Pertumbuhan Penduduk&#8212;Persentase Laju Alih Fungsi Lahan Sawah Tahunan',
+            'generate' => 'assets/bivariate_choropleth/y1-x12/js/y1-x12.js',
             'data' => ''
         ]
+        // '16' => 
+        // [
+        //     'id' => '16',
+        //     'nama' => 'Peta Bivariate Choropleth Perubahan Kepadatan Penduduk <br> dan Laju Alih Fungsi Rata-Rata Tahunan',
+        //     'generate' => 'assets/bivariate_choropleth/y2-x1/js/y2-x1.js',
+        //     'data' => ''
+        // ]
     ];
 
     return $peta;

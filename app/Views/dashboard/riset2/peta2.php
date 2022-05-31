@@ -112,10 +112,9 @@ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf
             <div class="dropdown-menu" style="z-index: 10000000;" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item <?= ($peta['id'] == 11 || !isset($peta['nama'])) ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/11">Peta Laju Perubahan Lahan Sawah Tahunan</a>
               <a class="dropdown-item <?= $peta['id'] == 12 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/12">Peta Klaster LISA Laju Perubahan Lahan Sawah Tahunan</a>
-              <a class="dropdown-item <?= $peta['id'] == 16 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/16">Peta Bivariate Choropleth Y2 dan X1</a>
-              <a class="dropdown-item <?= $peta['id'] == 13 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/13">Peta Bivariate Choropleth Y2 dan X5</a>
-              <a class="dropdown-item <?= $peta['id'] == 14 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/14">Peta Bivariate Choropleth Y2 dan X6</a>
-              <a class="dropdown-item <?= $peta['id'] == 15 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/15">Peta Bivariate Choropleth Y2 dan X7</a>
+              <a class="dropdown-item <?= $peta['id'] == 13 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/13">Peta Bivariate Choropleth Y1 dan X5</a>
+              <a class="dropdown-item <?= $peta['id'] == 14 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/14">Peta Bivariate Choropleth Y1 dan X6</a>
+              <a class="dropdown-item <?= $peta['id'] == 15 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/15">Peta Bivariate Choropleth Y1 dan X12</a>
             </div>
           </div>
           <div class="dropright">
@@ -133,7 +132,7 @@ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf
         </div>
         <div class="content-peta w-100 mt-4">
           <?php if (isset($peta['nama'])) : ?>
-            <h2 class="text-center"><?= $peta['nama'] ?></h2>
+            <h2 class="text-center" style="font-size: 29px;"><?= $peta['nama'] ?></h2>
           <?php else : ?>
             <h2 class="text-center">Peta Laju Perubahan Lahan Sawah Tahunan di Kabupaten Bandung Barat dan Purwakarta Tahun 2013-2021</h2>
           <?php endif ?>
@@ -148,7 +147,7 @@ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf
 
 <?= $this->Section('js') ?>
 
-<?php if (!($peta['id'] == 11 || $peta['id'] == 12 || $peta['id'] == 16)) : ?>
+<?php if (!($peta['id'] == 11 || $peta['id'] == 12)) : ?>
   <script src="<?= base_url('/assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
   <script src="<?= base_url('/assets/dist/js/peta/leaflet.js') ?>"></script>
   <script src="<?= base_url('/assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
@@ -159,28 +158,12 @@ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf
   <script src="<?= base_url('/assets/dist/js/peta/labelgun.min.js') ?>"></script>
   <script src="<?= base_url('/assets/dist/js/peta/labels.js') ?>"></script>
 
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x5/data/bb_pwk_TanpaBatasKec_0.js') ?>"></script>
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x5/data/Kbb_Pwk_1.js')?>"></script>
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x6/data/bb_pwk_TanpaBatasKec_1.js') ?>"></script>
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x6/data/Kbb_Pwk_0.js')?>"></script>
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x7/data/bb_pwk_TanpaBatasKec_2.js') ?>"></script>
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x7/data/X7_0.js')?>"></script>
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x7/data/Y2_1.js')?>"></script>  
-<?php endif; ?>
-
-<?php if($peta['id'] == 16) : ?>
-  <script src="<?= base_url('/assets/dist/js/peta/qgis2web_expressions.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/peta/leaflet.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/peta/leaflet.rotatedMarker.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/peta/leaflet.pattern.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/peta/leaflet-hash.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/peta/Autolinker.min.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/peta/rbush.min.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/peta/labelgun.min.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/peta/labels.js') ?>"></script>
-  <script src="<?= base_url('/assets/dist/js/leaflet-search.jss') ?>"></script>
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x1/data/bb_pwk_TanpaBatasKec.js')?>"></script>
-  <script src="<?= base_url('/assets/bivariate_choropleth/y2-x1/data/Kbb_Pwk.js')?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y1-x5/data/bb_pwk_TanpaBatasKecY1X5_0.js') ?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y1-x5/data/LayerY1X5_1.js')?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y1-x6/data/bb_pwk_TanpaBatasKecY1_X6_0.js') ?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y1-x6/data/LayerY1X6_1.js')?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y1-x12/data/bb_pwk_TanpaBatasKecY1X12_0.js') ?>"></script>
+  <script src="<?= base_url('/assets/bivariate_choropleth/y1-x12/data/LayerY1X12_1.js')?>"></script>
 <?php endif; ?>
 
 <?php if (isset($peta['nama'])) : ?>
