@@ -76,14 +76,14 @@ function getPeta()
         '11' => 
         [
             'id' => '11',
-            'nama' => 'Peta Laju Perubahan Lahan Sawah Tahunan di Kabupaten Bandung Barat dan Purwakarta Tahun 2013-2021',
-            'generate' => 'assets/peta_y2/peta-y2-gab.js',
+            'nama' => 'Persentase (%) Laju Alih Fungsi Lahan Sawah Tahunan<br>Kabupaten Bandung Barat dan Kabupaten Purwakarta Tahun 2013-2021',
+            'generate' => 'assets/peta_tematik_gab/peta-y-gab.js',
             'data' => '',
         ],
         '12' => 
         [
             'id' => '12',
-            'nama' => 'Peta Klaster LISA Laju Perubahan Lahan Sawah Tahunan',
+            'nama' => 'Peta Klaster LISA Laju Alih Fungsi Lahan Sawah Tahunan<br>Kabupaten Bandung Barat dan Kabupaten Purwakarta',
             'generate' => 'assets/peta_lisa_laju/peta-lisa-laju.js',
             'data' => ''
         ],

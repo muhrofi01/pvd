@@ -615,7 +615,7 @@
                     <!-- SCATTERPLOT MORAN RIDSON-->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Scatterplot Moran's I Laju Perubahan Lahan Sawah Tahunan</h3>
+                        <h3 class="card-title">Scatterplot Moran's I Persentase Laju Alih Fungsi Lahan Sawah Tahunan</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="moransc" data-judul="Chart_Kajian1"></i>
                       </div>
                       <div class="card-body">
@@ -2052,6 +2052,8 @@
         });
   });
 
+
+
   // Tujuan 2 (BIVARIATE SCATTERPLOT MORAN)
   $(function () {
     ctx = document.getElementById('moransc').getContext('2d');
@@ -2062,22 +2064,17 @@
             type: 'scatter',
             label: 'High-High',
             data: [
-                {x: 0.642208384275586, y: 0.432790373971989, kab: "Bandung Barat", kec: "Cikalong Wetan"},
-                {x: 0.872689246482549, y: 0.680299058982059, kab: "Bandung Barat", kec: "Cipeundeuy"}, 
-                {x: 0.637560030752084, y: 0.366621276766493, kab: "Purwakarta", kec: "Babakancikao"}, 
-                {x: 0.826851315903573, y: 0.242277820012821, kab: "Purwakarta", kec: "Bojong"}, 
-                {x: 1.27993666351379, y: 0.547907064183063, kab: "Purwakarta", kec: "Bungursari"}, 
-                {x: 1.0690821828505, y: 0.364533821711958, kab: "Purwakarta", kec: "Campaka"}, 
-                {x: 0.453950066573763, y: 0.795862292413562, kab: "Purwakarta", kec: "Cibatu"}, 
-                {x: 1.31015096141655, y: 0.510505034443035, kab: "Purwakarta", kec: "Darangdan"}, 
-                {x: 1.21653828629047, y: 0.979924179851112, kab: "Purwakarta", kec: "Kiarapedes"}, 
-                {x: 0.145609282848144, y: 0.604806354535557, kab: "Purwakarta", kec: "Maniis"}, 
-                {x: 0.117848282638342, y: 0.566156155793848, kab: "Purwakarta", kec: "Plered"}, 
-                {x: 0.400623121984701, y: 0.618837495726868, kab: "Purwakarta", kec: "Pondok Salam"}, 
-                {x: 1.26328006338791, y: 0.197817179366734, kab: "Purwakarta", kec: "Sukasari"}, 
-                {x: 0.564994067412973, y: 0.469739711875817, kab: "Purwakarta", kec: "Sukatani"}, 
-                {x: 0.167818083015986, y: 0.27615054429982, kab: "Purwakarta", kec: "Tegal Waru"}, 
-                {x: 1.50589829312846, y: 0.328857708419082, kab: "Purwakarta", kec: "Wanayasa"}
+              {x: 0.107119137863889, y: 1.32356424297942, kab: 'Bandung Barat', kec: 'Cihampelas'},
+              {x: 1.32356424297942, y: 1.14061476090054, kab: 'Bandung Barat', kec: 'Cililin'},
+              {x: 0.040987003181021, y: 0.725189103177352, kab: 'Bandung Barat', kec: 'Cipatat'},
+              {x: 0.50149836440333, y: 0.276874374093636, kab: 'Bandung Barat', kec: 'Cipeundeuy'},
+              {x: 1.55478535621368, y: 1.34625190962245, kab: 'Bandung Barat', kec: 'Cipongkor'},
+              {x: 1.80290154035233, y: 1.51407628060598, kab: 'Bandung Barat', kec: 'Gununghalu'},
+              {x: 0.206558698043969, y: 0.204145116486199, kab: 'Bandung Barat', kec: 'Lembang'},
+              {x: 0.864983747003328, y: 0.124496925079826, kab: 'Bandung Barat', kec: 'Ngamprah'},
+              {x: 1.22750369698022, y: 1.67884344828301, kab: 'Bandung Barat', kec: 'Rongga'},
+              {x: 1.92261518561766, y: 0.53126587028248, kab: 'Bandung Barat', kec: 'Saguling'},
+              {x: 1.75993978862404, y: 1.56041704651514, kab: 'Bandung Barat', kec: 'Sindangkerta'}
             ],
             borderColor: 'red',
             backgroundColor: 'red',
@@ -2086,8 +2083,11 @@
             type: 'scatter',
             label: 'High-Low',
             data: [
-                {x: 1.25307950982245, y: -0.286635946465039, kab: "Bandung Barat", kec: "Cipatat"}, 
-                {x: 0.0876339847355804, y: -0.426999006750632, kab: "Bandung Barat", kec: "Padalarang"}
+              {x: 0.425711903489386, y: -0.00197474854726539, kab: 'Bandung Barat', kec: 'Batujajar'},
+              {x: 0.250968598706917, y: -0.154030386686707, kab: 'Bandung Barat', kec: 'Cisarua'},
+              {x: 0.204145116486199, y: -0.554805604354235, kab: 'Bandung Barat', kec: 'Parongpong'},
+              {x: 1.14061476090054, y: -0.409870031810211, kab: 'Purwakarta', kec: 'Maniis'},
+              {x: 0.0134721734224557, y: -0.67256424855778, kab: 'Purwakarta', kec: 'Purwakarta'}
             ],
             borderColor: 'orange',
             backgroundColor: 'orange',
@@ -2096,11 +2096,8 @@
             type: 'scatter',
             label: 'Low-High',
             data: [
-                {x: -0.149432044963011, y: 0.0876339847355804, kab: "Bandung Barat", kec: "Batujajar"}, 
-                {x: -1.2536742486571, y: 0.125692379209251, kab: "Bandung Barat", kec: "Parongpong"}, 
-                {x: -0.117151812160915, y: 0.431784306716324, kab: "Purwakarta", kec: "Jatiluhur"}, 
-                {x: -0.212830422186327, y: 0.348716507638931, kab: "Purwakarta", kec: "Pasawahan"}, 
-                {x: -0.0629210210533942, y: 0.531319328553826, kab: "Purwakarta", kec: "Purwakarta"}
+              {x: -0.00197474854726539, y: 0.525714632699611, kab: 'Bandung Barat', kec: 'Padalarang'},
+              {x: -0.541651584864394, y: 0.204949643672123, kab: 'Purwakarta', kec: 'Sukasari'}
             ],
             borderColor: 'rgb(135, 206, 235)',
             backgroundColor: 'rgb(135, 206, 235)',
@@ -2109,16 +2106,21 @@
             type: 'scatter',
             label: 'Low-Low',
             data: [
-                {x: -0.634022899788072, y: -1.01221810729743, kab: "Bandung Barat", kec: "Cihampelas"}, 
-                {x: -1.01221810729743, y: -1.30166419475622, kab: "Bandung Barat", kec: "Cililin"}, 
-                {x: -1.67783650767664, y: -0.804397968517534, kab: "Bandung Barat", kec: "Cipongkor"}, 
-                {x: -1.15153959207127, y: -0.299083204233527, kab: "Bandung Barat", kec: "Cisarua"}, 
-                {x: -1.17452311782636, y: -1.40422925444608, kab: "Bandung Barat", kec: "Gununghalu"}, 
-                {x: -0.678440500123756, y: -1.2536742486571, kab: "Bandung Barat", kec: "Lembang"}, 
-                {x: -1.79843545742527, y: -0.531952803667846, kab: "Bandung Barat", kec: "Ngamprah"}, 
-                {x: -0.941718078857649, y: -1.4261798127515, kab: "Bandung Barat", kec: "Rongga"}, 
-                {x: -1.35787484014227, y: -0.112374337706205, kab: "Bandung Barat", kec: "Saguling"}, 
-                {x: -1.59313317680394, y: -1.28819257760014, kab: "Bandung Barat", kec: "Sindangkerta"}
+              {x: -0.35097864180065, y: -0.213102795313101, kab: 'Bandung Barat', kec: 'Cikalong Wetan'},
+              {x: -0.357736670162403, y: -0.392331339157091, kab: 'Purwakarta', kec: 'Jatiluhur'},
+              {x: -0.437384861568777, y: -0.499172549447661, kab: 'Purwakarta', kec: 'Babakancikao'},
+              {x: -1.48632740657515, y: -0.50963140286466, kab: 'Purwakarta', kec: 'Bojong'},
+              {x: -1.15325315160304, y: -0.485495587286971, kab: 'Purwakarta', kec: 'Bungursari'},
+              {x: -1.03257407371459, y: -0.62504082768531, kab: 'Purwakarta', kec: 'Campaka'},
+              {x: -0.978509846820567, y: -0.967697001441763, kab: 'Purwakarta', kec: 'Cibatu'},
+              {x: -1.13297906651778, y: -0.772293438524791, kab: 'Purwakarta', kec: 'Darangdan'},
+              {x: -1.39509402369148, y: -1.08446607720662, kab: 'Purwakarta', kec: 'Kiarapedes'},
+              {x: -0.381872485740092, y: -0.638774106749015, kab: 'Purwakarta', kec: 'Pasawahan'},
+              {x: -1.01760986805642, y: -0.278764281592204, kab: 'Purwakarta', kec: 'Plered'},
+              {x: -0.83852211646997, y: -0.81369670616149, kab: 'Purwakarta', kec: 'Pondok Salam'},
+              {x: -0.168029159721767, y: -0.518619120855971, kab: 'Purwakarta', kec: 'Sukatani'},
+              {x: -0.882449300821364, y: -0.0150080889592176, kab: 'Purwakarta', kec: 'Tegal Waru'},
+              {x: -1.19042230759268, y: -0.898861655414193, kab: 'Purwakarta', kec: 'Wanayasa'}
             ],
             borderColor: 'rgb(16,78,139)',
             backgroundColor: 'rgb(16,78,139)',
@@ -2146,11 +2148,11 @@
             borderColor: 'rgb(153,153,153)',
             borderWidth : 2
         }, {
-            // garis regresi -0.01937 0.50034 
+            // garis regresi
             type: 'line',
             data: [
-                {x: -2, y: -0.01937 + -2 *  0.50034},
-                {x: 1.5, y: -0.01937 + 1.5 *  0.50034}
+              {x: -2, y: 0.01970313 + -2 * 0.62472574},
+              {x: 2, y: 0.01970313 + 2 * 0.62472574}
             ],
             pointRadius: 0,
             borderColor: 'maroon'
@@ -2167,16 +2169,16 @@
                         display: true,
                         text: 'Spatial Lag'
                     },
-                    max: 1.3,
-                    min: -1.8
+                    max: 2,
+                    min: -1.5
                 },
                 xAxes: {
                     title: {
                         display: true,
                         text: 'Laju Alih Fungsi Lahan'
                     },
-                    max: 1.7,
-                    min: -2.2
+                    min: -2,
+                    max: 2
                 }
             }, 
             plugins : {
@@ -2208,7 +2210,7 @@
                 },
                 subtitle: {
                     display: true,
-                    text: 'Indeks Moran: 0.5003',
+                    text: 'Indeks Moran: 0.6247',
                     align: 'start',
                     font : {
                         size: 15

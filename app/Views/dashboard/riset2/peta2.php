@@ -24,7 +24,7 @@ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf
 <script src="https://kit.fontawesome.com/766f1552b7.js" crossorigin="anonymous"></script>
 
 <!-- css peta tematik -->
-<link rel="stylesheet" href="<?= base_url('assets/peta_y2/peta-y2-gab.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/peta_tematik_gab/peta-y-gab.css') ?>">
 <link rel="stylesheet" href="<?= base_url('assets/peta_lisa_laju/peta-lisa-laju.css') ?>">
 
 <?php endif; ?>
@@ -110,11 +110,11 @@ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf
               Tujuan 2
             </button>
             <div class="dropdown-menu" style="z-index: 10000000;" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item <?= ($peta['id'] == 11 || !isset($peta['nama'])) ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/11">Peta Laju Perubahan Lahan Sawah Tahunan</a>
-              <a class="dropdown-item <?= $peta['id'] == 12 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/12">Peta Klaster LISA Laju Perubahan Lahan Sawah Tahunan</a>
-              <a class="dropdown-item <?= $peta['id'] == 13 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/13">Peta Bivariate Choropleth Y1 dan X5</a>
-              <a class="dropdown-item <?= $peta['id'] == 14 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/14">Peta Bivariate Choropleth Y1 dan X6</a>
-              <a class="dropdown-item <?= $peta['id'] == 15 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/15">Peta Bivariate Choropleth Y1 dan X12</a>
+              <a class="dropdown-item <?= ($peta['id'] == 11 || !isset($peta['nama'])) ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/11">Peta Tematik Persentase Laju Alih Fungsi Lahan Sawah Tahunan</a>
+              <a class="dropdown-item <?= $peta['id'] == 12 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/12">Peta Klaster LISA Laju Alih Fungsi Lahan Sawah Tahunan</a>
+              <a class="dropdown-item <?= $peta['id'] == 13 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/13">Bivariate Choropleth Rasio Faskes — Persentase Laju Alih Fungsi Sawah Tahunan</a>
+              <a class="dropdown-item <?= $peta['id'] == 14 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/14">Bivariate Choropleth Ketinggian Wilayah — Persentase Laju Alih Fungsi Sawah Tahunan</a>
+              <a class="dropdown-item <?= $peta['id'] == 15 ? 'active' : '' ; ?>" href="/riset2/dashboard/peta2/15">Bivariate Choropleth Laju Pertumbuhan Penduduk — Persentase Laju Alih Fungsi Sawah Tahunan</a>
             </div>
           </div>
           <div class="dropright">
@@ -169,7 +169,7 @@ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf
 <?php if (isset($peta['nama'])) : ?>
   <script src="<?= base_url($peta['generate']) ?>"></script>
 <?php else : ?>
-  <script src="<?= base_url('/assets/peta_y2/peta-y2-gab.js') ?>"></script>
+  <script src="<?= base_url('/assets/peta_tematik_gab/peta-y-gab.js') ?>"></script>
 <?php endif ?>
 
 <!-- <script>

@@ -8,7 +8,6 @@ var pwkbb_batas = L.geoJSON("",{
     style : {
         weight: 1,
         color: 'black',
-        fill: 'black',
         fillOpacity: 1
     }
 });
@@ -20,21 +19,25 @@ function fetchJSON(url) {
     });
 };
 
-fetchJSON('/assets/geojson-pwkbb/pwk_bb_y2.geojson')
+
+fetchJSON('/assets/geojson-pwkbb/pwk_bb_gab.geojson')
 .then(function(data) { 
     geojson_Gab.addData(data);
 });
-
 fetchJSON('/assets/geojson-pwkbb/pwk_bb_batas.geojson')
 .then(function(data) { 
     pwkbb_batas.addData(data);
 });
+
+
+
 
 // Map
 var peta_Gab = L.map('map').setView([-6.75835, 107.44749], 10);
 
 geojson_Gab.addTo(peta_Gab).bringToBack();
 pwkbb_batas.addTo(peta_Gab).bringToFront();
+
 
 
 // Base Map
@@ -51,7 +54,8 @@ function highlightFeature_Gab(e) {
 
     layer.setStyle({
         weight: 4,
-        color: '#666'
+        color: '#666',
+        fillOpacity: 1
     });
 
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
@@ -78,32 +82,40 @@ function onEachFt_Gab(feature, layer) {
     });
 }
 
-var colPalLaju = ['#508d4f', '#63b463', '#77dd77', '#84ea83','#a9e9a4'];
-var nb_y2 = ["< -7.816", "[-7.816, -1.625)", "[-1.625, 3.126)", "[3.126, 6.782)", ">= 6.782"]; 
+var colPalLaju = ["#2f9790", "#7ccdc1", "#F6E8C1", "#e1c27b", "#b36d17"];
+// var nb_y = ["< -7.816", "[-7.816, -1.625)", "[-1.625, 3.126)", "[3.126, 6.782)", ">= 6.782"]; 
+var nb_y = ["< 4.438", "[4.438, 5.556)", "[5.556, 7.352)", "[7.352, 8.302)", ">= 8.302" ]
 
 function getColor_Gab(d) {
-    return d === nb_y2[0] ? colPalLaju[4] :
-        d === nb_y2[1] ? colPalLaju[3]:
-        d === nb_y2[2] ? colPalLaju[2] :
-        d === nb_y2[3] ? colPalLaju[1] :
+    return d === nb_y[0] ? colPalLaju[4] :
+        d === nb_y[1] ? colPalLaju[3]:
+        d === nb_y[2] ? colPalLaju[2] :
+        d === nb_y[3] ? colPalLaju[1] :
         colPalLaju[0];
 
 }
 
 function petaStyle_Gab(feature) {
     return {
-        fillColor: getColor_Gab(feature.properties.Y2_nb),
+        fillColor: getColor_Gab(feature.properties.Y_nb),
         weight: 1,
         opacity: 1,
         color: 'white',
-        fillOpacity: 0.9
+        fillOpacity: 0.85
     }
 };
+
+
+
+
 
 // Home Button
 L.easyButton('<i class="fa-solid fa-house"></i>', function(btn, map){
     map.setView([-6.75835, 107.44749], 10);
 }).addTo(peta_Gab);
+
+
+
 
 
 // Legend
@@ -112,13 +124,16 @@ var legend_Gab = new L.control({position: 'bottomright'});
 legend_Gab.onAdd = function (map, grades) {
     this._div = L.DomUtil.create('div', 'infoGab LgndGab')
 
-    for (var i = 0; i < nb_y2.length; i++) {
+    for (var i = 0; i < nb_y.length; i++) {
         this._div.innerHTML +=
-        '<i style="background:' + colPalLaju[i] + '; "></i> ' + nb_y2[i] + '<br>';
+        '<i style="background:' + colPalLaju[4 - i] + '; "></i> ' + 
+        (nb_y[i] == '>= 8.302'? '≥ 8.302': nb_y[i]) + '<br>';
     }
     return this._div;
 };
 legend_Gab.addTo(peta_Gab);
+
+
 
 
 // Informasi _Gab 
@@ -132,10 +147,10 @@ info_Gab.onAdd = function (map) {
 
 info_Gab.update = function (dat) {
     this._div.innerHTML = 
-    '<h4 id="title_Gab">Laju Perubahan Lahan Sawah Tahunan</h4>' +  (dat ?
+    '<h4 id="title_Gab">Persentase Laju Alih Fungsi<br>Lahan Sawah Tahunan</h4>' +  (dat ?
     '<b>Kab : ' + dat.nmkab + '</b><br/>' +
     '<b>Kec : ' + dat.nmkec + '</b><br/>' +
-    dat.Y2.toFixed(3) + ' '
+    dat.Y.toFixed(3) + ' '
     : 'Hover over a district');
 };
 

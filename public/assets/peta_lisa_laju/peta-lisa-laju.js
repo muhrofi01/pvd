@@ -21,7 +21,7 @@ function fetchJSON(url) {
 };
 
 
-fetchJSON('/assets/geojson-pwkbb/pwk_bb_y2.geojson')
+fetchJSON('/assets/geojson-pwkbb/pwk_bb_gab.geojson')
 .then(function(data) { 
     geojsonLISA.addData(data);
 });
@@ -96,7 +96,7 @@ function getColorLISA(d) {
 
 function petaStyleLISA(feature) {
     return {
-        fillColor: getColorLISA(feature.properties.cluster2),
+        fillColor: getColorLISA(feature.properties.cluster),
         weight: 1,
         opacity: 1,
         color: 'white',
