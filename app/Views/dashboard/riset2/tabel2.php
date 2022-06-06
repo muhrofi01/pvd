@@ -24,10 +24,14 @@
       background-color: #0A5446;
       color: white;
     }
-
+/* 
     table tbody tr td, table thead tr th{
       border: 5px solid red;
-    }  
+    }   
+*/
+    /* td{
+      background-color: white;
+    } */
     
   </style>
   <!-- DataTables -->

@@ -1843,105 +1843,152 @@
 
     // Visualisasi 20
     ctx = document.getElementById('visualisasi20').getContext('2d');
-        myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Bandung Barat','Purwakarta'],
-                datasets: [{
-                    label: 'Padi',
-                    data: [70.1, 86.87],
-                    backgroundColor: '#508d4f',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }, {
-                    label: 'Palawija',
-                    data: [19.07, 7.07],
-                    backgroundColor: '#77dd77',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                },{
-                    label: 'Holtikultura',
-                    data: [5.67, 4.04],
-                    backgroundColor: '#a9e9a4',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                },{
-                    label: 'Lainnya',
-                    data: [5.12, 2.02],
-                    backgroundColor: '#eafae8',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        grid:{
-                            display:false
-                        },
-                        ticks: {beginAtZero: false},
-                        stacked: true,
-                        max: 100
+      myChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+              labels: ['Bandung Barat','Purwakarta'],
+              datasets: [{
+                  label: 'Padi',
+                  data: [70.1, 86.87],
+                  backgroundColor: '#508d4f',
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              }, {
+                  label: 'Palawija',
+                  data: [19.07, 7.07],
+                  backgroundColor: '#77dd77',
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              },{
+                  label: 'Holtikultura',
+                  data: [5.67, 4.04],
+                  backgroundColor: '#a9e9a4',
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              },{
+                  label: 'Lainnya',
+                  data: [5.12, 2.02],
+                  backgroundColor: '#eafae8',
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              }]
+          },
+          options: {
+            scales: {
+              y:{
+                  grid: {
+                    display: false,
+                  },
+                  ticks: {
+                    min: 0,
+                    max: this.max, // Your absolute max value
+                    callback: function (value) {
+                      return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
                     },
-                    x :{
-                        stacked: true,
-                        grid:{
-                            display:false
-                        }
-                    }
+                  },
+                  scaleLabel: {
+                    display: true,
+                    labelString: "Percentage",
+                  },
+                  // ticks: {beginAtZero: false},
+                  stacked: true,
+                  max: 100,
+                },
+              x:{
+                  stacked: true,
+                  grid: {
+                    display: false,
+                  }
                 }
+            },
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  title: function (ctx) {
+                    return ctx[0].label.replaceAll(",", " ") + " ";
+                  },
+                  label: function (ctx, data) {
+                    return ctx.dataset.label + " : " + ctx.raw + "%";
+                  }
+                }
+              }
             }
+          }
         });
 
     // Visualisasi 21
     ctx = document.getElementById('visualisasi21').getContext('2d');
         myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Beli', 'Warisan', 'Beli', 'Warisan'],
-                datasets: [{
-                    label: 'Rendah (1-700 m²)',
-                    data: [79.73, 83.33, 56.52, 58.49],
-                    backgroundColor: '#a9e9a4',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }, {
-                    label: 'Sedang (701-1400 m²)',
-                    data: [12.16,5,15.22,11.32],
-                    backgroundColor: '#77dd77',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                },{
-                    label: 'Tinggi (>1400 m²)',
-                    data: [8.11,11.67,28.26,30.19],
-                    backgroundColor: '#508d4f' ,
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }]
-            },            
-            options: {
-              indexAxis: 'y',
-                scales: {
-                    y: {
-                        grid:{
-                            display:false
-                        },
-                        stacked: true,
-                        title: {
-                          display: true,
-                          text : '       PURWAKARTA        BANDUNG BARAT',
-                          font : {weight: 'bold', size: 12}
-                        }
+          type: 'bar',
+          data: {
+              labels: ['Beli', 'Warisan', 'Beli', 'Warisan'],
+              datasets: [{
+                  label: 'Rendah (1-700 m²)',
+                  data: [79.73, 83.33, 56.52, 58.49],
+                  backgroundColor: '#a9e9a4',
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              }, {
+                  label: 'Sedang (701-1400 m²)',
+                  data: [12.16,5,15.22,11.32],
+                  backgroundColor: '#77dd77',
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              },{
+                  label: 'Tinggi (>1400 m²)',
+                  data: [8.11,11.67,28.26,30.19],
+                  backgroundColor: '#508d4f' ,
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              }]
+          },            
+          options: {
+            indexAxis: 'y',
+            scales: {
+              x:{
+                  grid: {
+                    display: false,
+                  },
+                  ticks: {
+                    min: 0,
+                    max: this.max, // Your absolute max value
+                    callback: function (value) {
+                      return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
                     },
-                    x :{
-                        stacked: true,
-                        max:100,
-                        grid:{
-                            display:false
-                        },
-                    }
+                  },
+                  scaleLabel: {
+                    display: true,
+                    labelString: "Percentage",
+                  },
+                  // ticks: {beginAtZero: false},
+                  stacked: true,
+                  max: 100,
+                },
+              y:{
+                  stacked: true,
+                  grid: {
+                    display: false,
+                  },
+                  title: {
+                    display: true,
+                    text : '      PURWAKARTA       BANDUNG BARAT',
+                    font : {weight: 'bold', size: 12}
+                  }
                 }
+            },
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  title: function (ctx) {
+                    return ctx[0].label.replaceAll(",", " ") + " ";
+                  },
+                  label: function (ctx, data) {
+                    return ctx.dataset.label + " : " + ctx.raw + "%";
+                  }
+                }
+              }
             }
+          }
         });
 
     // Visualisasi 22

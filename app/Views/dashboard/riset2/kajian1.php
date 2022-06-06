@@ -373,7 +373,7 @@
             ['Lahan', 'Kosong', 'Non Vegetatif']
           ],
           datasets: [
-            {
+          {
               label: 'Landsat-8 2013',
               data: [0.13, 31.03, 10.69, 54.49, 3.06, 0.61, 2.88, 1.92],
               backgroundColor: '#d5f5d1',
@@ -384,54 +384,53 @@
             label: 'Landsat-8 2021',
               data: [13.54, 18.10, 10.60, 52.97, 2.88, 1.92],
               backgroundColor: '#91e38e',
-              // [
-              //   '#91e38e',
-              //   '#91e38e',
-              //   '#91e38e',
-              //   '#91e38e',
-              //   '#91e38e',
-              //   '#91e38e',
-              // ],
               borderColor: '#1a2519',
-              // [
-              //   '#1a2519',
-              //   '#1a2519',
-              //   '#1a2519',
-              //   '#1a2519',
-              //   '#1a2519',
-              //   '#1a2519',
-              // ],
               borderWidth: 1
           }
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-            xAxes: [{
+        legend: {
+          display: true,
+          position: "top",
+          reverse: true,
+        },
+        scales: {
+          xAxes: [{
+            gridLines: {
+              display: false
+            }
+          }],
+          yAxes: [
+            {
+              ticks: {
+                min: 0,
+                max: this.max, // Your absolute max value
+                callback: function (value) {
+                  return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
+                },
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Percentage",
+              },
               gridLines: {
                 display: false
-              },
-              
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
               }
-            }]
+            },
+          ],
+        },
+        tooltips: {
+          callbacks: {
+            title: function (ctx) {
+              return ctx[0].label.replaceAll(",", " ") + " ";
+            },
+            label: function (ctx, data) {
+              return data.datasets[ctx.datasetIndex].label + " : " + ctx.value + "%";
+            },
           },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
-            }
-          }
-      }
+        },
+      },
     });
 
     ctx = document.getElementById('barChartPWK_L81321').getContext('2d');
@@ -463,34 +462,47 @@
           }
         ],
       },
-      options: { 
+      options: {
         legend: {
           display: true,
-          position:'top',
-          reverse: true
+          position: "top",
+          reverse: true,
         },
-        scales: { 
-          xAxes: [{ 
-            gridLines: { 
-              drawOnChartArea: false 
-            } 
-          }], 
-          yAxes: [{ 
-            gridLines: { 
-              drawOnChartArea: false 
-            },
-            ticks: {
-              stepSize: 10
+        scales: {
+          xAxes: [{
+            gridLines: {
+              display: false
             }
-          }] 
-        },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
+          }],
+          yAxes: [
+            {
+              ticks: {
+                min: 0,
+                max: this.max, // Your absolute max value
+                callback: function (value) {
+                  return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
+                },
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Percentage",
+              },
+              gridLines: {
+                display: false
               }
-            }
-          } 
+            },
+          ],
+        },
+        tooltips: {
+          callbacks: {
+            title: function (ctx) {
+              return ctx[0].label.replaceAll(",", " ") + " ";
+            },
+            label: function (ctx, data) {
+              return data.datasets[ctx.datasetIndex].label + " : " + ctx.value + "%";
+            },
+          },
+        },      
       }
     });
 
@@ -524,30 +536,46 @@
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-              xAxes: [{
-                gridLines: {
-                  drawOnChartArea: false
-                }
-              }],
-              yAxes: [{
-                gridLines: {
-                  drawOnChartArea: false
-                }
-              }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
+        legend: {
+          display: true,
+          position: "top",
+          reverse: true,
+        },
+        scales: {
+          xAxes: [{
+            gridLines: {
+              display: false
             }
-          }
+          }],
+          yAxes: [
+            {
+              ticks: {
+                min: 0,
+                max: this.max, // Your absolute max value
+                callback: function (value) {
+                  return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
+                },
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Percentage",
+              },
+              gridLines: {
+                display: false
+              }
+            },
+          ],
+        },
+        tooltips: {
+          callbacks: {
+            title: function (ctx) {
+              return ctx[0].label.replaceAll(",", " ") + " ";
+            },
+            label: function (ctx, data) {
+              return data.datasets[ctx.datasetIndex].label + " : " + ctx.value + "%";
+            },
+          },
+        },
       }
     });
 
@@ -581,30 +609,46 @@
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
+        legend: {
+          display: true,
+          position: "top",
+          reverse: true,
+        },
+        scales: {
+          xAxes: [{
+            gridLines: {
+              display: false
             }
-          }
+          }],
+          yAxes: [
+            {
+              ticks: {
+                min: 0,
+                max: this.max, // Your absolute max value
+                callback: function (value) {
+                  return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
+                },
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Percentage",
+              },
+              gridLines: {
+                display: false
+              }
+            },
+          ],
+        },
+        tooltips: {
+          callbacks: {
+            title: function (ctx) {
+              return ctx[0].label.replaceAll(",", " ") + " ";
+            },
+            label: function (ctx, data) {
+              return data.datasets[ctx.datasetIndex].label + " : " + ctx.value + "%";
+            },
+          },
+        },
       }
     });
 
@@ -638,31 +682,46 @@
         ],
       },
       options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
-          scales: {
-            xAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              },
-              maxRotation: 0
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false
-              }
-            }]
-          },
-          tooltips: {
-            callbacks: {
-              title: (context) => {
-                return context[0].label.replaceAll(',',' ');
-              }
+        legend: {
+          display: true,
+          position: "top",
+          reverse: true,
+        },
+        scales: {
+          xAxes: [{
+            gridLines: {
+              display: false
             }
-          }
+          }],
+          yAxes: [
+            {
+              ticks: {
+                min: 0,
+                max: this.max, // Your absolute max value
+                callback: function (value) {
+                  return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
+                },
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Percentage",
+              },
+              gridLines: {
+                display: false
+              }
+            },
+          ],
+        },
+        tooltips: {
+          callbacks: {
+            title: function (ctx) {
+              return ctx[0].label.replaceAll(",", " ") + " ";
+            },
+            label: function (ctx, data) {
+              return data.datasets[ctx.datasetIndex].label + " : " + ctx.value + "%";
+            },
+          },
+        },
       }
     });
   });
@@ -2498,6 +2557,13 @@
             },
             "position": "right"
         },
+        tooltips: {
+          callbacks: {
+            label: function (ctx, data) {
+              return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
+            },
+          },
+        }
       }
     });
 
@@ -2565,18 +2631,25 @@
           }]
       },
       options: {
-          scales: {
-              y: {
-                  beginAtZero: true
-              }
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
+        scales: {
+          y: {
+              beginAtZero: true
+          }
         },
+          "legend": {
+          "display": true,
+          "labels": {
+            "fontSize": 15,
+          },
+          "position": "right"
+        },
+        tooltips: {
+          callbacks: {
+            label: function (ctx, data) {
+              return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
+            },
+          },
+        }
       }
     });
   });

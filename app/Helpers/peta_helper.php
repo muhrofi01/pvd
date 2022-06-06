@@ -104,7 +104,7 @@ function getPeta()
         '15' => 
         [
             'id' => '15',
-            'nama' => 'Bivariate Choropleth<br>Laju Pertumbuhan Penduduk&#8212;Persentase Laju Alih Fungsi Lahan Sawah Tahunan',
+            'nama' => 'Bivariate Choropleth<br>Persentase Laju Pertumbuhan Penduduk&#8212;Persentase Laju Alih Fungsi<br>Lahan Sawah Tahunan',
             'generate' => 'assets/bivariate_choropleth/y1-x12/js/y1-x12.js',
             'data' => ''
         ]

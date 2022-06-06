@@ -16,7 +16,7 @@ function highlightFeature(e) {
 }
 var map = L.map('map', {
     zoomControl:true, maxZoom:28, minZoom:1
-}).fitBounds([[-7.149757200762644,106.73304055875755],[-6.400259738412585,108.08637842945379]]);
+}).fitBounds([[-7.134201593053492,106.73091933952448],[-6.384704130703433,108.08425721022071]]);
 var hash = new L.Hash(map);
 map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
 var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -98,7 +98,7 @@ function pop_LayerY1X12_1(feature, layer) {
                 <td colspan="2">Kecamatan : ' + (feature.properties['nmkec'] !== null ? autolinker.link(feature.properties['nmkec'].toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
-                <td colspan="2">Laju Pertumbuhan Penduduk : ' + (feature.properties['Kategori_X12'] !== null ? autolinker.link(feature.properties['Kategori_X12'].toLocaleString()) : '') + ' (' + (feature.properties['Kategori_Kategori_X12'] !== null ? autolinker.link(feature.properties['Kategori_Kategori_X12'].toLocaleString()) : '') + ')</td>\
+                <td colspan="2">Persentase Laju Pertumbuhan Penduduk : ' + (feature.properties['Kategori_X12*100'] !== null ? autolinker.link(feature.properties['Kategori_X12*100'].toLocaleString()) : '') + '% (' + (feature.properties['Kategori_Kategori_X12'] !== null ? autolinker.link(feature.properties['Kategori_Kategori_X12'].toLocaleString()) : '') + ')</td>\
             </tr>\
             <tr>\
                 <td colspan="2">Persentase Laju Alih Fungsi Lahan Sawah Tahunan : ' + (feature.properties['Kategori_Y1_Tahunan_(%)'] !== null ? autolinker.link(feature.properties['Kategori_Y1_Tahunan_(%)'].toLocaleString()) : '') + '% (' + (feature.properties['Kategori_Kategori_Y1'] !== null ? autolinker.link(feature.properties['Kategori_Kategori_Y1'].toLocaleString()) : '') + ')</td>\

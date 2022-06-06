@@ -95,7 +95,7 @@ function getMenu() {
                     ],
                     [
                         'subMenu' => 'Kajian 2',
-                        'href' => '/riset2/dashboard/peta2',
+                        'href' => '/riset2/dashboard/peta2/11',
                     ],
                 ],
             ],

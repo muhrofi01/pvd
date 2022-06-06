@@ -60,7 +60,30 @@
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionKotak1">
                 <div class="card-body">
-                  Some placeholder content for the second accordion panel. This panel is hidden by default.
+                  <div>Tujuan 1 : Membangun model terbaik untuk klasifikasi tutupan lahan berdasarkan data citra satelit di Bandung Barat dan Purwakarta. </div>
+                    <ol>
+                      <li><a href="/riset2/dashboard/kajian1">Persentase Piksel Labelling Menurut Kelas Tutupan Lahan</a></li>
+                      <li><a href="/riset2/dashboard/tabel1">Tabel Dinamis Evaluasi Model Klasifikasi</a></li>
+                    </ol>
+                    <div>Tujuan 2 : Menganalisis Alih Fungsi Lahan Terutama untuk Lahan Pertanian Berdasarkan Data citra satelit di Bandung Barat dan Purwakarta. </div>
+                    <ol>
+                      <li><a href="/riset2/dashboard/kajian1">Persentase Klasifikasi Luas Tutupan Lahan</a></li>
+                      <li><a href="/riset2/dashboard/peta1/5#10/-6.9047/107.4542">Peta Klasifikasi Tutupan Lahan Bandung Barat</a></li>
+                      <li><a href="/riset2/dashboard/peta1/6#11/-6.5766/107.4336">Peta Klasifikasi Tutupan Lahan Purwakarta</a></li>
+                      <li><a href="/riset2/dashboard/peta1/9">Peta Estimasi Luas Sawah Bandung Barat</a></li>
+                      <li><a href="/riset2/dashboard/peta1/10">Peta Estimasi Luas Sawah Purwakarta</a></li>
+                      <li><a href="/riset2/dashboard/tabel1">Tabel Dinamis Estimasi Luas Tutupan Lahan</a></li>
+                    </ol>
+                    <div>Tujuan 3 : Melakukan groundchecking untuk evaluasi model klasifikasi tutupan lahan di Bandung Barat & Purwakarta</div>
+                    <ol>
+                      <li><a href="/riset2/dashboard/peta1/1#10/-6.9046/107.3848">Peta Umum Perubahan Lahan Bandung Barat </a></li>
+                      <li><a href="/riset2/dashboard/peta1/2#11/-6.5766/107.4336">Peta Umum Perubahan Lahan Purwakarta</a></li>
+                      <li><a href="/riset2/dashboard/peta1/3#10/-6.9046/107.3848">Peta Khusus Perubahan Lahan Bandung Barat</a></li>
+                      <li><a href="/riset2/dashboard/peta1/4#11/-6.5766/107.4336">Peta Khusus Perubahan Lahan Purwakarta</a></li>
+                      <li><a href="/riset2/dashboard/peta1/7">Peta Tematik Laju Alih Fungsi Lahan Bandung Barat</a></li>
+                      <li><a href="/riset2/dashboard/peta1/8">Peta Tematik Laju Alih Fungsi Lahan Purwakarta</a></li>
+                      <li><a href="/riset2/dashboard/tabel1">Tabel Dinamis Estimasi Perubahan Luas Lahan</a></li>
+                    </ol>
                 </div>
               </div>
             </div>
@@ -75,7 +98,21 @@
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionKotak1">
                 <div class="card-body">
-                  And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                  <div>Tujuan 1 : Mengetahui Karakteristik Alih Fungsi Lahan Pertanian di Bandung Barat dan Purwakarta. </div>
+                    <ol>
+                      <li><a href="/riset2/dashboard/kajian2">Persentase Karakteristik Alih Fungsi Lahan</a></li>
+                      <li><a href="/riset2/dashboard/tabel2">Tabel Dinamis Karakteristik Alih Fungsi Lahan</a></li>
+                    </ol>
+                    <div>Tujuan 2 : Mengetahui alasan petani pemilik lahan melakukan alih fungsi lahan di Bandung Barat dan Purwakarta. </div>
+                    <ol>
+                      <li><a href="/riset2/dashboard/kajian2">Scatterplot Moran's I Persentase Laju Alih Fungsi Lahan Sawah Tahunan</a></li>
+                      <li><a href="/riset2/dashboard/peta2/11">Peta Tematik Laju Persentase Laju Alih Fungsi Lahan Sawah Tahunan</a></li>
+                      <li><a href="/riset2/dashboard/peta2/12">Peta Klaster LISA Persentase Laju Alih Fungsi Lahan Sawah Tahunan</a></li>
+                      <li><a href="/riset2/dashboard/peta2/13">Peta Bivariate Choropleth Rasio Fasilitas Kesehatan 2021 dan Persentase Laju Alih Fungsi Lahan</a></li>
+                      <li><a href="/riset2/dashboard/peta2/14">Peta Bivariate Choropleth Ketinggian Wilayah 2021 dan Persentase Laju Alih Fungsi Lahan Sawah Tahunan</a></li>
+                      <li><a href="/riset2/dashboard/peta2/15">Peta Bivariate Choropleth Laju Pertumbuhan Penduduk dan Persentase Laju Alih Fungsi Lahan Sawah Tahunan</a></li>
+                    </ol>
+                  </div>
                 </div>
               </div>
             </div>
@@ -115,4 +152,3 @@
     }
 </script>
 <?= $this->endSection() ?>
-  
