@@ -641,9 +641,7 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('js') ?>
-<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script> -->
 
 <script>
   // Tujuan 1
@@ -655,7 +653,7 @@
         labels: [
             ['Dewasa Awal (18-40 tahun)'], 
             ['Dewasa Madya (41-60 tahun)'], 
-            ['Dewasa Akhir (> 60 tahun)'], 
+            ['Dewasa Akhir (> 60 tahun)']
         ],
         datasets: [
             {
@@ -672,14 +670,21 @@
       },
       options: {
         scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
         },
+          "legend": {
+          "display": true,
+          "labels": {
+            "fontSize": 15,
+          },
+          "position": "right"
+          },
+        tooltips: {
+          callbacks: {
+            label: function (ctx, data) {
+              return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
+            }
+          }
+        }
       }
     });
 
@@ -707,13 +712,20 @@
       },
       options: {
         scales: {
-          },
+        },
           "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
+          "display": true,
+          "labels": {
+            "fontSize": 15,
+          },
+          "position": "right"
+          },
+        tooltips: {
+          callbacks: {
+            label: function (ctx, data) {
+              return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
+            }
+          }
         }
       }
     });
@@ -850,233 +862,233 @@
       }
     });
 
-  ctx = document.getElementById('visualisasi6').getContext('2d');
-  pieChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [
-            ['1-20 tahun'], 
-            ['21-40 tahun'], 
-            ['>40 tahun'], 
-        ],
-        datasets: [
-            {
-              label: '# of Votes',
-              data: [55.15, 22.69, 22.16],
-              backgroundColor: [
-                '#a9e9a4',
-                '#77dd77',
-                '#508d4f'
-              ],
-              borderWidth: 0
-          },
-        ],
-      },
-      options: {
-        scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
-        },
-      }
-  });
-
-  ctx = document.getElementById('visualisasi7').getContext('2d');
-  pieChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [
-            ['1-20 tahun'], 
-            ['21-40 tahun'], 
-            ['>40 tahun'], 
-        ],
-        datasets: [
-            {
-              label: '# of Votes',
-              data: [45.46, 34.34, 20.2],
-              backgroundColor: [
-                '#a9e9a4',
-                '#77dd77',
-                '#508d4f'
-              ],
-              borderWidth: 0
-          },
-        ],
-      },
-      options: {
-        scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
-        },
-      }
-  });
-
-  ctx = document.getElementById('visualisasi8').getContext('2d');
-  barChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [
-            'Pertanian', 
-            'Usaha Lain', 
-            'Tidak Bekerja' 
+    ctx = document.getElementById('visualisasi6').getContext('2d');
+    pieChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: [
+              ['1-20 tahun'], 
+              ['21-40 tahun'], 
+              ['>40 tahun'], 
           ],
           datasets: [
-            {
-              label: 'Bandung Barat',
-              data: [53.09, 32.99, 13.92],
-              backgroundColor: [
-                  '#508d4f',
-                  '#77dd77',
+              {
+                label: '# of Votes',
+                data: [55.15, 22.69, 22.16],
+                backgroundColor: [
                   '#a9e9a4',
-              ],
-              borderWidth: 0
-          }]
-      },
-      options: {
-          scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
+                  '#77dd77',
+                  '#508d4f'
+                ],
+                borderWidth: 0
             },
-            "position": "right"
-        },
-      }
-    });
-
-  ctx = document.getElementById('visualisasi9').getContext('2d');
-  barChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [
-            'Pertanian', 
-            'Usaha Lain', 
-            'Tidak Bekerja' 
           ],
-          datasets: [
-          {
-            label: 'Purwakarta',
-            data: [49.50, 34.34, 16.16],
-              backgroundColor: [
-                  '#508d4f',
-                  '#77dd77',
-                  '#a9e9a4',
-              ],
-              borderWidth: 0
-          }]
-      },
-      options: {
-          scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
         },
-      }
-    });
-
-  ctx = document.getElementById('visualisasi10').getContext('2d');
-  barChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['Bandung Barat', 'Purwakarta'],
-          datasets: [
-            {
-              label: 'Ekonomi',
-              data: [73.95, 50.51],
-              backgroundColor: '#d5f5d1',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Sosial',
-              data: [1.03, 0],
-              backgroundColor: '#91e38e',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Demografi',
-              data: [3.61, 7.07],
-              backgroundColor: '#77dd77',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Kebijakan',
-              data: [6.70, 7.07],
-              backgroundColor: '#83d580',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Teknis',
-              data: [1.55, 2.02],
-              backgroundColor: '#63b463',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Lingkungan dan Geografis',
-              data: [0,0],
-              backgroundColor: '#508d4f',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          },
-          {
-            label: 'Lainnya',
-              data: [13.92, 33.33],
-              backgroundColor: '#2b452a',
-              borderColor: '#1a2519',
-              borderWidth: 1
-          }
-        ],
-      },
-      options: {
-          legend: {
-            display: true,
-            position:'top',
-            reverse: true
-          },
+        options: {
           scales: {
-            x: {
-              grid: {
-                display: false
+            },
+            "legend": {
+              "display": true,
+              "labels": {
+                  "fontSize": 15,
               },
-              ticks: {
-                maxRotation: 0
+              "position": "right"
+          },
+        }
+    });
+
+    ctx = document.getElementById('visualisasi7').getContext('2d');
+    pieChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: [
+              ['1-20 tahun'], 
+              ['21-40 tahun'], 
+              ['>40 tahun'], 
+          ],
+          datasets: [
+              {
+                label: '# of Votes',
+                data: [45.46, 34.34, 20.2],
+                backgroundColor: [
+                  '#a9e9a4',
+                  '#77dd77',
+                  '#508d4f'
+                ],
+                borderWidth: 0
+            },
+          ],
+        },
+        options: {
+          scales: {
+            },
+            "legend": {
+              "display": true,
+              "labels": {
+                  "fontSize": 15,
+              },
+              "position": "right"
+          },
+        }
+    });
+
+    ctx = document.getElementById('visualisasi8').getContext('2d');
+    barChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: [
+              'Pertanian', 
+              'Usaha Lain', 
+              'Tidak Bekerja' 
+            ],
+            datasets: [
+              {
+                label: 'Bandung Barat',
+                data: [53.09, 32.99, 13.92],
+                backgroundColor: [
+                    '#508d4f',
+                    '#77dd77',
+                    '#a9e9a4',
+                ],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            scales: {
+            },
+            "legend": {
+              "display": true,
+              "labels": {
+                  "fontSize": 15,
+              },
+              "position": "right"
+          },
+        }
+      });
+
+    ctx = document.getElementById('visualisasi9').getContext('2d');
+    barChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: [
+              'Pertanian', 
+              'Usaha Lain', 
+              'Tidak Bekerja' 
+            ],
+            datasets: [
+            {
+              label: 'Purwakarta',
+              data: [49.50, 34.34, 16.16],
+                backgroundColor: [
+                    '#508d4f',
+                    '#77dd77',
+                    '#a9e9a4',
+                ],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            scales: {
+            },
+            "legend": {
+              "display": true,
+              "labels": {
+                  "fontSize": 15,
+              },
+              "position": "right"
+          },
+        }
+      });
+
+    ctx = document.getElementById('visualisasi10').getContext('2d');
+    barChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Bandung Barat', 'Purwakarta'],
+            datasets: [
+              {
+                label: 'Ekonomi',
+                data: [73.95, 50.51],
+                backgroundColor: '#d5f5d1',
+                borderColor: '#1a2519',
+                borderWidth: 1
+            },
+            {
+              label: 'Sosial',
+                data: [1.03, 0],
+                backgroundColor: '#91e38e',
+                borderColor: '#1a2519',
+                borderWidth: 1
+            },
+            {
+              label: 'Demografi',
+                data: [3.61, 7.07],
+                backgroundColor: '#77dd77',
+                borderColor: '#1a2519',
+                borderWidth: 1
+            },
+            {
+              label: 'Kebijakan',
+                data: [6.70, 7.07],
+                backgroundColor: '#83d580',
+                borderColor: '#1a2519',
+                borderWidth: 1
+            },
+            {
+              label: 'Teknis',
+                data: [1.55, 2.02],
+                backgroundColor: '#63b463',
+                borderColor: '#1a2519',
+                borderWidth: 1
+            },
+            {
+              label: 'Lingkungan dan Geografis',
+                data: [0,0],
+                backgroundColor: '#508d4f',
+                borderColor: '#1a2519',
+                borderWidth: 1
+            },
+            {
+              label: 'Lainnya',
+                data: [13.92, 33.33],
+                backgroundColor: '#2b452a',
+                borderColor: '#1a2519',
+                borderWidth: 1
+            }
+          ],
+        },
+        options: {
+            legend: {
+              display: true,
+              position:'top',
+              reverse: true
+            },
+            scales: {
+              x: {
+                grid: {
+                  display: false
+                },
+                ticks: {
+                  maxRotation: 0
+                }
+              },
+              y: {
+                grid: {
+                  display: false
+                }
               }
             },
-            y: {
-              grid: {
-                display: false
-              }
-            }
-          },
-          // plugins:{
-          //   tooltips: {
-          //     callbacks: {
-          //       title: (context) => {
-          //         return context[0].label.replaceAll(',',' ');
-          //       }
-          //     }
-          //   }
-          // }
-      }
-    });
+            // plugins:{
+            //   tooltips: {
+            //     callbacks: {
+            //       title: (context) => {
+            //         return context[0].label.replaceAll(',',' ');
+            //       }
+            //     }
+            //   }
+            // }
+        }
+      });
 
     // visualisasi 26
     ctx = document.getElementById('visualisasi26').getContext('2d');
@@ -1837,11 +1849,18 @@
           intersect: true
         }
     }
-
     var chart = new ApexCharts(document.querySelector("#visualisasi19c"), options);
     chart.render();
+    
+  });
 
-    // Visualisasi 20
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script> 
+  // Visualisasi 20
+  $(function () {
     ctx = document.getElementById('visualisasi20').getContext('2d');
       myChart = new Chart(ctx, {
           type: 'bar',
@@ -2023,84 +2042,132 @@
                 }]
             },
             options: {
-              indexAxis: 'y',
-                scales: {
-                    y: {
-                        grid:{
-                            display:false
-                        },
-                        stacked: true,
-                        title: {
-                          display: true,
-                          text : '      PURWAKARTA       BANDUNG BARAT',
-                          font : {weight: 'bold', size: 12}
-                        }
+            indexAxis: 'y',
+            scales: {
+              x:{
+                  grid: {
+                    display: false,
+                  },
+                  ticks: {
+                    min: 0,
+                    max: this.max, // Your absolute max value
+                    callback: function (value) {
+                      return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
                     },
-                    x :{
-                        stacked: true,
-                        max:100,
-                        grid:{
-                            display:false
-                        },
-                    }
+                  },
+                  scaleLabel: {
+                    display: true,
+                    labelString: "Percentage",
+                  },
+                  // ticks: {beginAtZero: false},
+                  stacked: true,
+                  max: 100,
+                },
+              y:{
+                  stacked: true,
+                  grid: {
+                    display: false,
+                  },
+                  title: {
+                    display: true,
+                    text : '      PURWAKARTA       BANDUNG BARAT',
+                    font : {weight: 'bold', size: 12}
+                  }
                 }
+            },
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  title: function (ctx) {
+                    return ctx[0].label.replaceAll(",", " ") + " ";
+                  },
+                  label: function (ctx, data) {
+                    return ctx.dataset.label + " : " + ctx.raw + "%";
+                  }
+                }
+              }
             }
+          }
         });
 
     // Visualisasi 23
       ctx = document.getElementById('visualisasi23').getContext('2d');
         myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Padi', 'Palawija', 'Hortikultura', 'Lainnya', 'Padi', 'Palawija', 'Hortikultura', 'Lainnya'],
-                datasets: [{
-                    label: 'Rendah (1-250)',
-                    data: [54.41, 70.27, 36.36, 100, 76.74, 100, 50, 100],
-                    backgroundColor: '#a9e9a4',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }, {
-                    label: 'Sedang (251-500)',
-                    data: [27.94,18.92,45.45,0,15.12,0,50,0],
-                    backgroundColor: '#77dd77',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                },{
-                    label: 'Tinggi (>500)',
-                    data: [17.65,10.81,18.18,0,8.14,0,0,0],
-                    backgroundColor: '#508d4f' ,
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-              indexAxis: 'y',
-                scales: {
-                    y: {
-                        grid:{
-                            display:false
-                        },
-                        stacked: true,
-                        title: {
-                          display: true,
-                          text : '       PURWAKARTA       BANDUNG BARAT',
-                          font : {weight: 'bold', size: 12}
-                        }
+          type: 'bar',
+          data: {
+              labels: ['Padi', 'Palawija', 'Hortikultura', 'Lainnya', 'Padi', 'Palawija', 'Hortikultura', 'Lainnya'],
+              datasets: [{
+                  label: 'Rendah (1-250)',
+                  data: [54.41, 70.27, 36.36, 100, 76.74, 100, 50, 100],
+                  backgroundColor: '#a9e9a4',
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              }, {
+                  label: 'Sedang (251-500)',
+                  data: [27.94,18.92,45.45,0,15.12,0,50,0],
+                  backgroundColor: '#77dd77',
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              },{
+                  label: 'Tinggi (>500)',
+                  data: [17.65,10.81,18.18,0,8.14,0,0,0],
+                  backgroundColor: '#508d4f' ,
+                  borderColor: '#1a2519',
+                  borderWidth: 1
+              }]
+          },
+          options: {
+            indexAxis: 'y',
+            scales: {
+              x:{
+                  grid: {
+                    display: false,
+                  },
+                  ticks: {
+                    min: 0,
+                    max: this.max, // Your absolute max value
+                    callback: function (value) {
+                      return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
                     },
-                    x :{
-                        stacked: true,
-                        max:100,
-                        grid:{
-                            display:false
-                        },
-                    }
+                  },
+                  scaleLabel: {
+                    display: true,
+                    labelString: "Percentage",
+                  },
+                  // ticks: {beginAtZero: false},
+                  stacked: true,
+                  max: 100,
+                },
+              y:{
+                  stacked: true,
+                  grid: {
+                    display: false,
+                  },
+                  title: {
+                    display: true,
+                    text : '      PURWAKARTA       BANDUNG BARAT',
+                    font : {weight: 'bold', size: 12}
+                  }
                 }
+            },
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  title: function (ctx) {
+                    return ctx[0].label.replaceAll(",", " ") + " ";
+                  },
+                  label: function (ctx, data) {
+                    return ctx.dataset.label + " : " + ctx.raw + "%";
+                  }
+                }
+              }
             }
+          }
         });
   });
+  </script>
 
-
-
+  <script>
   // Tujuan 2 (BIVARIATE SCATTERPLOT MORAN)
   $(function () {
     ctx = document.getElementById('moransc').getContext('2d');
@@ -2270,121 +2337,9 @@
         }
     };
     moranScPlot = new Chart(ctx, moran_config);
-
-    // ctx = document.getElementById('pieChartKBB').getContext('2d');
-    // pieChart = new Chart(ctx, {
-    //   type: 'pie',
-    //   data: {
-    //       labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', 'Lahan kosong non-vegetatif'],
-    //       datasets: [{
-    //           label: '# of Votes',
-    //           data: [55.55, 31.9, 11.01, 0.92, 0.62],
-    //           backgroundColor: [
-    //               '#508d4f',
-    //               '#77dd77',
-    //               '#a9e9a4',
-    //               '#bfefbb',
-    //               '#eafae8',
-    //           ],
-    //           borderWidth: 0
-    //       }]
-    //   },
-    //   options: {
-    //     scales: {
-    //           y: {
-    //               beginAtZero: true
-    //           }
-    //       },
-    //       "legend": {
-    //         "display": true,
-    //         "labels": {
-    //             "fontSize": 15,
-    //         },
-    //         "position": "right"
-    //     },
-    //   }
-    // });
-
-    // ctx = document.getElementById('barChartPWK').getContext('2d');
-    // barChart = new Chart(ctx, {
-    //   type: 'bar',
-    //   data: {
-    //       labels: ['Hutan', 'Sawah', 'Lahan Terbangun', 'Badan air', ['Lahan Kosong','non-vegetatif']],
-    //       datasets: [{
-    //           label: '# of Votes',
-    //           data: [52164.11, 25377.16, 14268.91 , 6094.43, 1529.49],
-    //           backgroundColor: [
-    //               '#eafae8',
-    //               '#77dd77',
-    //               '#eafae8',
-    //               '#eafae8',
-    //               '#eafae8',
-    //           ],
-    //           borderColor: [
-    //              '#508d4f',
-    //               '#508d4f',
-    //               '#508d4f',
-    //               '#508d4f',
-    //               '#508d4f'
-    //           ],
-    //           borderWidth: 1
-    //       }]
-    //   },
-    //   options: {
-    //         scales: {
-    //               xAxes: [{
-    //                 gridLines: {
-    //                   drawOnChartArea: false
-    //                 }
-    //               }],
-    //               yAxes: [{
-    //                 gridLines: {
-    //                   drawOnChartArea: false
-    //                 },
-    //                 beginAtZero: true
-    //               }]
-    //           },
-    //         legend: {
-    //           display: false
-    //         }   
-    //   }
-    // });
-
-    // ctx = document.getElementById('pieChartPWK').getContext('2d');
-    // pieChart = new Chart(ctx, {
-    //   type: 'pie',
-    //   data: {
-    //       labels: ['Hutan', 'Sawah', 'Lahan terbangun', 'Badan air', 'Lahan kering non-vegetatif'],
-    //       datasets: [{
-    //           label: '# of Votes',
-    //           data: [52.46, 25.52, 14.35, 6.13, 1.54],
-    //           backgroundColor: [
-    //               '#508d4f',
-    //               '#77dd77',
-    //               '#a9e9a4',
-    //               '#bfefbb',
-    //               '#eafae8',
-    //           ],
-    //           borderWidth: 0
-    //       }]
-    //   },
-    //   options: {
-    //       scales: {
-    //           y: {
-    //               beginAtZero: true
-    //           }
-    //       },
-    //       "legend": {
-    //         "display": true,
-    //         "labels": {
-    //             "fontSize": 15,
-    //         },
-    //         "position": "right"
-    //     },
-    //   }
-    // });
   });
 </script>
+
 <script>
   var download = function(e){
     let id = $(e).data('id');
