@@ -29,15 +29,21 @@ $routes->setAutoRoute(true);
  * --------------------------------------------------------------------
  */
 
+ /*
+    LOGIN
+*/
+$routes->get('login', 'Auth::login_khusus');
+$routes->get('login-manual', 'Auth::login_umum');
+
+ /*
+    REGISTER
+*/
+$routes->get('register', 'Auth::regist');
+
 /*
     LANDING_PAGE
 */
 $routes->get('/(:alphanum)', 'Home::riset/$1');
-
-/*
-    LOGIN
-*/
-$routes->add('login', 'Auth::index');
 
 /*
     DIREKTORI
@@ -51,7 +57,6 @@ $routes->add('/riset/3/direktori/', 'Direktori::index');
 $routes->get('/(:alphanum)/dashboard', 'Dashboard::index/$1');
 $routes->get('/(:alphanum)/dashboard/(:alphanum)', 'Dashboard::page/$1/$2');
 $routes->get('/(:alphanum)/dashboard/(:alphanum)/(:alphanum)', 'Dashboard::peta/$1/$2/$3');
-
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.

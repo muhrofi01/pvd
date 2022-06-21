@@ -76,13 +76,13 @@
             </ul>
 
             <div class="tab-content">
-              <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1">
+            <div class="tab-pane active p-2" id="tab1" role="tabpanel" aria-labelledby="tab-1">
                 <div class="row">  
                   <div class="col-md-6">
                     <!-- Visualisasi 1 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Usia di Kabupaten Bandung Barat</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan <br>Menurut Usia di Kabupaten Bandung Barat dan <br>Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi1" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -99,7 +99,7 @@
                     <!-- Visualisasi 2 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan<br>Menurut Usia di Kabupaten Purwakarta</h3>
+                        <h3 class="card-title">Persentase (%) Jumlah Anggota Rumah Tangga Petani<br>Pelaku Alih Fungsi Lahan di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi2" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -114,10 +114,10 @@
 
 
                   <div class="col-md-6">
-                    <!-- Visualisasi 3 -->
+                    <!-- Visualisasi 3a -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Jumlah Anggota Rumah Tangga Petani<br>Pelaku Alih Fungsi Lahan di Kabupaten Bandung Barat </h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Tingkat Pendidikan di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi3a" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -131,10 +131,10 @@
                   </div>
 
                   <div class="col-md-6">
-                    <!-- Visualisasi 3 -->
+                    <!-- Visualisasi 3b -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Jumlah Anggota Rumah Tangga Petani<br>Pelaku Alih Fungsi Lahan di Kabupaten Purwakarta</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan <br>Menurut Lama Bertani di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi3b" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -151,7 +151,7 @@
                     <!-- Visualisasi 4 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Tingkat Pendidikan di Kabupaten Bandung Barat</h3>
+                        <h3 class="card-title">Persentase (%) Pekerjaan Utama Petani Setelah Melakukan Alih Fungsi Lahan di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi4" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -165,146 +165,10 @@
                   </div>
 
                   <div class="col-md-6">
-                    <!-- Visualisasi 5 Pie Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Tingkat Pendidikan di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi5" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi5" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 6 Pie Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Lama Bertani di Kabupaten Bandung Barat</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi6" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi6" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 7 Pie Chart-->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Lama Bertani di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi7" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi7" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 8 Pie Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Pekerjaan Utama Petani Setelah Melakukan Alih Fungsi Lahan di Kabupaten Bandung Barat</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi8" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi8" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 9 Pie Chart-->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Pekerjaan Utama Petani Setelah Melakukan Alih Fungsi Lahan di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi9" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi9" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 10 -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Alasan Petani Melakukan Alih Fungsi di Kabupaten Bandung Barat dan Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi10" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi10" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 26 -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Mekanisme Alih Fungsi Lahan Menurut Interval Jumlah ART di Kabupaten Bandung Barat dan Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi26" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi26" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 11 Grouped Bar Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Lama Bertani Berdasarkan Perubahan Pekerjaan di Kabupaten Bandung Barat dan Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi11" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi11" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
                     <!-- Visualisasi 12 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Luas Kepemilikan Lahan di Kabupaten Bandung Barat</h3>
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Luas Kepemilikan Lahan di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi12" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -318,27 +182,10 @@
                   </div>
 
                   <div class="col-md-6">
-                    <!-- Visualisasi 13 Pie Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Luas Kepemilikan Lahan di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi13" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi13" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
                     <!-- Visualisasi 14 Pie Chart -->
                     <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Asal Mula Lahan Pertanian di Kabupaten Bandung Barat</h3>
+                      <div class="py-3 px-3 d-flex justify-content-between border-bottom ">
+                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Asal Mula Lahan Pertanian di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi14" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -352,49 +199,15 @@
                   </div>
 
                   <div class="col-md-6">
-                    <!-- Visualisasi 15 Pie Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Petani Pelaku Alih Fungsi Lahan Menurut Asal Mula Lahan Pertanian di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi15" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi15" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
                     <!-- Visualisasi 16 Pie Chart -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Luas Lahan Alih Fungsi di Kabupaten Bandung Barat </h3>
+                        <h3 class="card-title fs-1">Persentase (%) Luas Alih Fungsi Lahan di Kabupaten <br>Bandung Barat dan Purwakarta <br> </h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi16" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
                         <div class="chart">
-                          <canvas id="visualisasi16" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 17 Pie Chart-->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Luas Lahan Alih Fungsi di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi17" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi17" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
+                          <canvas id="visualisasi16" style="min-height: 19.063rem; height: 19.063rem; max-height: 19.063rem; max-width: 100%;"></canvas>
                         </div>
                       </div>
                       <!-- /.card-body -->
@@ -419,59 +232,8 @@
                     <!-- /.card -->
                   </div>
 
-                  <div class="col-md-6 m-auto">
-                    <!-- Visualisasi 25 Pie Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Mekanisme Alih Fungsi Lahan Pertanian di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi25" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi25" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
                   <div class="col-md-6">
-                    <!-- Visualisasi 18 -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Harga Jual Lahan (ribu rupiah/m²) di Kabupaten Bandung Barat</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi18a" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi18a" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 18 -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Harga Jual Lahan (ribu rupiah/m²) di Kabupaten Bandung Barat</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi18b" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi18b" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 18 -->
+                    <!-- Visualisasi 18c -->
                     <div class="card">
                       <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
                         <h3 class="card-title">Box Plot Harga Jual Lahan (ribu rupiah/m²) di Kabupaten Bandung Barat</h3>
@@ -489,10 +251,44 @@
                   </div>
 
                   <div class="col-md-6">
-                    <!-- Visualisasi 19 -->
+                    <!-- Visualisasi 18a -->
                     <div class="card">
                       <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Harga Sewa Lahan (ribu rupiah/m²) di Kabupaten Bandung Barat</h3>
+                        <h3 class="card-title">Persentase (%) Harga Jual Lahan (ribu rupiah/m2 ) di Kabupaten Bandung Barat dan Purwakarta</h3>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi18a" data-judul="Chart_Kajian2"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="chart">
+                          <canvas id="visualisasi18a" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
+                        </div>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="col-md-6">
+                    <!-- Visualisasi 19c -->
+                    <div class="card">
+                      <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
+                        <h3 class="card-title">Persentase (%) Harga Jual Lahan (ribu rupiah/m²) di Kabupaten Purwakarta</h3>
+                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi19c" data-judul="Chart_Kajian2"></i>
+                      </div> -->
+                      <div class="card-body">
+                        <div class="chart">
+                          <div id="visualisasi19c" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></div>
+                        </div>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+
+                  <div class="col-md-8 m-auto">
+                    <!-- Visualisasi 19a -->
+                    <div class="card">
+                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
+                        <h3 class="card-title">Persentase (%) Harga Sewa Lahan (ribu rupiah/m2 ) di Kabupaten Bandung Barat dan Purwakarta</h3>
                         <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi19a" data-judul="Chart_Kajian2"></i>
                       </div>
                       <div class="card-body">
@@ -505,107 +301,6 @@
                     <!-- /.card -->
                   </div>
 
-                  <div class="col-md-6">
-                    <!-- Visualisasi 19 -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Harga Sewa Lahan (ribu rupiah/m²) di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi19b" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi19b" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 19 -->
-                    <div class="card">
-                      <!-- <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Harga Jual Lahan (ribu rupiah/m²) di Kabupaten Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi19b" data-judul="Chart_Kajian2"></i>
-                      </div> -->
-                      <div class="card-body">
-                        <div class="chart">
-                          <div id="visualisasi19c" style="min-height: 362px; height: 362px; max-height: 362px; max-width: 100%;"></div>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 20 Stacked Bar Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Jenis Komoditas Pertanian Kabupaten Bandung Barat dan Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi20" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi20" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 21 Stacked Bar Chart-->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title" style="font-size: 16px;">Persentase (%) Luas Alih Fungsi Lahan (m&sup2;) Menurut Asal Mula Lahan di Kabupaten Bandung Barat dan Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi21" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi21" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-6">
-                    <!-- Visualisasi 22 Stacked Bar Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title" style="font-size: 16px;">Persentase (%) Luas Alih Fungsi Lahan (m&sup2;) Menurut Mekanisme Alih Fungsi di Kabupaten Bandung Barat dan Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi22" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi22" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-
-                  <div class="col-md-8 m-auto">
-                    <!-- Visualisasi 23 Column Bar Chart -->
-                    <div class="card">
-                      <div class="py-3 px-3 d-flex justify-content-between border-bottom">
-                        <h3 class="card-title">Persentase (%) Harga Jual Lahan (ribu rupiah/m&sup2;) Menurut Jenis Komoditas di Kabupaten Bandung Barat dan Purwakarta</h3>
-                        <i class="fas fa-download hover download" onclick="download(this)" data-id="visualisasi23" data-judul="Chart_Kajian2"></i>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart">
-                          <canvas id="visualisasi23" style="min-height: 286px; height: 286px; max-height: 286px; max-width: 100%;"></canvas>
-                        </div>
-                      </div>
-                      <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
                 </div>
               </div>
 
@@ -642,6 +337,7 @@
 
 <?= $this->section('js') ?>
 <!-- <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 
 <script>
   // Tujuan 1
@@ -653,12 +349,12 @@
         labels: [
             ['Dewasa Awal (18-40 tahun)'], 
             ['Dewasa Madya (41-60 tahun)'], 
-            ['Dewasa Akhir (> 60 tahun)']
+            ['Dewasa Akhir (> 60 tahun)'], 
         ],
         datasets: [
             {
               label: '# of Votes',
-              data: [34.5, 37.6, 27.8],
+              data: [39.17525773, 65.97938144, 45.87628866],
               backgroundColor: [
                 '#a9e9a4',
                 '#77dd77',
@@ -670,21 +366,24 @@
       },
       options: {
         scales: {
-        },
+          },
           "legend": {
-          "display": true,
-          "labels": {
-            "fontSize": 15,
-          },
-          "position": "right"
-          },
-        tooltips: {
-          callbacks: {
-            label: function (ctx, data) {
-              return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
+        },
+        plugin: {
+          tooltip:{
+            callbacks: {
+              label: function (ctx, data) {
+                return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
+              }
             }
           }
         }
+
       }
     });
 
@@ -693,14 +392,14 @@
       type: 'pie',
       data: {
         labels: [
-            ['Dewasa Awal (18-40 tahun)'], 
-            ['Dewasa Madya (41-60 tahun)'], 
-            ['Dewasa Akhir (> 60 tahun)'], 
+           ['Di Bawah Rata-rata (1-2)'], 
+            ['Sekitar Rata-rata (3-4)'], 
+            ['Di atas Rata-rata (>4)'], 
         ],
         datasets: [
             {
               label: '# of Votes',
-              data: [9.1, 55.6, 35.4],
+              data: [19.45392491, 52.90102389, 27.64505119],
               backgroundColor: [
                 '#a9e9a4',
                 '#77dd77',
@@ -712,20 +411,13 @@
       },
       options: {
         scales: {
-        },
+          },
           "legend": {
-          "display": true,
-          "labels": {
-            "fontSize": 15,
-          },
-          "position": "right"
-          },
-        tooltips: {
-          callbacks: {
-            label: function (ctx, data) {
-              return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
-            }
-          }
+            "display": true,
+            "labels": {
+                "fontSize": 15,
+            },
+            "position": "right"
         }
       }
     });
@@ -734,11 +426,15 @@
     barChart = new Chart(ctx, {
       type: 'pie',
       data: {
-        labels: ['Di bawah rata-rata (1-2 orang)', 'Sekitar rata-rata (3-4 orang)', 'Di atas rata-rata (>4)'],
+        labels: [
+            ['Pendidikan Dasar'], 
+            ['Pendidikan Menengah'], 
+            ['Pendidikan Tinggi'], 
+        ],     
           datasets: [
             {
               label:  'Bandung Barat',
-              data: [17.0, 58.2, 24.8],
+              data: [60.07, 33.79, 6.14],
               backgroundColor: [
                 '#a9e9a4',
                 '#77dd77',
@@ -758,6 +454,13 @@
             },
             "position": "right"
         },
+        tooltips:{
+          callbacks: {
+            label: function (ctx, data) {
+              return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
+            }
+          }
+        }
       }
     });
 
@@ -765,11 +468,15 @@
     barChart = new Chart(ctx, {
       type: 'pie',
       data: {
-        labels: ['Di bawah rata-rata (1-2 orang)', 'Sekitar rata-rata (3-4 orang)', 'Di atas rata-rata (>4)'],
+        labels: [
+            ['1-20 tahun'], 
+            ['21-40 tahun'], 
+            ['>40 tahun'], 
+        ],  
           datasets: [
             {
               label:  'Purwakarta',
-              data: [24.2, 42.4, 33.4],
+              data: [51.88, 26.62, 21.50],
               backgroundColor: [
                 '#a9e9a4',
                 '#77dd77',
@@ -797,14 +504,14 @@
       type: 'pie',
       data: {
         labels: [
-            ['Pendidikan Dasar'], 
-            ['Pendidikan Menengah'], 
-            ['Pendidikan Tinggi'], 
+            ['Pertanian'], 
+            ['Usaha Lain'], 
+            ['Tidak Bekerja'], 
         ],
         datasets: [
             {
               label: '# of Votes',
-              data: [53.09, 41.75, 5.15],
+              data: [51.88, 33.45, 14.68],
               backgroundColor: [
                 '#a9e9a4',
                 '#77dd77',
@@ -827,418 +534,20 @@
       }
     });
 
-    ctx = document.getElementById('visualisasi5').getContext('2d');
-    pieChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [
-            ['Pendidikan Dasar'], 
-            ['Pendidikan Menengah'], 
-            ['Pendidikan Tinggi'], 
-        ],
-        datasets: [
-            {
-              label: '# of Votes',
-              data: [73.74, 18.18, 8.08],
-              backgroundColor: [
-                '#a9e9a4',
-                '#77dd77',
-                '#508d4f'
-              ],
-              borderWidth: 0
-          },
-        ],
-      },
-      options: {
-        scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
-        },
-      }
-    });
-
-    ctx = document.getElementById('visualisasi6').getContext('2d');
-    pieChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-          labels: [
-              ['1-20 tahun'], 
-              ['21-40 tahun'], 
-              ['>40 tahun'], 
-          ],
-          datasets: [
-              {
-                label: '# of Votes',
-                data: [55.15, 22.69, 22.16],
-                backgroundColor: [
-                  '#a9e9a4',
-                  '#77dd77',
-                  '#508d4f'
-                ],
-                borderWidth: 0
-            },
-          ],
-        },
-        options: {
-          scales: {
-            },
-            "legend": {
-              "display": true,
-              "labels": {
-                  "fontSize": 15,
-              },
-              "position": "right"
-          },
-        }
-    });
-
-    ctx = document.getElementById('visualisasi7').getContext('2d');
-    pieChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-          labels: [
-              ['1-20 tahun'], 
-              ['21-40 tahun'], 
-              ['>40 tahun'], 
-          ],
-          datasets: [
-              {
-                label: '# of Votes',
-                data: [45.46, 34.34, 20.2],
-                backgroundColor: [
-                  '#a9e9a4',
-                  '#77dd77',
-                  '#508d4f'
-                ],
-                borderWidth: 0
-            },
-          ],
-        },
-        options: {
-          scales: {
-            },
-            "legend": {
-              "display": true,
-              "labels": {
-                  "fontSize": 15,
-              },
-              "position": "right"
-          },
-        }
-    });
-
-    ctx = document.getElementById('visualisasi8').getContext('2d');
-    barChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-          labels: [
-              'Pertanian', 
-              'Usaha Lain', 
-              'Tidak Bekerja' 
-            ],
-            datasets: [
-              {
-                label: 'Bandung Barat',
-                data: [53.09, 32.99, 13.92],
-                backgroundColor: [
-                    '#508d4f',
-                    '#77dd77',
-                    '#a9e9a4',
-                ],
-                borderWidth: 0
-            }]
-        },
-        options: {
-            scales: {
-            },
-            "legend": {
-              "display": true,
-              "labels": {
-                  "fontSize": 15,
-              },
-              "position": "right"
-          },
-        }
-      });
-
-    ctx = document.getElementById('visualisasi9').getContext('2d');
-    barChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-          labels: [
-              'Pertanian', 
-              'Usaha Lain', 
-              'Tidak Bekerja' 
-            ],
-            datasets: [
-            {
-              label: 'Purwakarta',
-              data: [49.50, 34.34, 16.16],
-                backgroundColor: [
-                    '#508d4f',
-                    '#77dd77',
-                    '#a9e9a4',
-                ],
-                borderWidth: 0
-            }]
-        },
-        options: {
-            scales: {
-            },
-            "legend": {
-              "display": true,
-              "labels": {
-                  "fontSize": 15,
-              },
-              "position": "right"
-          },
-        }
-      });
-
-    ctx = document.getElementById('visualisasi10').getContext('2d');
-    barChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: ['Bandung Barat', 'Purwakarta'],
-            datasets: [
-              {
-                label: 'Ekonomi',
-                data: [73.95, 50.51],
-                backgroundColor: '#d5f5d1',
-                borderColor: '#1a2519',
-                borderWidth: 1
-            },
-            {
-              label: 'Sosial',
-                data: [1.03, 0],
-                backgroundColor: '#91e38e',
-                borderColor: '#1a2519',
-                borderWidth: 1
-            },
-            {
-              label: 'Demografi',
-                data: [3.61, 7.07],
-                backgroundColor: '#77dd77',
-                borderColor: '#1a2519',
-                borderWidth: 1
-            },
-            {
-              label: 'Kebijakan',
-                data: [6.70, 7.07],
-                backgroundColor: '#83d580',
-                borderColor: '#1a2519',
-                borderWidth: 1
-            },
-            {
-              label: 'Teknis',
-                data: [1.55, 2.02],
-                backgroundColor: '#63b463',
-                borderColor: '#1a2519',
-                borderWidth: 1
-            },
-            {
-              label: 'Lingkungan dan Geografis',
-                data: [0,0],
-                backgroundColor: '#508d4f',
-                borderColor: '#1a2519',
-                borderWidth: 1
-            },
-            {
-              label: 'Lainnya',
-                data: [13.92, 33.33],
-                backgroundColor: '#2b452a',
-                borderColor: '#1a2519',
-                borderWidth: 1
-            }
-          ],
-        },
-        options: {
-            legend: {
-              display: true,
-              position:'top',
-              reverse: true
-            },
-            scales: {
-              x: {
-                grid: {
-                  display: false
-                },
-                ticks: {
-                  maxRotation: 0
-                }
-              },
-              y: {
-                grid: {
-                  display: false
-                }
-              }
-            },
-            // plugins:{
-            //   tooltips: {
-            //     callbacks: {
-            //       title: (context) => {
-            //         return context[0].label.replaceAll(',',' ');
-            //       }
-            //     }
-            //   }
-            // }
-        }
-      });
-
-    // visualisasi 26
-    ctx = document.getElementById('visualisasi26').getContext('2d');
-    myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: [
-                  ['Transaksi', 'Penjualan'],
-                  ['Bukan Transaksi', 'Penjualan'], 
-                  ['Transaksi', 'Penjualan'],
-                  ['Bukan Transaksi', 'Penjualan']
-                ],
-                datasets: [{
-                    label: 'Di bawah rata-rata (1-2 orang)',
-                    data: [4.6, 12.4, 14.1, 10.1],
-                    backgroundColor: '#a9e9a4',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }, {
-                    label: 'Sekitar rata-rata (3-4 orang)',
-                    data: [14.4, 43.8, 24.2, 18.2],
-                    backgroundColor: '#77dd77',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                },{
-                    label: 'Di atas rata-rata (> 4 orang)',
-                    data: [8.2, 16.5, 17.2, 16.2],
-                    backgroundColor: '#508d4f',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        grid:{
-                            display:false
-                        },
-                        ticks: {beginAtZero: true},
-                        max: 50
-                    },
-                    x :{
-                        title: {
-                          display: true,
-                          text : 'BANDUNG BARAT                                                PURWAKARTA',
-                          font : {weight: 'bold'}
-                        },
-                        grid:{
-                            display:false
-                        }
-                    }
-                }
-            }
-    });
-
-    ctx = document.getElementById('visualisasi11').getContext('2d');
-    myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Pertanian','Usaha lain', 'Tidak Bekerja','Pertanian','Usaha lain', 'Tidak Bekerja'],
-                datasets: [{
-                    label: '1-20 tahun',
-                    data: [26.29, 22.16, 6.7, 14.14, 22.22, 9.1],
-                    backgroundColor: '#a9e9a4',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }, {
-                    label: '21-40 tahun',
-                    data: [11.86, 8.25, 2.58, 19.19, 10.1, 5.05],
-                    backgroundColor: '#77dd77',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                },{
-                    label: '>40 tahun',
-                    data: [14.95,2.58,4.63,16.16,2.02,2.02],
-                    backgroundColor: '#508d4f',
-                    borderColor: '#1a2519',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        grid:{
-                            display:false
-                        },
-                        ticks: {beginAtZero: true},
-                        max: 50
-                    },
-                    x :{
-                        title: {
-                          display: true,
-                          text : 'BANDUNG BARAT                                               PURWAKARTA',
-                          font : {weight: 'bold'}
-                        },
-                        grid:{
-                            display:false
-                        }
-                    }
-                }
-            }
-    });
 
     ctx = document.getElementById('visualisasi12').getContext('2d');
     barChart = new Chart(ctx, {
       type: 'pie',
       data: {
         labels: [
-            '1-1000 m²', 
+            '<1000 m²', 
             '1001-2000 m²', 
             '>2000 m²' 
           ],
           datasets: [
             {
               label: 'Bandung Barat',
-              data: [65.46, 12.89, 21.65],
-              backgroundColor: [
-                  '#a9e9a4',
-                  '#77dd77',
-                  '#508d4f',
-              ],
-              borderWidth: 0
-          }]
-      },
-      options: {
-          scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
-        },
-      }
-    });
-
-    ctx = document.getElementById('visualisasi13').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [
-            '1-1000 m²', 
-            '1001-2000 m²', 
-            '>2000 m²' 
-          ],
-          datasets: [
-            {
-              label: 'Purwakarta',
-              data: [48.48, 21.21, 30.3],
+              data: [59.72696246, 15.6996587, 24.57337884],
               backgroundColor: [
                   '#a9e9a4',
                   '#77dd77',
@@ -1270,8 +579,8 @@
           ],
           datasets: [
             {
-              label: 'Bandung Barat',
-              data: [38.14, 61.86],
+              label: '# of votes',
+              data: [40.96, 59.04],
               backgroundColor: [
                   '#77dd77',
                   '#508d4f'
@@ -1292,37 +601,6 @@
       }
     });
 
-    ctx = document.getElementById('visualisasi15').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [
-            'Beli', 
-            'Warisan' 
-          ],
-          datasets: [
-            {
-              label: 'Purwakarta',
-              data: [46.46, 53.54],
-              backgroundColor: [
-                  '#77dd77',
-                  '#508d4f'
-              ],
-              borderWidth: 0
-          }]
-      },
-      options: {
-          scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
-        },
-      }
-    });
 
     ctx = document.getElementById('visualisasi16').getContext('2d');
     barChart = new Chart(ctx, {
@@ -1332,38 +610,7 @@
           datasets: [
           {
               label: '# of Votes',
-              data: [81.96, 7.73, 10.31],
-              backgroundColor: [
-                  '#a9e9a4', 
-                  '#77dd77',
-                  '#508d4f'
-              ],
-              borderWidth: 0
-          }
-        ],
-      },
-      options: {
-        scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
-        },
-      }
-    });
-
-    ctx = document.getElementById('visualisasi17').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: ['Rendah (1-700 m²)', 'Sedang (701-1400 m²)', 'Tinggi (>1400 m²)'],
-          datasets: [
-            {
-              label: 'Purwakarta',
-              data: [57.58, 13.13, 29.29],
+              data: [73.72, 9.56, 16.72],
               backgroundColor: [
                   '#a9e9a4', 
                   '#77dd77',
@@ -1416,36 +663,6 @@
       }
     });
 
-    ctx = document.getElementById('visualisasi25').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [ 'Melalui Transaksi Penjualan', 'Bukan Melalui Transaksi Penjualan'],
-          datasets: [
-          {
-            label: 'Purwakarta',
-              data: [55.56, 44.44],
-              backgroundColor: [
-                '#77dd77',
-                '#508d4f'
-              ],
-              borderWidth: 0
-          }
-        ],
-      },
-      options: {
-        scales: {
-        },
-        "legend": {
-          "display": true,
-          "labels": {
-              "fontSize": 15,
-          },
-          "position": "right"
-        },
-      }
-    });
-
     ctx = document.getElementById('visualisasi18a').getContext('2d');
     barChart = new Chart(ctx, {
       type: 'pie',
@@ -1454,40 +671,7 @@
           datasets: [
             {
               label:  'Bandung Barat',
-              data: [59.28,25.77,14.95],
-              backgroundColor: [
-                '#a9e9a4', 
-                '#77dd77',
-                '#508d4f'
-              ],
-              borderWidth: 0
-          }
-        ],
-      },
-      options: {
-          scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
-        },
-      }
-    });
-
-
-    //18b
-    ctx = document.getElementById('visualisasi18b').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: ['Rendah (1-250)', 'Sedang (251-500)', 'Tinggi (>500)'],
-          datasets: [
-            {
-              label:  'Purwakarta',
-              data: [77.78, 15.15, 7.07],
+              data: [65.53, 22.18, 12.29],
               backgroundColor: [
                 '#a9e9a4', 
                 '#77dd77',
@@ -1588,7 +772,7 @@
         show: false
       },
       title: {
-          text: 'Harga Jual Lahan Sawah Kab. Bandung Barat dan Purwakarta',
+          text: 'Harga Jual Lahan di Kab. Bandung Barat dan Purwakarta',
           margin: 30,
           style: {
             fontSize:  '1.0em',
@@ -1621,39 +805,7 @@
           datasets: [
             {
               label:  'Bandung Barat',
-              data: [75.77, 10.82, 13.40],
-              backgroundColor: [
-                '#a9e9a4', 
-                '#77dd77',
-                '#508d4f'
-              ],
-              borderWidth: 0
-          }
-        ],
-      },
-      options: {
-          scales: {
-          },
-          "legend": {
-            "display": true,
-            "labels": {
-                "fontSize": 15,
-            },
-            "position": "right"
-        },
-      }
-    });
-
-    //19b
-    ctx = document.getElementById('visualisasi19b').getContext('2d');
-    barChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: ['Rendah (<=50)', 'Sedang (51-100)', 'Tinggi (>100)'],
-          datasets: [
-            {
-              label:  'Purwakarta',
-              data: [85.86, 7.07, 7.07],
+              data: [79.18, 9.56, 11.26],
               backgroundColor: [
                 '#a9e9a4', 
                 '#77dd77',
@@ -1836,7 +988,7 @@
         show: false
       },
       title: {
-          text: ['Harga Sewa Lahan Sawah Kab. Bandung Barat dan Purwakarta'],
+          text: ['Harga Sewa Lahan Kab. Bandung Barat dan Purwakarta'],
           margin: 30,
           style: {
             fontSize:  '1.0em',
@@ -1849,325 +1001,68 @@
           intersect: true
         }
     }
+
     var chart = new ApexCharts(document.querySelector("#visualisasi19c"), options);
     chart.render();
-    
   });
 
-  </script>
+// Stacked Bar chart
+$(function () {
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <script> 
-  // Visualisasi 20
-  $(function () {
-    ctx = document.getElementById('visualisasi20').getContext('2d');
-      myChart = new Chart(ctx, {
-          type: 'bar',
-          data: {
-              labels: ['Bandung Barat','Purwakarta'],
-              datasets: [{
-                  label: 'Padi',
-                  data: [70.1, 86.87],
-                  backgroundColor: '#508d4f',
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              }, {
-                  label: 'Palawija',
-                  data: [19.07, 7.07],
-                  backgroundColor: '#77dd77',
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              },{
-                  label: 'Holtikultura',
-                  data: [5.67, 4.04],
-                  backgroundColor: '#a9e9a4',
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              },{
-                  label: 'Lainnya',
-                  data: [5.12, 2.02],
-                  backgroundColor: '#eafae8',
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              }]
-          },
-          options: {
-            scales: {
-              y:{
-                  grid: {
-                    display: false,
-                  },
-                  ticks: {
-                    min: 0,
-                    max: this.max, // Your absolute max value
-                    callback: function (value) {
-                      return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
-                    },
-                  },
-                  scaleLabel: {
-                    display: true,
-                    labelString: "Percentage",
-                  },
-                  // ticks: {beginAtZero: false},
-                  stacked: true,
-                  max: 100,
-                },
-              x:{
-                  stacked: true,
-                  grid: {
-                    display: false,
-                  }
-                }
-            },
-            plugins: {
-              tooltip: {
-                callbacks: {
-                  title: function (ctx) {
-                    return ctx[0].label.replaceAll(",", " ") + " ";
-                  },
-                  label: function (ctx, data) {
-                    return ctx.dataset.label + " : " + ctx.raw + "%";
-                  }
-                }
-              }
-            }
-          }
-        });
-
-    // Visualisasi 21
-    ctx = document.getElementById('visualisasi21').getContext('2d');
-        myChart = new Chart(ctx, {
-          type: 'bar',
-          data: {
-              labels: ['Beli', 'Warisan', 'Beli', 'Warisan'],
-              datasets: [{
-                  label: 'Rendah (1-700 m²)',
-                  data: [79.73, 83.33, 56.52, 58.49],
-                  backgroundColor: '#a9e9a4',
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              }, {
-                  label: 'Sedang (701-1400 m²)',
-                  data: [12.16,5,15.22,11.32],
-                  backgroundColor: '#77dd77',
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              },{
-                  label: 'Tinggi (>1400 m²)',
-                  data: [8.11,11.67,28.26,30.19],
-                  backgroundColor: '#508d4f' ,
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              }]
-          },            
-          options: {
-            indexAxis: 'y',
-            scales: {
-              x:{
-                  grid: {
-                    display: false,
-                  },
-                  ticks: {
-                    min: 0,
-                    max: this.max, // Your absolute max value
-                    callback: function (value) {
-                      return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
-                    },
-                  },
-                  scaleLabel: {
-                    display: true,
-                    labelString: "Percentage",
-                  },
-                  // ticks: {beginAtZero: false},
-                  stacked: true,
-                  max: 100,
-                },
-              y:{
-                  stacked: true,
-                  grid: {
-                    display: false,
-                  },
-                  title: {
-                    display: true,
-                    text : '      PURWAKARTA       BANDUNG BARAT',
-                    font : {weight: 'bold', size: 12}
-                  }
-                }
-            },
-            plugins: {
-              tooltip: {
-                callbacks: {
-                  title: function (ctx) {
-                    return ctx[0].label.replaceAll(",", " ") + " ";
-                  },
-                  label: function (ctx, data) {
-                    return ctx.dataset.label + " : " + ctx.raw + "%";
-                  }
-                }
-              }
-            }
-          }
-        });
-
-    // Visualisasi 22
-    ctx = document.getElementById('visualisasi22').getContext('2d');
+    // Visualisasi 23
+      ctx = document.getElementById('visualisasi23').getContext('2d');
         myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: [
-                    ['Transaksi', 'Penjualan'], 
-                    ['Bukan', 'Transaksi', 'Penjualan'],
-                    ['Transaksi', 'Penjualan'], 
-                    ['Bukan', 'Transaksi', 'Penjualan']
-                ],
+                labels: ['Padi', 'Palawija', 'Hortikultura', 'Lainnya', 'Padi', 'Palawija', 'Hortikultura', 'Lainnya'],
                 datasets: [{
-                    label: 'Rendah (1-700 m²)',
-                    data: [53.8, 92.9, 38.2, 81.8],
+                    label: 'Rendah (1-250)',
+                    data: [54.41, 70.27, 36.36, 100, 76.74, 100, 50, 100],
                     backgroundColor: '#a9e9a4',
                     borderColor: '#1a2519',
                     borderWidth: 1
                 }, {
-                    label: 'Sedang (701-1400 m²)',
-                    data: [13.5, 5, 18.2, 6.8],
+                    label: 'Sedang (251-500)',
+                    data: [27.94,18.92,45.45,0,15.12,0,50,0],
                     backgroundColor: '#77dd77',
                     borderColor: '#1a2519',
                     borderWidth: 1
                 },{
-                    label: 'Tinggi (>1400 m²)',
-                    data: [32.7, 2.1, 43.6, 11.4],
+                    label: 'Tinggi (>500)',
+                    data: [17.65,10.81,18.18,0,8.14,0,0,0],
                     backgroundColor: '#508d4f' ,
                     borderColor: '#1a2519',
                     borderWidth: 1
                 }]
             },
             options: {
-            indexAxis: 'y',
-            scales: {
-              x:{
-                  grid: {
-                    display: false,
-                  },
-                  ticks: {
-                    min: 0,
-                    max: this.max, // Your absolute max value
-                    callback: function (value) {
-                      return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
+              indexAxis: 'y',
+                scales: {
+                    y: {
+                        grid:{
+                            display:false
+                        },
+                        stacked: true,
+                        title: {
+                          display: true,
+                          text : '       PURWAKARTA       BANDUNG BARAT',
+                          font : {weight: 'bold', size: 12}
+                        }
                     },
-                  },
-                  scaleLabel: {
-                    display: true,
-                    labelString: "Percentage",
-                  },
-                  // ticks: {beginAtZero: false},
-                  stacked: true,
-                  max: 100,
-                },
-              y:{
-                  stacked: true,
-                  grid: {
-                    display: false,
-                  },
-                  title: {
-                    display: true,
-                    text : '      PURWAKARTA       BANDUNG BARAT',
-                    font : {weight: 'bold', size: 12}
-                  }
+                    x :{
+                        stacked: true,
+                        max:100,
+                        grid:{
+                            display:false
+                        },
+                    }
                 }
-            },
-            plugins: {
-              tooltip: {
-                callbacks: {
-                  title: function (ctx) {
-                    return ctx[0].label.replaceAll(",", " ") + " ";
-                  },
-                  label: function (ctx, data) {
-                    return ctx.dataset.label + " : " + ctx.raw + "%";
-                  }
-                }
-              }
             }
-          }
-        });
-
-    // Visualisasi 23
-      ctx = document.getElementById('visualisasi23').getContext('2d');
-        myChart = new Chart(ctx, {
-          type: 'bar',
-          data: {
-              labels: ['Padi', 'Palawija', 'Hortikultura', 'Lainnya', 'Padi', 'Palawija', 'Hortikultura', 'Lainnya'],
-              datasets: [{
-                  label: 'Rendah (1-250)',
-                  data: [54.41, 70.27, 36.36, 100, 76.74, 100, 50, 100],
-                  backgroundColor: '#a9e9a4',
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              }, {
-                  label: 'Sedang (251-500)',
-                  data: [27.94,18.92,45.45,0,15.12,0,50,0],
-                  backgroundColor: '#77dd77',
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              },{
-                  label: 'Tinggi (>500)',
-                  data: [17.65,10.81,18.18,0,8.14,0,0,0],
-                  backgroundColor: '#508d4f' ,
-                  borderColor: '#1a2519',
-                  borderWidth: 1
-              }]
-          },
-          options: {
-            indexAxis: 'y',
-            scales: {
-              x:{
-                  grid: {
-                    display: false,
-                  },
-                  ticks: {
-                    min: 0,
-                    max: this.max, // Your absolute max value
-                    callback: function (value) {
-                      return ((value / this.max) * this.max).toFixed(0) + "%"; // convert it to percentage
-                    },
-                  },
-                  scaleLabel: {
-                    display: true,
-                    labelString: "Percentage",
-                  },
-                  // ticks: {beginAtZero: false},
-                  stacked: true,
-                  max: 100,
-                },
-              y:{
-                  stacked: true,
-                  grid: {
-                    display: false,
-                  },
-                  title: {
-                    display: true,
-                    text : '      PURWAKARTA       BANDUNG BARAT',
-                    font : {weight: 'bold', size: 12}
-                  }
-                }
-            },
-            plugins: {
-              tooltip: {
-                callbacks: {
-                  title: function (ctx) {
-                    return ctx[0].label.replaceAll(",", " ") + " ";
-                  },
-                  label: function (ctx, data) {
-                    return ctx.dataset.label + " : " + ctx.raw + "%";
-                  }
-                }
-              }
-            }
-          }
         });
   });
-  </script>
 
-  <script>
+
+
   // Tujuan 2 (BIVARIATE SCATTERPLOT MORAN)
   $(function () {
     ctx = document.getElementById('moransc').getContext('2d');

@@ -68,18 +68,18 @@
                     <div>Tujuan 2 : Menganalisis Alih Fungsi Lahan Terutama untuk Lahan Pertanian Berdasarkan Data citra satelit di Bandung Barat dan Purwakarta. </div>
                     <ol>
                       <li><a href="/riset2/dashboard/kajian1">Persentase Klasifikasi Luas Tutupan Lahan</a></li>
-                      <li><a href="/riset2/dashboard/peta1/5#10/-6.9047/107.4542">Peta Klasifikasi Tutupan Lahan Bandung Barat</a></li>
-                      <li><a href="/riset2/dashboard/peta1/6#11/-6.5766/107.4336">Peta Klasifikasi Tutupan Lahan Purwakarta</a></li>
+                      <li><a href="/riset2/dashboard/peta1/5">Peta Klasifikasi Tutupan Lahan Bandung Barat</a></li>
+                      <li><a href="/riset2/dashboard/peta1/6">Peta Klasifikasi Tutupan Lahan Purwakarta</a></li>
                       <li><a href="/riset2/dashboard/peta1/9">Peta Estimasi Luas Sawah Bandung Barat</a></li>
                       <li><a href="/riset2/dashboard/peta1/10">Peta Estimasi Luas Sawah Purwakarta</a></li>
                       <li><a href="/riset2/dashboard/tabel1">Tabel Dinamis Estimasi Luas Tutupan Lahan</a></li>
                     </ol>
                     <div>Tujuan 3 : Melakukan groundchecking untuk evaluasi model klasifikasi tutupan lahan di Bandung Barat & Purwakarta</div>
                     <ol>
-                      <li><a href="/riset2/dashboard/peta1/1#10/-6.9046/107.3848">Peta Umum Perubahan Lahan Bandung Barat </a></li>
-                      <li><a href="/riset2/dashboard/peta1/2#11/-6.5766/107.4336">Peta Umum Perubahan Lahan Purwakarta</a></li>
-                      <li><a href="/riset2/dashboard/peta1/3#10/-6.9046/107.3848">Peta Khusus Perubahan Lahan Bandung Barat</a></li>
-                      <li><a href="/riset2/dashboard/peta1/4#11/-6.5766/107.4336">Peta Khusus Perubahan Lahan Purwakarta</a></li>
+                      <li><a href="/riset2/dashboard/peta1/1">Peta Umum Perubahan Lahan Bandung Barat </a></li>
+                      <li><a href="/riset2/dashboard/peta1/2">Peta Umum Perubahan Lahan Purwakarta</a></li>
+                      <li><a href="/riset2/dashboard/peta1/3">Peta Khusus Perubahan Lahan Bandung Barat</a></li>
+                      <li><a href="/riset2/dashboard/peta1/4">Peta Khusus Perubahan Lahan Purwakarta</a></li>
                       <li><a href="/riset2/dashboard/peta1/7">Peta Tematik Laju Alih Fungsi Lahan Bandung Barat</a></li>
                       <li><a href="/riset2/dashboard/peta1/8">Peta Tematik Laju Alih Fungsi Lahan Purwakarta</a></li>
                       <li><a href="/riset2/dashboard/tabel1">Tabel Dinamis Estimasi Perubahan Luas Lahan</a></li>

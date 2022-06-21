@@ -1,7 +1,6 @@
 <?= $this->extend('dashboard/layout/main') ?>
 
 <?= $this->section('css') ?>
-
   <style>
     #dropdown h1 {
       font-size: 1.5em;
@@ -2561,7 +2560,7 @@
           callbacks: {
             label: function (ctx, data) {
               return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
-            }
+            },
           },
         }
       }
@@ -2625,13 +2624,16 @@
                   '#77dd77',
                   '#a9e9a4',
                   '#bfefbb',
-                  '#eafae8'
+                  '#eafae8',
               ],
               borderWidth: 0
           }]
       },
       options: {
         scales: {
+          y: {
+              beginAtZero: true
+          }
         },
           "legend": {
           "display": true,
@@ -2644,7 +2646,7 @@
           callbacks: {
             label: function (ctx, data) {
               return data.labels[ctx.index] + " : " + data.datasets[0].data[ctx.index] + "%";
-            }
+            },
           },
         }
       }
