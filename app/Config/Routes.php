@@ -39,6 +39,7 @@ $routes->get('login-manual', 'Auth::login_umum');
     REGISTER
 */
 $routes->get('register', 'Auth::regist');
+$routes->get('list-provinsi', 'Auth::openListProvinsi');
 
 /*
     LANDING_PAGE

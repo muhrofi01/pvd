@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\ProvinsiModel;
+
 class Auth extends BaseController
 {
     public function login_khusus(){
@@ -14,5 +16,15 @@ class Auth extends BaseController
 
     public function regist(){
         return view('dashboard/register');
+    }
+
+    public function openListProvinsi($name){
+        $provinsiModel = model(ProvinsiModel::class);
+        
+        $data = [
+            'provinsis' => $provinsiModel->getProvinsiByName($name),
+        ];
+
+        return view('dashboard/list_provinsi', $data);
     }
 }

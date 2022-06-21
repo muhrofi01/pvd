@@ -47,6 +47,9 @@
                     <div class="mb-3">
                         <label for="asal-daerah" class="form-label">Asal Daerah</label>
                         <input type="text" class="form-control" id="asal-daerah" placeholder="Masukkan Asal Daerah">
+                        <div class="list-provinsi">
+
+                        </div>
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
@@ -94,7 +97,23 @@
                 iconShow.classList.remove("fa-eye");
                 iconShow.classList.add("fa-eye-slash");
             }
-        }
+        };
+
+        inputProvinsi = document.getElementById("asal-daerah");
+
+        inputProvinsi.addEventListener('keyup', function() {
+            var data = inputProvinsi.value;
+
+            var dataURL = `<?= base_url('list-provinsi') ?>/${data}`
+
+            $.ajax({
+              url: dataURL,
+              type: 'GET',
+              success: (data) => {
+                  console.log('berhasil')
+              }
+            })
+        });
     </script>
 </body>
 
